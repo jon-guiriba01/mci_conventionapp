@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { EventPage } from '../event/event';
+import { TabsPage } from '../tabs/tabs';
 
 @Component({
   selector: 'page-login',
@@ -18,7 +18,7 @@ export class LoginPage {
   }
 
   navToEvent(event){
-  	this.navCtrl.setRoot(EventPage, {event:event})
+  	this.navCtrl.setRoot(TabsPage, {event:event})
   }
 
 

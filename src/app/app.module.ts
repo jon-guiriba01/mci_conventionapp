@@ -11,6 +11,8 @@ import { EventInfoPage } from '../pages/event-info/event-info';
 import { EventPage } from '../pages/event/event';
 import { LoginPage } from '../pages/login/login';
 import { SponsorsPage } from '../pages/sponsors/sponsors';
+import { TabsPage } from '../pages/tabs/tabs';
+import { InformationPage } from '../pages/information/information';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { SponsorsPage } from '../pages/sponsors/sponsors';
     ,EventPage
     ,LoginPage
     ,SponsorsPage
+    ,TabsPage
+    ,InformationPage
   ],
   imports: [
     BrowserModule,
@@ -35,6 +39,8 @@ import { SponsorsPage } from '../pages/sponsors/sponsors';
     ,EventPage
     ,LoginPage
     ,SponsorsPage
+    ,TabsPage
+    ,InformationPage
   ],
   providers: [
     StatusBar,

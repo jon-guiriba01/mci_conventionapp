@@ -1,0 +1,13 @@
+page-information {
+	.info-header{
+		display: flex;
+		justify-content: left; 
+		align-items: center;
+	}
+
+	.info-header img{
+		max-height: 70px;
+		max-width: 70px;
+		margin-right: 10px;
+	}
+}

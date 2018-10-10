@@ -1,0 +1,15 @@
+<ion-header>
+
+  <ion-navbar>
+  	<img class="header-banner" src="assets/imgs/logo.png">
+  </ion-navbar>
+
+</ion-header>
+
+<ion-tabs tabsPlacement="bottom" selectedIndex="1">
+  <ion-tab  tabTitle="Back" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="Home" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="Information" tabIcon="home">
+  <ion-tab  tabTitle="Favourites" tabIcon="home"></ion-tab>
+  </ion-tab>
+</ion-tabs>
