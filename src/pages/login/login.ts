@@ -18,7 +18,7 @@ export class LoginPage {
   }
 
   navToEvent(event){
-  	this.navCtrl.setRoot(TabsPage, {event:event})
+  	this.navCtrl.setRoot(TabsPage, {event: this.event})
   }
 
 

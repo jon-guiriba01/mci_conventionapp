@@ -13,7 +13,11 @@ import { LoginPage } from '../pages/login/login';
 import { SponsorsPage } from '../pages/sponsors/sponsors';
 import { TabsPage } from '../pages/tabs/tabs';
 import { InformationPage } from '../pages/information/information';
-
+import { AnnouncementsPage } from '../pages/announcements/announcements';
+import { AboutPage } from '../pages/about/about';
+import { RegistrationPage } from '../pages/registration/registration';
+import { AccomodationPage } from '../pages/accomodation/accomodation';
+import { VenuePage } from '../pages/venue/venue';
 @NgModule({
   declarations: [
     MyApp
@@ -25,6 +29,11 @@ import { InformationPage } from '../pages/information/information';
     ,SponsorsPage
     ,TabsPage
     ,InformationPage
+    ,AnnouncementsPage
+    ,AboutPage
+    ,RegistrationPage
+    ,AccomodationPage
+    ,VenuePage
   ],
   imports: [
     BrowserModule,
@@ -41,6 +50,11 @@ import { InformationPage } from '../pages/information/information';
     ,SponsorsPage
     ,TabsPage
     ,InformationPage
+    ,AnnouncementsPage
+    ,AboutPage
+    ,RegistrationPage
+    ,AccomodationPage
+    ,VenuePage
   ],
   providers: [
     StatusBar,

@@ -1,0 +1,14 @@
+<ion-content >
+<div class="page-header">
+	<img src="assets/imgs/logo.png">
+	<h5>Announcements</h5>
+</div>
+
+	<div padding>
+		<ion-list>
+			<ion-item *ngFor="let announcement of announcements">
+				<div [innerHtml]="announcement"></div>
+			</ion-item>
+		</ion-list>
+	</div>
+</ion-content>

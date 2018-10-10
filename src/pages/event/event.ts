@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SponsorsPage } from '../sponsors/sponsors';
+import { AnnouncementsPage } from '../announcements/announcements';
+import { AboutPage } from '../about/about';
 
 @Component({
   selector: 'page-event',
@@ -8,7 +10,10 @@ import { SponsorsPage } from '../sponsors/sponsors';
 })
 export class EventPage {
 
+  event = {};
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.event = this.navParams.get("event")
   }
 
   ionViewDidLoad() {
@@ -28,7 +33,7 @@ export class EventPage {
   			p = SponsorsPage;
   			break;
   		case "about":
-  			p = SponsorsPage;
+  			p = AboutPage;
   			break;
   		case "sponsors":
   			p = SponsorsPage;
@@ -37,7 +42,7 @@ export class EventPage {
   			p = SponsorsPage;
   			break;
   		case "announcements":
-  			p = SponsorsPage;
+  			p = AnnouncementsPage;
   			break;
   	}
 

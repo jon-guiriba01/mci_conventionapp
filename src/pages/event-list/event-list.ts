@@ -19,6 +19,7 @@ export class EventListPage {
   		, address: "Level 10-1  One Global Place 5th Avenue & 25th Street, Taguig, 1632 Metro Manila"
   		, landline: "994-1239"
   		, cellNo: "0917-1144615"
+      , bannerUrl: "assets/imgs/ifhnos.png"
 
   	}
   ];

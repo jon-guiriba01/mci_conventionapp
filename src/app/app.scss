@@ -4,11 +4,62 @@
 		justify-content: center;
 		flex-direction: column;
 	}
-
+	ion-navbar.toolbar{
+		padding: 0;
+	}
 	.header-banner{
-		max-height: 100px;
+		max-height: 80px;
+		width: 100%;
 	}
 
 	.back-button.bar-button{
 		display: none;
+	}
+	.toolbar-content-md{
+		margin-bottom: -5px;
+	}
+
+	.page-header{
+		width: 100%;
+		max-height: 60px;
+		display: flex;
+		justify-content: center;
+		background: #000;
+		color: #fff;
+		padding-left: 12px;
+	}
+
+	.page-header>img{
+		max-height: 60px;
+		max-width: 60px;
+	}
+
+
+	.list-option ion-label{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 40px;
+	}
+
+
+	.list-option img{
+		max-height: 70px;
+		max-width: 70px;
+	}
+
+	.logo{
+		max-height: 90px;
+		max-width: 90px;
+	}
+
+	
+
+	.theme-background{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a1a53+0,682672+50,702c91+100 */
+		background: #4a1a53; /* Old browsers */
+		background: -moz-linear-gradient(45deg, #4a1a53 0%, #682672 50%, #702c91 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(45deg, #4a1a53 0%,#682672 50%,#702c91 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(45deg, #4a1a53 0%,#682672 50%,#702c91 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a1a53', endColorstr='#702c91',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	}

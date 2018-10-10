@@ -1,0 +1,11 @@
+page-venue {
+	.venue-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	.venue-container>img{
+		width: 100%;
+	}
+}

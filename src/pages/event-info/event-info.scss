@@ -10,12 +10,16 @@ page-event-info {
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		border-top: 1px solid #000;
-		border-bottom: 1px solid #000;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
 		padding-top: 35px;
 		padding-bottom: 25px;
 	}
 	.please-ask-text{
 		padding: 0 20%;
+	}
+
+	h5{
+		color: #fff;
 	}
 }

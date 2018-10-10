@@ -1,15 +1,10 @@
-<ion-header>
+<ion-content >
+<div class="page-header">
+	<img src="assets/imgs/logo.png">
+	<h5>Sponsors</h5>
+</div>
 
-  <ion-navbar>
-  	<img class="header-banner" src="assets/imgs/logo.png">
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-	<img class="page-header" src="assets/imgs/logo.png">
-
+<div padding>
 	<img src="assets/imgs/logo.png" class="sponsor-header">
 	<div class="sponsor-row">
 	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.platinum">
@@ -35,4 +30,5 @@
 			<h5 *ngIf="sponsor.telefax">{{sponsor.teleFax}}</h5>
 		</div>
 	</div>
+</div>
 </ion-content>
