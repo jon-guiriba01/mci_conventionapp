@@ -1,0 +1,36 @@
+<ion-header>
+
+  <ion-navbar>
+  	<img class="header-banner" src="assets/imgs/logo.png">
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+		<img src="assets/imgs/logo.png" class="sponsor-header">
+	<div class="sponsor-row">
+		<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.platinum">
+	</div>
+		<img src="assets/imgs/logo.png" class="sponsor-header">
+	<div class="sponsor-row">
+		<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.gold">
+	</div>
+		<img src="assets/imgs/logo.png" class="sponsor-header">
+	<div class="sponsor-row">
+		<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.silver">
+	</div>
+		<img src="assets/imgs/logo.png" class="sponsor-header">
+	<div class="sponsor-row">
+		<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.bronze">
+	</div>
+		<img src="assets/imgs/logo.png" class="sponsor-header">
+	<div class="sponsor-minor-row" padding>
+		<div class="sponsor-minor" *ngFor="let sponsor of sponsors.minor" >
+			<h5><b>{{sponsor.name}}</b></h5>
+			<h5>{{sponsor.address}}</h5>
+			<h5 *ngIf="sponsor.contactNo">{{sponsor.contactNo}}</h5>
+			<h5 *ngIf="sponsor.telefax">{{sponsor.teleFax}}</h5>
+		</div>
+	</div>
+</ion-content>

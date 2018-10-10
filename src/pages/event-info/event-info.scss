@@ -1,0 +1,21 @@
+page-event-info {
+	.scroll-content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.info-container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+		padding-top: 35px;
+		padding-bottom: 25px;
+	}
+	.please-ask-text{
+		padding: 0 20%;
+	}
+}

@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar>
+  	<img class="header-logo" src="assets/imgs/logo.png">
+    <ion-title>Congress & Events</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<ion-list>
+		<ion-item class="event-list-item" *ngFor="let event of events" (click)="navToEvent(event)">
+			<img class="event-img" src="assets/imgs/logo.png">
+			<div class="event-info" >
+				<h5>{{event.name}}</h5>
+				<h5>{{event.location}}</h5>
+				<h5>{{event.date}}</h5>
+			</div>
+		</ion-item>
+	</ion-list>
+</ion-content>

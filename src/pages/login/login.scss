@@ -1,0 +1,32 @@
+page-login {
+	.scroll-content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+
+	.scroll-content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.action-btn-row{
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+	}
+	.action-btn-row>button{
+		display: inline-block;
+		width: 50%;
+		max-width: 250px;
+	}
+	.password-container{
+		width: 90%;
+		max-width: 500px;
+	}
+	.password-container>input{
+		height: 35px;
+	}
+
+}

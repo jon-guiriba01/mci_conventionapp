@@ -1,0 +1,22 @@
+page-event {
+	.list-option ion-label{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 40px;
+	}
+	.list-option img{
+		max-height: 70px;
+		max-width: 70px;
+	}
+	
+	.list-option img, .list-option h5, .list-option p{
+		display: inline-block;
+	}
+
+	.options-list{
+		max-width: 800px;
+		display: block;
+		margin: auto;
+	}
+}

@@ -1,0 +1,19 @@
+page-event-list {
+	.header-logo{
+		height: 70px;
+	}
+	ion-navbar img, ion-title{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.event-list-item .event-img{
+		height: 80px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.event-list-item .event-info{
+		display: inline-block;
+		vertical-align: middle;
+		padding-left: 15px;
+	}
+}
