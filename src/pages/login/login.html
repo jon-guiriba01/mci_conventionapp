@@ -11,10 +11,10 @@
 
 	<div class="flex-center-column password-container">
 		<h5>Enter password to proceed</h5>
-		<input class="password-container" type="password" name="password" [(ngModel)]="password">
+		<input class="password-container" type="password" name="password" [(ngModel)]="passwordInput">
 		<div class="action-btn-row">
-			<button ion-button style="background: #000;">BACK</button>
-			<button ion-button (click)="navToEvent(event)" style="background: #000;">LOGIN</button>
+			<button ion-button (click)="back()" style="background: #000;">BACK</button>
+			<button ion-button (click)="login()" style="background: #000;">LOGIN</button>
 		</div>
 		<h5 class="please-ask-text">Please ask the confress secretariat for the password</h5>
 	</div>

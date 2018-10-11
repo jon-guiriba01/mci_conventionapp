@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Events } from 'ionic-angular';
 
 @Component({
   selector: 'page-announcements',
@@ -14,7 +14,11 @@ export class AnnouncementsPage {
 		Centennial Hall, The Manila Hotel`
 	]
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController
+    , public navParams: NavParams
+    , public evt: Events
+    ) {
   }
 
 

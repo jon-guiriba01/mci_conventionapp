@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { TabsPage } from '../tabs/tabs';
+import { EventListPage } from '../event-list/event-list';
 
 @Component({
   selector: 'page-login',
@@ -9,6 +10,10 @@ import { TabsPage } from '../tabs/tabs';
 export class LoginPage {
 
 	event = {};
+  // password = "opensesame"
+  password = ""
+  passwordInput = ""
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   	this.event = this.navParams.get("event")
   }
@@ -17,10 +22,15 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage');
   }
 
-  navToEvent(event){
-  	this.navCtrl.setRoot(TabsPage, {event: this.event})
+
+  login(){
+    if(this.passwordInput == this.password)
+      this.navCtrl.push(TabsPage, {event: this.event})
   }
 
+  back(){
+    this.navCtrl.setRoot(EventListPage)
+  }
 
 }
 

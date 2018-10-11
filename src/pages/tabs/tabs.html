@@ -7,9 +7,9 @@
 </ion-header>
 
 <ion-tabs tabsPlacement="bottom" selectedIndex="1">
-  <ion-tab  tabTitle="Back" tabIcon="home"></ion-tab>
+  <ion-tab  tabTitle="Back" tabIcon="arrow-round-back" (ionSelect)="back()"></ion-tab>
   <ion-tab [root]="tab2Root" tabTitle="Home" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Information" tabIcon="home">
-  <ion-tab  tabTitle="Favourites" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="Information" tabIcon="information-circle">
+  <ion-tab  tabTitle="Favourites" tabIcon="star-outline"></ion-tab>
   </ion-tab>
 </ion-tabs>

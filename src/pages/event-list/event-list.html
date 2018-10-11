@@ -11,7 +11,7 @@
 <ion-content padding>
 	<ion-list>
 		<ion-item class="event-list-item" *ngFor="let event of events" (click)="navToEvent(event)">
-			<img class="event-img" src="assets/imgs/logo.png">
+			<img class="event-img" src="{{event.iconUrl}}">
 			<div class="event-info" >
 				<h5>{{event.name}}</h5>
 				<h5>{{event.location}}</h5>

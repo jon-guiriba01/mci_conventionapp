@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Events} from 'ionic-angular';
 
 import { RegistrationPage } from '../registration/registration';
 import { AccomodationPage } from '../accomodation/accomodation';
@@ -12,7 +12,12 @@ import { VenuePage } from '../venue/venue';
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController
+    , public navParams: NavParams
+    , public evt: Events
+    ) {
+    
   }
 
   ionViewDidLoad() {

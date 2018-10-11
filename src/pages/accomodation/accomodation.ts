@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Events } from 'ionic-angular';
 
 @Component({
   selector: 'page-accomodation',
@@ -39,7 +39,11 @@ export class AccomodationPage {
 
 	`
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController
+    , public navParams: NavParams
+    , public evt: Events
+    ) {
   }
 
   ionViewDidLoad() {

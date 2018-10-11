@@ -25703,6 +25703,10 @@ ion-navbar.toolbar {
   width: 100%;
 }
 
+.tabbar {
+  bottom: 80px !important;
+}
+
 .back-button.bar-button {
   display: none;
 }
@@ -25729,7 +25733,8 @@ ion-navbar.toolbar {
 
 .page-header > img {
   max-height: 60px;
-  max-width: 60px;
+  max-width: 80px;
+  padding-right: 10px;
 }
 
 .list-option ion-label {
@@ -25758,6 +25763,10 @@ ion-navbar.toolbar {
   max-width: 90px;
 }
 
+.tabs-md .tabbar {
+  background: #000;
+}
+
 .theme-background {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a1a53+0,682672+50,702c91+100 */
   background: #4a1a53;
@@ -25768,6 +25777,14 @@ ion-navbar.toolbar {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a1a53', endColorstr='#702c91',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
+}
+
+.tab-button-icon.icon.icon-md {
+  color: #fff;
+}
+
+.tab-button-text {
+  color: #fff;
 }
 
 page-event .list-option img, page-event .list-option h5, page-event .list-option p {
@@ -25990,6 +26007,10 @@ page-sponsors .sponsor-row-minor {
 
 page-sponsors .sponsor-minor {
   margin-bottom: 50px;
+}
+
+page-sponsors .sponsor-row {
+  padding: 20px;
 }
 
 page-tabs ion-tabs {

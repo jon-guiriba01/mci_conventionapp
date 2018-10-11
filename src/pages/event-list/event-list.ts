@@ -20,6 +20,7 @@ export class EventListPage {
   		, landline: "994-1239"
   		, cellNo: "0917-1144615"
       , bannerUrl: "assets/imgs/ifhnos.png"
+      , iconUrl: "assets/imgs/ifhnos_icon.png"
 
   	}
   ];

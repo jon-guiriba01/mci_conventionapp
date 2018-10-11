@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Events } from 'ionic-angular';
 
 @Component({
   selector: 'page-registration',
@@ -7,7 +7,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class RegistrationPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController
+    , public navParams: NavParams
+    , public evt: Events
+    ) {
   }
 
   ionViewDidLoad() {
