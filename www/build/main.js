@@ -41,7 +41,7 @@ webpackEmptyAsyncContext.id = 150;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_list_event_list__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_list_event_list__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -128,7 +128,7 @@ var EventInfoPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_list_event_list__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_list_event_list__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -217,10 +217,11 @@ var TabsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-tabs',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/'<ion-header >\n\n  <ion-navbar class="theme-background">\n  	<img class="header-banner" src="{{event.bannerUrl}}">\n  </ion-navbar>\n\n</ion-header>\n\n<ion-tabs tabsPlacement="bottom" selectedIndex="1">\n  <ion-tab  tabTitle="Back" tabIcon="arrow-round-back" (ionSelect)="back()"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Information" tabIcon="information-circle">\n  <ion-tab  tabTitle="Favourites" tabIcon="star-outline"></ion-tab>\n  </ion-tab>\n</ion-tabs>'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], TabsPage);
     return TabsPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=tabs.js.map
@@ -293,10 +294,11 @@ var EventPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-event',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\event\event.html"*/'<ion-content padding>\n	<ion-list class="options-list">\n		<ion-item class="list-option" (click)="navTo(\'program\')">\n			<img src="assets/imgs/program.png" >\n			<h5>Program</h5>\n			<p>></p>\n		</ion-item>\n		<ion-item class="list-option" (click)="navTo(\'speakers\')">\n			<img src="assets/imgs/microphone.png" >\n			<h5>Speakers</h5>\n			<p>></p>\n		</ion-item>\n		<ion-item class="list-option" (click)="navTo(\'research\')">\n			<img src="assets/imgs/chart.png" >\n			<h5>Research Presentation</h5>\n			<p>></p>\n		</ion-item>\n		<ion-item class="list-option"  (click)="navTo(\'about\')">\n			<img src="assets/imgs/about.png">\n			<h5>About the Congress</h5>\n			<p>></p>\n		</ion-item>\n		<ion-item class="list-option" (click)="navTo(\'sponsors\')">\n			<img src="assets/imgs/handshake.png">\n			<h5>Sponsors</h5>\n			<p>></p>\n		</ion-item>\n		<ion-item class="list-option"  (click)="navTo(\'course\')">\n			<img src="assets/imgs/survey.png">\n			<h5>Course Evaluation</h5>\n			<p>></p>\n		</ion-item>\n		<ion-item class="list-option" (click)="navTo(\'announcements\')">\n			<img src="assets/imgs/announcement.png" >\n			<h5>Announcements</h5>\n			<p>></p>\n		</ion-item>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\event\event.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], EventPage);
     return EventPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=event.js.map
@@ -417,6 +419,220 @@ var SponsorsPage = /** @class */ (function () {
                     name: "Ear Diagnostics Inc.",
                     address: "G/F Cosmopolitan Church corner Apacible, Taft Avenue, Ermita, Manila"
                 },
+                {
+                    name: "Easmed Medical Supplies, Inc.",
+                    address: "506 A Richmonde Plaza, 21 San Miguel Avenue, Pasig City",
+                    contactNo: "(02) 634-0441"
+                },
+                {
+                    name: "Getz Pharma Phils. Inc.",
+                    address: "2F The Rockwell Business Ctr. Tower 1, Ortigas Avenue, Pasig City"
+                },
+                {
+                    name: "Glenmark Philippines Inc.",
+                    address: "Unit 203, Lapanday Center, 2263, Chino Roces Avenue, Makati City, 1200",
+                    contactNo: "(02) 802-3235 loc. 118"
+                },
+                {
+                    name: "Great Reconstruction Surgicals, Inc.",
+                    address: "Rm. 501-C Culmat Bldg., 1270-1330, E. Rodriguez Sr. Avenue, Quezon City",
+                    telefax: "(63-2) 725-0867"
+                },
+                {
+                    name: "Healthworld International Philippines Corp.",
+                    address: "421 Quirino Ave., La Huerta, Parañaque City",
+                    contactNo: "(02) 829-0175",
+                    telefax: "(02) 826-6770"
+                },
+                {
+                    name: "Hearwell Medical",
+                    address: "16 Shaw Road, #01-04, Singapore 367954",
+                    contactNo: "(65) 6509 927"
+                },
+                {
+                    name: "Hi-Eisai Pharmaceutical Inc. ",
+                    address: "Unit 2, 22/F, Tower 6789 Ayala Avenue, Makati City 1226",
+                    contactNo: "+63 2 887 1053",
+                    telefax: "(63-2) 887-5172"
+                },
+                {
+                    name: "Homecare & Hospital Enterprises ",
+                    address: "1744 B Rizal Avenue, Sta. Cruz, Manila",
+                    contactNo: "(02) 313-5450; 313-5114"
+                },
+                {
+                    name: "Innogene Kalbiotech Pte. Ltd.",
+                    address: "5F Regus Gateway Tower, Araneta Center, Cubao, Quezon City",
+                    contactNo: "+63 2 790-4405 "
+                },
+                {
+                    name: "Integra Medica Solutions Corp. ",
+                    address: "16 S 3 Manhattan Parkview, Gen. Malvar Avenue, Cubao, Quezon City",
+                    contactNo: "(02) 961-8284"
+                },
+                {
+                    name: "I.O.S. Marketing Corp.",
+                    address: "647 P. Paterno St., Quiapo, Manila",
+                    contactNo: "(02) 733-5445",
+                    telefax: "(02) 733-3767"
+                },
+                {
+                    name: "Johnson & Johnson (Philippines), Inc.",
+                    address: "Edison Road, Barrio Ibayo, Parañaque City",
+                    contactNo: "(63-2) 824-8845"
+                },
+                {
+                    name: "ustright Healthcare Inc. ",
+                    address: "#20 Palanza corner Guirayan Streets, Brgy. Doña Imelda, Quezon City",
+                    contactNo: "(63-2) 412-2367",
+                    telefax: "(63-2) 413-0533"
+                },
+                {
+                    name: "Karl Storz GmbH & Co.KG",
+                    address: "19-01 Picadiliy Star Building, BGC, 4th Ave, Taguig City, 1636",
+                    contactNo: "317-4530 loc. 211"
+                },
+                {
+                    name: "Lefort Medical Trading Corporation",
+                    address: "Unit 102 Susana Condominium, Banahaw St., Cubao, Quezon City",
+                    contactNo: "(02) 413-4506"
+                },
+                {
+                    name: "Manila Hearing Aid Center, Inc.",
+                    address: "Unit 809 8th Floor BSA Twin Tower, Bank Drive, Brgy. Wack- Wack Greenhills East, Ortigas Center, Mandaluyong City",
+                    telefax: "(02) 696-1580 loc. 101"
+                },
+                {
+                    name: "Manning Abella",
+                    address: "98 Quezon St., Tondo, Manila",
+                    contactNo: "0916-4714158",
+                    mobile: "0916-4714158"
+                },
+                {
+                    name: "MedAlphA Philippines Inc.",
+                    address: "Unit 1020, 2301 Civic Place Condominium, Civic Drive, Filinvest Corporate City, Alabang, Muntinlupa City, ",
+                    telefax: "(02) 865-6991"
+                },
+                {
+                    name: "Medilight Incorporated",
+                    address: "11 B April Extension Congressional Avenue, Bahay Toro, Quezon City",
+                    contactNo: "(02) 454-7074"
+                },
+                {
+                    name: "Merck, Inc.",
+                    address: "25/F GT International Tower, 6813 Ayala Avenue, cor., HV Dela Costa St., Salcedo Village, Makati City, Philippines",
+                    contactNo: "(02) 214-3346"
+                },
+                {
+                    name: "Microlab Phils., Inc. ",
+                    address: "1157 Rodriguez Avenue, cor. Heneral Lacuña St., Bangkal, Makati City",
+                    contactNo: "(63-2) 551-3839 ",
+                    telefax: "(63-2) 831-9621 "
+                },
+                {
+                    name: "MTC Opto-Medic, Inc.",
+                    address: "3rd Floor OHI Bldg., 179 Yakal St., San Antonio Village, Makati City",
+                    contactNo: "(02) 813-1351"
+                },
+                {
+                    name: "NuEar Philippines, Inc.",
+                    address: "Unit 2001, 20/F Medical Plaza Ortigas, San Miguel Ave., Ortigas Center, Pasig City",
+                    contactNo: "(02) 571-1770"
+                },
+                {
+                    name: "Nurture Med Pharma, Inc. a subsidiary of Dyna Drug Corp.",
+                    address: "Capt. Henry Javier cor. Danny Floro St., Brgy. Oranbo, Pasig City",
+                    contactNo: "0932-8627882"
+                },
+                {
+                    name: "Olten Instruments Phils. Corp.",
+                    address: "16 Sampaguita St., Tomasa Subd., Ususan, Taguig City",
+                    contactNo: "(02) 628-3293; 642-7088"
+                },
+                {
+                    name: "One Pharma Company, Inc.",
+                    address: "Abel Nosce St., BF Resort Village, Talon 2 Las Piñas City",
+                    contactNo: "(02) 871-2537"
+                },
+                {
+                    name: "Pfizer, Inc.",
+                    address: "19th Floor, 8 Rockwell Building, Hidalgo Drive, Rockwell Center, Makati City",
+                    contactNo: "(02) 451-9200"
+                },
+                {
+                    name: "Pharex Health Corp.",
+                    address: "Units 101-102, G/F Bldg. Alpha UP-Ayala Land TechnoHub, Commonwealth Ave."
+                },
+                {
+                    name: "Diliman, Quezon City",
+                    contactNo: "(02) 433-8088 "
+                },
+                {
+                    name: "Pharma Nutria N.A. (MM-L), Inc.",
+                    address: "SV More Corporate Center, 16 Sct. Tuazon, Cor. Roces Avenue, Quezon City",
+                    contactNo: "+632 373-6240"
+                },
+                {
+                    name: "Pharmahex, Inc. ",
+                    address: "J.A. Development Compound, #7 E. Rodriguez Jr. Ave., Bagong Ilog, Pasig City 1600",
+                    contactNo: "(02) 671-2090"
+                },
+                {
+                    name: "Pines Medical Trading",
+                    address: "14-A Sunflower St., San Luis Village, Baguio City"
+                },
+                {
+                    name: "PMII-Bayer Consumer Health ",
+                    address: "29th Flr. Menarco Tower, 32nd Street, Bonifacio Global City, Taguig"
+                },
+                {
+                    name: "Quality Sleep Enterprise Inc.",
+                    address: "6/F High Pointe Bldg., 1184 C. Roces Avenue, Makati City",
+                    contactNo: "(02) 816-3860"
+                },
+                {
+                    name: "ResWerkes  Phils., Inc.",
+                    address: "Unit 1001, 10th Floor The Orient Square Building, F. Ortigas, Jr. Road, Ortigas Center, Pasig City",
+                    contactNo: "(02) 470-2931",
+                    teleFax: "(02) 470-2809"
+                },
+                {
+                    name: "Sai-International",
+                    address: "3212 Tindalo St., United Parañaque Subdivision 2, Parañaque City",
+                    contactNo: "(02) 821-8828"
+                },
+                {
+                    name: "Sandoz Philippines Corp.",
+                    address: "7th Floor Asian Reinsurance Bldg., Gamboa and Salcedo Sts., Legaspi Village, Makati City ",
+                    contactNo: "(63-2) 368-7888 loc. 836",
+                    telefax: "(63-2) 815-0101     "
+                },
+                {
+                    name: "Sensomed Philippines, Inc.",
+                    address: "Unit 1508 Orient Square Bldg., F. Ortigas Jr. Road, Ortigas Center, Pasig City ",
+                    contactNo: "(63-2) 635-5169",
+                    telefax: "(63-2) 635-5170"
+                },
+                {
+                    name: "Trevor International Trading – Dr. Kim",
+                    address: "333 A. Mabini St., Caloocan City"
+                },
+                {
+                    name: "The Cathay Drug Company Inc.",
+                    address: "2/F Vernida 1 Bldg., 120 Amorsolo St., Legaspi Village, Makati City",
+                    contactNo: "(63-2) 892-5936 ",
+                    telefax: "(63-2) 818-6739"
+                },
+                {
+                    name: "Unilab, Inc. - PRMD",
+                    address: "G/F 132 Bayanihan Annex Bldg., Pioneer St., Mandaluyong City",
+                    contactNo: "(632) 858-1966 loc 1962"
+                },
+                {
+                    name: "Westmont Pharmaceuticals",
+                    address: "4th Floor, Bonaventure Plaza, Ortigas Avenue, Greenhills, San Juan City",
+                    contactNo: "(63-2) 858-1277"
+                },
             ],
         };
     }
@@ -425,12 +641,13 @@ var SponsorsPage = /** @class */ (function () {
     };
     SponsorsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-sponsors',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\sponsors\sponsors.html"*/'<ion-content >\n<div class="page-header">\n	<img src="assets/imgs/handshake2.png">\n	<h5>Sponsors</h5>\n</div>\n\n<div padding>\n	<img src="assets/imgs/sponsor_platinum_header.png" class="sponsor-header">\n	<div class="sponsor-row">\n	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.platinum">\n	</div>\n	<img src="assets/imgs/sponsor_gold_header.png" class="sponsor-header">\n	<div class="sponsor-row">\n	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.gold">\n	</div>\n	<img src="assets/imgs/sponsor_silver_header.png" class="sponsor-header">\n	<div class="sponsor-row">\n	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.silver">\n	</div>\n	<img src="assets/imgs/sponsor_bronze_header.png" class="sponsor-header">\n	<div class="sponsor-row">\n	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.bronze">\n	</div>\n		<img src="assets/imgs/sponsor_minor_header.png" class="sponsor-header">\n	<div class="sponsor-minor-row" padding>\n		<div class="sponsor-minor" *ngFor="let sponsor of sponsors.minor" >\n			<h5><b>{{sponsor.name}}</b></h5>\n			<h5>{{sponsor.address}}</h5>\n			<h5 *ngIf="sponsor.contactNo">{{sponsor.contactNo}}</h5>\n			<h5 *ngIf="sponsor.telefax">{{sponsor.teleFax}}</h5>\n		</div>\n	</div>\n</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\sponsors\sponsors.html"*/,
+            selector: 'page-sponsors',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\sponsors\sponsors.html"*/'<ion-content >\n<div class="page-header">\n	<img src="assets/imgs/handshake2.png">\n	<h5>Sponsors</h5>\n</div>\n\n<div padding>\n	<img src="assets/imgs/sponsor_platinum_header.png" class="sponsor-header">\n	<div class="sponsor-row">\n	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.platinum">\n	</div>\n	<img src="assets/imgs/sponsor_gold_header.png" class="sponsor-header">\n	<div class="sponsor-row">\n	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.gold">\n	</div>\n	<img src="assets/imgs/sponsor_silver_header.png" class="sponsor-header">\n	<div class="sponsor-row">\n	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.silver">\n	</div>\n	<img src="assets/imgs/sponsor_bronze_header.png" class="sponsor-header">\n	<div class="sponsor-row">\n	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.bronze">\n	</div>\n		<img src="assets/imgs/sponsor_minor_header.png" class="sponsor-header">\n	<div class="sponsor-minor-row" padding>\n		<div class="sponsor-minor" *ngFor="let sponsor of sponsors.minor" >\n			<h5><b>{{sponsor.name}}</b></h5>\n			<h5>{{sponsor.address}}</h5>\n			<h5 *ngIf="sponsor.contactNo">{{sponsor.contactNo}}</h5>\n			<h5 *ngIf="sponsor.telefax">{{sponsor.teleFax}}</h5>\n			<h5 *ngIf="sponsor.mobile">{{sponsor.mobile}}</h5>\n		</div>\n	</div>\n</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\sponsors\sponsors.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], SponsorsPage);
     return SponsorsPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=sponsors.js.map
@@ -471,10 +688,11 @@ var AnnouncementsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-announcements',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\announcements\announcements.html"*/'<ion-content >\n<div class="page-header">\n	<img src="assets/imgs/announcement2.png">\n	<h5>Announcements</h5>\n</div>\n\n	<div padding>\n		<ion-list>\n			<ion-item *ngFor="let announcement of announcements">\n				<div [innerHtml]="announcement"></div>\n			</ion-item>\n		</ion-list>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\announcements\announcements.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], AnnouncementsPage);
     return AnnouncementsPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=announcements.js.map
@@ -533,10 +751,11 @@ var AboutPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-about',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\about\about.html"*/'<ion-content >\n<div class="page-header">\n	<img src="assets/imgs/about2.png">\n	<h5>ABOUT THE CONGRESS</h5>\n</div>\n\n	<ion-list class="options-list">\n		<ion-item class="list-option" (click)="navTo(\'registration\')">\n			<img src="assets/imgs/registration.png" >\n			<h5>Registration</h5>\n			<p>></p>\n		</ion-item>\n		<ion-item class="list-option" (click)="navTo(\'accomodation\')">\n			<img src="assets/imgs/hotel.png" >\n			<h5>Hotel Accomodation</h5>\n			<p>></p>\n		</ion-item>\n		<ion-item class="list-option" (click)="navTo(\'venue\')">\n			<img src="assets/imgs/pin.png" >\n			<h5>Venue</h5>\n			<p>></p>\n		</ion-item>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\about\about.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], AboutPage);
     return AboutPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=about.js.map
@@ -572,12 +791,13 @@ var RegistrationPage = /** @class */ (function () {
     };
     RegistrationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-registration',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\registration\registration.html"*/'<ion-content >\n<div class="page-header" style="justify-content: left;">\n	<h5>Registration <br> ABOUT THE CONGRESS</h5>\n</div>\n\n<div>\n	<p>Please click on the form below to register online:</p>\n	<a href="#">Registration Form for the IFHNOS World Tour 2018 and 62nd PSO-HNS Annual Convention</a>\n</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\registration\registration.html"*/,
+            selector: 'page-registration',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\registration\registration.html"*/'<ion-content >\n<div class="page-header" style="justify-content: left;">\n	<h6>Registration <br>\n		<span style="font-size: 10px;">\n			ABOUT THE CONGRESS\n		</span>\n	</h6>\n</div>\n\n<div padding>\n	<p>Please click on the form below to register online:</p>\n	<a href="#">Registration Form for the IFHNOS World Tour 2018 and 62nd PSO-HNS Annual Convention</a>\n</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\registration\registration.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], RegistrationPage);
     return RegistrationPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=registration.js.map
@@ -614,12 +834,13 @@ var AccomodationPage = /** @class */ (function () {
     };
     AccomodationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-accomodation',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\accomodation\accomodation.html"*/'<ion-header>\n\n  <ion-navbar>\n  	<img class="header-banner" src="assets/imgs/logo.png">\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content >\n<div class="page-header" style="justify-content: left;">\n	<h5>Hotel Accomodation <br> ABOUT THE CONGRESS</h5>\n</div>\n\n<div [innerHtml]="content"></div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\accomodation\accomodation.html"*/,
+            selector: 'page-accomodation',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\accomodation\accomodation.html"*/'\n<ion-content >\n<div class="page-header" style="justify-content: left;">\n	<h6>Hotel Accomodation <br>\n		<span style="font-size: 10px;">\n			ABOUT THE CONGRESS\n		</span>\n	</h6>\n</div>\n\n<div [innerHtml]="content" class="accomodation-content" padding></div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\accomodation\accomodation.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], AccomodationPage);
     return AccomodationPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=accomodation.js.map
@@ -656,7 +877,7 @@ var VenuePage = /** @class */ (function () {
     };
     VenuePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-venue',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\venue\venue.html"*/'<ion-content >\n<div class="page-header" style="justify-content: left;">\n	<h5>Venue <br> ABOUT THE CONGRESS</h5>\n</div>\n<div class="venue-container">\n	<img src="assets/imgs/venue.png">\n</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\venue\venue.html"*/,
+            selector: 'page-venue',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\venue\venue.html"*/'<ion-content >\n<div class="page-header" style="justify-content: left;">\n	<h6>Venue <br>\n		<span style="font-size: 10px;">\n			ABOUT THE CONGRESS\n		</span>\n	</h6>\n</div>\n<div class="venue-container">\n	<img src="assets/imgs/venue.png">\n</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\venue\venue.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], VenuePage);
@@ -712,7 +933,7 @@ var InformationPage = /** @class */ (function () {
     };
     InformationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-information',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\information\information.html"*/'<ion-content padding>\n	<ion-list>\n		<ion-item *ngFor="let info of information" text-wrap>\n			<div class="info-header">\n				<img src="{{info.imageUrl}}">\n				<h2><b>{{info.title}}</b></h2>\n			</div>\n			<p style="margin-top: 10px;">{{info.content}}</p>\n\n		</ion-item>\n		<h5>For more information about the Philippines, please visit the website of the Department of Tourism</h5>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\information\information.html"*/,
+            selector: 'page-information',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\information\information.html"*/'<ion-content padding class="header-fix">\n	<ion-list>\n		<ion-item *ngFor="let info of information" text-wrap>\n			<div class="info-header">\n				<img src="{{info.imageUrl}}">\n				<h2><b>{{info.title}}</b></h2>\n			</div>\n			<p style="margin-top: 10px;">{{info.content}}</p>\n\n		</ion-item>\n		<h5>For more information about the Philippines, please visit the website of the Department of Tourism</h5>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\information\information.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], InformationPage);
@@ -749,7 +970,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(279);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_event_list_event_list__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_event_list_event_list__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_event_info_event_info__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_event_event__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(196);
@@ -886,17 +1107,20 @@ var MyApp = /** @class */ (function () {
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__["a" /* App */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__["a" /* App */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__["a" /* App */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
 
-/***/ 50:
+/***/ 99:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

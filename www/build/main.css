@@ -25754,8 +25754,8 @@ ion-navbar.toolbar {
 }
 
 .list-option img {
-  max-height: 70px;
-  max-width: 70px;
+  max-height: 35px;
+  max-width: 35px;
 }
 
 .logo {
@@ -25785,6 +25785,14 @@ ion-navbar.toolbar {
 
 .tab-button-text {
   color: #fff;
+}
+
+.header-fix .scroll-content {
+  margin-bottom: 130px;
+}
+
+page-accomodation .accomodation-content {
+  margin-bottom: 79px;
 }
 
 page-event .list-option img, page-event .list-option h5, page-event .list-option p {
@@ -26014,7 +26022,7 @@ page-sponsors .sponsor-row {
 }
 
 page-tabs ion-tabs {
-  margin-top: 80px;
+  margin-top: 79px;
 }
 
 page-venue .venue-container {
