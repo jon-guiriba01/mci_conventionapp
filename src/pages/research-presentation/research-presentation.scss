@@ -1,0 +1,36 @@
+page-research-presentation {
+	.research-options{
+		text-align: center;
+		padding: 10px;
+	}
+	.option{
+		color: #fff;
+		margin-top: 25px;
+	}
+
+	.option .title{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 8px;
+		background: #000;
+	}
+	.option .title h5{
+		margin-top: 15px;
+		font-size: 14px;
+	}
+
+	.sub-opt{
+		background: #d4d4d4;
+		padding: 14px 8px 1px 8px;
+	}
+
+	.sub-opt h5{
+		margin-bottom: 15px;
+		background: #757575;
+		padding: 6px;
+		font-size: 12px;
+
+	}
+
+}

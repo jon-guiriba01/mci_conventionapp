@@ -1,0 +1,19 @@
+<ion-content padding class="header-fix">
+<div class="page-header">
+	<img src="assets/imgs/chart.png">
+	<h5>Research Presentation</h5>
+</div>
+
+<div class="research-info">
+	<h5 class="title">
+		{{title}}
+	</h5>
+	<ion-list>
+		<ion-item *ngFor="let item of content" text-wrap>
+			{{item}}
+		</ion-item>
+	</ion-list>
+		
+</div>
+
+</ion-content>

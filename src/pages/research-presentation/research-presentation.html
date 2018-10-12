@@ -1,0 +1,36 @@
+<ion-content padding>
+	<div class="page-header">
+		<img src="assets/imgs/chart.png">
+		<h5>Research Presentation</h5>
+	</div>
+
+	<div class="research-options">
+		<div class="option oral">
+			<div class="title" (click)="clicked.oral = !clicked.oral">
+				<h5>ORAL PRESENTATION</h5>
+				<ion-icon name="arrow-dropdown-circle" *ngIf="!clicked.oral"></ion-icon>
+				<ion-icon name="arrow-dropup-circle" *ngIf="clicked.oral"></ion-icon>
+			</div>
+			<div class="sub-opt" *ngIf="clicked.oral">
+				<h5 (click)="navToResearchInfo('analytical')">Analytical Research Paper Contest</h5>
+				<h5 (click)="navToResearchInfo('descriptive')">Descriptive Research Paper Contest</h5>
+			</div>
+		</div>
+		<div class="option poster">
+			<div class="title"  (click)="clicked.poster = !clicked.poster">
+				<h5>POSTER PRESENTATION</h5>
+				<ion-icon name="arrow-dropdown-circle" *ngIf="!clicked.poster"></ion-icon>
+				<ion-icon name="arrow-dropup-circle" *ngIf="clicked.poster"></ion-icon>
+			</div>
+			<div class="sub-opt"  *ngIf="clicked.poster" >
+				<h5 (click)="navToResearchInfo('innovation')">Surgical Innovation Paper Contest</h5>
+				<h5 (click)="navToResearchInfo('instrumentation')">Surgical Instrumentation Paper Contest</h5>
+			</div>
+		</div>
+		<div class="option oral" (click)="navToResearchInfo('free')">
+			<div class="title">
+				<h5>FREE PAPER</h5>
+			</div>
+		</div>
+	</div>
+</ion-content>

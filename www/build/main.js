@@ -40,7 +40,7 @@ webpackEmptyAsyncContext.id = 150;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_list_event_list__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80,7 +80,7 @@ var HomePage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventInfoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(196);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -126,7 +126,7 @@ var EventInfoPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_list_event_list__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -181,9 +181,9 @@ var LoginPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_event__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__information_information__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__information_information__ = __webpack_require__(206);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -234,10 +234,11 @@ var TabsPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsors_sponsors__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__announcements_announcements__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_about__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__research_presentation_research_presentation__ = __webpack_require__(205);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -247,6 +248,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -273,7 +275,7 @@ var EventPage = /** @class */ (function () {
                 p = __WEBPACK_IMPORTED_MODULE_2__sponsors_sponsors__["a" /* SponsorsPage */];
                 break;
             case "research":
-                p = __WEBPACK_IMPORTED_MODULE_2__sponsors_sponsors__["a" /* SponsorsPage */];
+                p = __WEBPACK_IMPORTED_MODULE_5__research_presentation_research_presentation__["a" /* ResearchPresentationPage */];
                 break;
             case "about":
                 p = __WEBPACK_IMPORTED_MODULE_4__about_about__["a" /* AboutPage */];
@@ -311,7 +313,7 @@ var EventPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SponsorsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -660,7 +662,7 @@ var SponsorsPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AnnouncementsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -705,7 +707,7 @@ var AnnouncementsPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__registration_registration__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__accomodation_accomodation__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__venue_venue__ = __webpack_require__(204);
@@ -768,7 +770,7 @@ var AboutPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegistrationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -810,7 +812,7 @@ var RegistrationPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccomodationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -853,7 +855,7 @@ var AccomodationPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VenuePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -892,9 +894,58 @@ var VenuePage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResearchPresentationPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__research_info_research_info__ = __webpack_require__(281);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ResearchPresentationPage = /** @class */ (function () {
+    function ResearchPresentationPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.clicked = {
+            oral: false,
+            poster: false,
+        };
+    }
+    ResearchPresentationPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ResearchPresentationPage');
+    };
+    ResearchPresentationPage.prototype.navToResearchInfo = function (type) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__research_info_research_info__["a" /* ResearchInfoPage */], { "type": type });
+    };
+    ResearchPresentationPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-research-presentation',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\research-presentation\research-presentation.html"*/'<ion-content padding>\n	<div class="page-header">\n		<img src="assets/imgs/chart.png">\n		<h5>Research Presentation</h5>\n	</div>\n\n	<div class="research-options">\n		<div class="option oral">\n			<div class="title" (click)="clicked.oral = !clicked.oral">\n				<h5>ORAL PRESENTATION</h5>\n				<ion-icon name="arrow-dropdown-circle" *ngIf="!clicked.oral"></ion-icon>\n				<ion-icon name="arrow-dropup-circle" *ngIf="clicked.oral"></ion-icon>\n			</div>\n			<div class="sub-opt" *ngIf="clicked.oral">\n				<h5 (click)="navToResearchInfo(\'analytical\')">Analytical Research Paper Contest</h5>\n				<h5 (click)="navToResearchInfo(\'descriptive\')">Descriptive Research Paper Contest</h5>\n			</div>\n		</div>\n		<div class="option poster">\n			<div class="title"  (click)="clicked.poster = !clicked.poster">\n				<h5>POSTER PRESENTATION</h5>\n				<ion-icon name="arrow-dropdown-circle" *ngIf="!clicked.poster"></ion-icon>\n				<ion-icon name="arrow-dropup-circle" *ngIf="clicked.poster"></ion-icon>\n			</div>\n			<div class="sub-opt"  *ngIf="clicked.poster" >\n				<h5 (click)="navToResearchInfo(\'innovation\')">Surgical Innovation Paper Contest</h5>\n				<h5 (click)="navToResearchInfo(\'instrumentation\')">Surgical Instrumentation Paper Contest</h5>\n			</div>\n		</div>\n		<div class="option oral" (click)="navToResearchInfo(\'free\')">\n			<div class="title">\n				<h5>FREE PAPER</h5>\n			</div>\n		</div>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\research-presentation\research-presentation.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
+    ], ResearchPresentationPage);
+    return ResearchPresentationPage;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=research-presentation.js.map
+
+/***/ }),
+
+/***/ 206:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InformationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -944,13 +995,13 @@ var InformationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 206:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(230);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -958,17 +1009,17 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 229:
+/***/ 230:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(280);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_event_list_event_list__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_event_info_event_info__ = __webpack_require__(195);
@@ -976,18 +1027,22 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_sponsors_sponsors__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_tabs_tabs__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_information_information__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_information_information__ = __webpack_require__(206);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_announcements_announcements__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_about__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_registration_registration__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_accomodation_accomodation__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_research_presentation_research_presentation__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_research_info_research_info__ = __webpack_require__(281);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -1026,7 +1081,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_15__pages_about_about__["a" /* AboutPage */],
                 __WEBPACK_IMPORTED_MODULE_16__pages_registration_registration__["a" /* RegistrationPage */],
                 __WEBPACK_IMPORTED_MODULE_17__pages_accomodation_accomodation__["a" /* AccomodationPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__["a" /* VenuePage */]
+                __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__["a" /* VenuePage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_research_presentation_research_presentation__["a" /* ResearchPresentationPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_research_info_research_info__["a" /* ResearchInfoPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1049,7 +1106,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_15__pages_about_about__["a" /* AboutPage */],
                 __WEBPACK_IMPORTED_MODULE_16__pages_registration_registration__["a" /* RegistrationPage */],
                 __WEBPACK_IMPORTED_MODULE_17__pages_accomodation_accomodation__["a" /* AccomodationPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__["a" /* VenuePage */]
+                __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__["a" /* VenuePage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_research_presentation_research_presentation__["a" /* ResearchPresentationPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_research_info_research_info__["a" /* ResearchInfoPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1065,13 +1124,13 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 279:
+/***/ 280:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__ = __webpack_require__(6);
@@ -1120,13 +1179,111 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 281:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResearchInfoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ResearchInfoPage = /** @class */ (function () {
+    function ResearchInfoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.title = "Analytical Research Paper Contest";
+        this.content = [];
+        this.contents = {
+            analytical: {
+                title: "Analytical Research Paper Contest",
+                body: [
+                    "ARC1:  Comparison of The Incidence of Post-Operative Bleeding in Tonsillectomy versus Tonsillectomy with Fossa Closure in a Tertiary Military Hospital: A Retrospective Cohort Study",
+                    "ARC2: The use of Smartphone vs Conventional ENT Endoscopy among Otolaryngologists: A cross-sectional analytical study",
+                    "ARC3: Association Of Ultrasonographic Findings And Thyroid Malignancy In A Tertiary Hospital In Metro Manila",
+                    "ARC4: Morbidity Outcomes of Prophylactic Central Neck Dissection with Total Thyroidectomy versus Total Thyroidectomy alone in Patients with Node Negative Papillary Thyroid Cancer: A Meta Analysis",
+                    "ARC5: Comparison of Salivary pH and Taste Sensitivity among Patients in a Tertiary Hospital: A Cross Sectional Study"
+                ]
+            },
+            descriptive: {
+                title: "Descriptive Research Paper Contest",
+                body: [
+                    "DRC1: Incidence of Facial Paralysis in Temporal Bone Fracture at a Tertiary Government Hospital in the Philippines",
+                    "DRC2:Outcome of Single-operator Rigid Esophagoscopy in Sword Swallower’s Position Technique for Extraction of Ingested Foreign Body",
+                    "DRC3: Maxillary Sinus Squamous Cell Carcinoma in a Tertiary Hospital in the Philippines",
+                    "DRC4: Advanced Laryngotracheal Stenosis Patients in a Tertiary Government Hospital: Clinico-etiologic profile, Management & Outcome (A Preliminary Study)",
+                    "DRC5: Clinical Profile of Filipino Patients with Epistaxis: A University Hospital Experience"
+                ]
+            },
+            innovation: {
+                title: "Surgical Innovation Paper Contest",
+                body: [
+                    "PSC1: Penetrating Neck Injury Secondary To Hacking Wound: A Case Report",
+                    "PSC2: One Day Simultaneous Bilateral Endoscopic Type I Tympanoplasty With Cartilage Reinforcement: Our Experience In Tertiary Public Hospital",
+                    "PSC3: The Application Of Open-source 3d Planning Software In Virtual Reconstruction Of Complex Maxillofacial Defects: Our Local Experience",
+                    "PSC4: The Use Of Middle Turbinate Mucosal Graft In Endoscopic Guided Repair Of Csf Leak At The Cribriform Plate In A Patient With Severe Craniofacial",
+                    "PSC5: A Qualitative Experimental Study On The Efficacy Of Polydioxanone Suture (Pds) I As Internal Fixator Among Pediatric Patients With Open Displaced Linear Fracture Of The Mandibular Body, Angle Or Symphysis Admitted In A Tertiary Hospital From November 2016 – May 2018"
+                ]
+            },
+            instrumentation: {
+                title: "Surgical Instrumentation Paper Contest",
+                body: [
+                    "PSC6: Electrocautery Knife",
+                    "PSC7: Titanium Mesh as an alternative to Isshiki’s Thyroplasty Titanium Bridge for Isshiki Thyroplasty Type II"
+                ]
+            },
+            free: {
+                title: "Free Paper Presentation",
+                body: [
+                    "FP1: A Case of Ciguatera Fish Poisoning in a 23 Year Old Male",
+                    "FP2: A Case Report of a Bilateral Non-Contiguous Buccal Squamous Cell Carcinoma in a 39-year Old Male",
+                    "FP3: A Primary Submental Papillary Cystadenocarcinoma from a Salivary Gland Origin – A Rare Case Report",
+                    "FP4: A Retrospective Study Comparing Enucleation Combined with Peripheral Ostectomy and Segmental Mandibulectomy in the Management of Large Cystic Ameloblastomas Among Patients in Cebu City, Philippines from year January 1, 2000 to December 31, 2017.",
+                    "FP5: A Retrospective Study of Hypocalcemic Patients with Benign or Malignant Thyroid Mass Who Underwent Total Thyroidectomy at Vicente Sotto Memorial Medical Center, Cebu City",
+                    "FP6: A Retrospective Study on the Possible Risk Factors of Failed Otoacoustic Emission Testing Results among Neonates Delivered in a Tertiary Hospital from January to December 2015",
+                    "FP7: Adenoid Cystic Carcinoma of the Nasal Ala",
+                    "FP8: Association of ultrasonographic findings and thyroid malignancy in a tertiary hospital in Metro Manila",
+                    "FP9: Basal Cell Carcinoma, Odontogenic Cysts, Brain and Skeletal Abnormalities (Gorlin Goltz) Syndrome in a 46-year-old female",
+                    "FP10: Calcifying Epithelial Odontogenic Tumor in a Young face: Conservative Surgery in an Adolescent Patient"
+                ]
+            },
+        };
+        this.title = this.contents[this.navParams.get("type")].title;
+        this.content = this.contents[this.navParams.get("type")].body;
+    }
+    ResearchInfoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ResearchInfoPage');
+    };
+    ResearchInfoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-research-info',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\research-info\research-info.html"*/'<ion-content padding class="header-fix">\n<div class="page-header">\n	<img src="assets/imgs/chart.png">\n	<h5>Research Presentation</h5>\n</div>\n\n<div class="research-info">\n	<h5 class="title">\n		{{title}}\n	</h5>\n	<ion-list>\n		<ion-item *ngFor="let item of content" text-wrap>\n			{{item}}\n		</ion-item>\n	</ion-list>\n		\n</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\research-info\research-info.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
+    ], ResearchInfoPage);
+    return ResearchInfoPage;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=research-info.js.map
+
+/***/ }),
+
 /***/ 99:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_info_event_info__ = __webpack_require__(195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1176,5 +1333,5 @@ var EventListPage = /** @class */ (function () {
 
 /***/ })
 
-},[206]);
+},[207]);
 //# sourceMappingURL=main.js.map

@@ -25788,7 +25788,7 @@ ion-navbar.toolbar {
 }
 
 .header-fix .scroll-content {
-  margin-bottom: 130px;
+  margin-bottom: 130px !important;
 }
 
 page-accomodation .accomodation-content {
@@ -25970,6 +25970,57 @@ page-login .password-container {
 
 page-login .password-container > input {
   height: 35px;
+}
+
+page-research-info .title {
+  background: #d4d4d4;
+  padding: 8px 5px;
+  color: #fff;
+  margin-top: 25px !important;
+}
+
+page-research-presentation .research-options {
+  text-align: center;
+  padding: 10px;
+}
+
+page-research-presentation .option {
+  color: #fff;
+  margin-top: 25px;
+}
+
+page-research-presentation .option .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 8px;
+  background: #000;
+}
+
+page-research-presentation .option .title h5 {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+page-research-presentation .sub-opt {
+  background: #d4d4d4;
+  padding: 14px 8px 1px 8px;
+}
+
+page-research-presentation .sub-opt h5 {
+  margin-bottom: 15px;
+  background: #757575;
+  padding: 6px;
+  font-size: 12px;
 }
 
 page-sponsors .sponsor-header {

@@ -18,6 +18,9 @@ import { AboutPage } from '../pages/about/about';
 import { RegistrationPage } from '../pages/registration/registration';
 import { AccomodationPage } from '../pages/accomodation/accomodation';
 import { VenuePage } from '../pages/venue/venue';
+import { ResearchPresentationPage } from '../pages/research-presentation/research-presentation';
+import { ResearchInfoPage } from '../pages/research-info/research-info';
+
 @NgModule({
   declarations: [
     MyApp
@@ -34,6 +37,8 @@ import { VenuePage } from '../pages/venue/venue';
     ,RegistrationPage
     ,AccomodationPage
     ,VenuePage
+    ,ResearchPresentationPage
+    ,ResearchInfoPage
   ],
   imports: [
     BrowserModule,
@@ -55,6 +60,8 @@ import { VenuePage } from '../pages/venue/venue';
     ,RegistrationPage
     ,AccomodationPage
     ,VenuePage
+    ,ResearchPresentationPage
+    ,ResearchInfoPage
   ],
   providers: [
     StatusBar,

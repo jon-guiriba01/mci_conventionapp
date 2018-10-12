@@ -4,6 +4,7 @@ import { SponsorsPage } from '../sponsors/sponsors';
 import { AnnouncementsPage } from '../announcements/announcements';
 import { AboutPage } from '../about/about';
 import { EventListPage } from '../event-list/event-list';
+import { ResearchPresentationPage } from '../research-presentation/research-presentation';
 
 @Component({
   selector: 'page-event',
@@ -35,7 +36,7 @@ export class EventPage {
   			p = SponsorsPage;
   			break;
   		case "research":
-  			p = SponsorsPage;
+  			p = ResearchPresentationPage;
   			break;
   		case "about":
   			p = AboutPage;
