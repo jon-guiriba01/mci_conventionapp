@@ -20,6 +20,15 @@ import { AccomodationPage } from '../pages/accomodation/accomodation';
 import { VenuePage } from '../pages/venue/venue';
 import { ResearchPresentationPage } from '../pages/research-presentation/research-presentation';
 import { ResearchInfoPage } from '../pages/research-info/research-info';
+import { SchedulePage } from '../pages/schedule/schedule';
+import { DaySchedulePage } from '../pages/day-schedule/day-schedule';
+import { ClinicalEncounterPage } from '../pages/clinical-encounter/clinical-encounter';
+import { SpeakersPage } from '../pages/speakers/speakers';
+import { SpeakerInfoPage } from '../pages/speaker-info/speaker-info';
+import { SponsorPopoverPage } from '../pages/sponsor-popover/sponsor-popover';
+
+import { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer';
+import { File } from '@ionic-native/file';
 
 @NgModule({
   declarations: [
@@ -39,6 +48,12 @@ import { ResearchInfoPage } from '../pages/research-info/research-info';
     ,VenuePage
     ,ResearchPresentationPage
     ,ResearchInfoPage
+    ,SchedulePage
+    ,DaySchedulePage
+    ,ClinicalEncounterPage
+    ,SpeakersPage
+    ,SpeakerInfoPage
+    ,SponsorPopoverPage
   ],
   imports: [
     BrowserModule,
@@ -62,11 +77,19 @@ import { ResearchInfoPage } from '../pages/research-info/research-info';
     ,VenuePage
     ,ResearchPresentationPage
     ,ResearchInfoPage
+    ,SchedulePage
+    ,DaySchedulePage
+    ,ClinicalEncounterPage
+    ,SpeakersPage
+    ,SpeakerInfoPage
+    ,SponsorPopoverPage
   ],
   providers: [
     StatusBar,
-    SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    SplashScreen
+    ,FileTransfer, FileTransferObject
+    ,File
+    ,{provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
 export class AppModule {}

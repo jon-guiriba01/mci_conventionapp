@@ -1,0 +1,26 @@
+page-speakers {
+	.speaker-item img{
+		width:  50px;
+		height: 50px;
+		display: inline-flex;
+		vertical-align: middle;
+	}
+
+	.speaker-item h5{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 25px;
+		font-size: 15px;
+		font-weight: bold;
+    width: 50%;
+    white-space: normal;
+	}
+
+	.speaker-item .star-icon{
+		display: inline-block;
+		float: right;
+		margin-right: 20px;
+		vertical-align: middle;
+		line-height: 50px;
+	}
+}

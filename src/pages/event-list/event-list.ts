@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Events } from 'ionic-angular';
 import { EventInfoPage } from '../event-info/event-info';
+import { LoginPage } from '../login/login';
 
 @Component({
   selector: 'page-event-list',
@@ -8,7 +9,11 @@ import { EventInfoPage } from '../event-info/event-info';
 })
 export class EventListPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController
+    , public navParams: NavParams
+    , public evts: Events
+    ) {
   }
 
   events = [
@@ -16,9 +21,6 @@ export class EventListPage {
   		name: "IFHNOS World Tour Manila"
   		, location: "Manila Hotel"
   		, date: "Oct 22-24, 2018"
-  		, address: "Level 10-1  One Global Place 5th Avenue & 25th Street, Taguig, 1632 Metro Manila"
-  		, landline: "994-1239"
-  		, cellNo: "0917-1144615"
       , bannerUrl: "assets/imgs/ifhnos.png"
       , iconUrl: "assets/imgs/ifhnos_icon.png"
 
@@ -30,6 +32,7 @@ export class EventListPage {
   }
 
   navToEvent(event){
-  	this.navCtrl.push(EventInfoPage, {"event": event});
+    this.evts.publish("select:event", event)
+  	this.navCtrl.push(LoginPage, {"event": event});
   }
 }

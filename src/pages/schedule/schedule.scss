@@ -1,0 +1,18 @@
+page-schedule {
+	.sched-tab .tabbar{
+		height: 60px;
+	}
+	ion-tabs.sched-tab{
+		margin-top: 0;
+	}
+
+	.sched-tab .tab-button[aria-selected=false]{
+			background: #fff;
+	}
+	.sched-tab .tab-button[aria-selected=false]{
+		border-right: 1px solid #dedede;
+	}
+	.sched-tab .tab-button[aria-selected=false] *{
+			color: #000;
+	}
+}

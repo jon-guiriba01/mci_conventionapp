@@ -1,0 +1,24 @@
+<ion-content>
+	<div class="header">
+		<div>
+			<p>Name:</p>
+			<h6>{{speaker.lastname}}, {{speaker.firstname}}</h6>
+		</div>
+		<img class="speaker-img" src="{{speaker.imageUrl}}">
+	</div>
+	<div padding>
+		<div class="details">
+			{{speaker.details}}
+		</div>
+		<ion-list class="speaker-docs">
+			<ion-item *ngFor="let doc of speaker.docs" (click)="download(doc)">
+				<img src="assets/imgs/book.png" class="book-icon">
+				<div class="doc-info">
+					<h5>{{doc.title}}</h5>
+					<h5>{{doc.info}}</h5>
+				</div>
+				<h5 class="arrow">></h5>
+			</ion-item>
+		</ion-list>
+	</div>
+</ion-content>

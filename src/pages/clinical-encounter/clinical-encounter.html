@@ -1,0 +1,33 @@
+<ion-content>
+	<div class="container">
+		<div class="time-row">
+			<ion-icon name="arrow-dropleft" (click)="left()"></ion-icon>
+			<h5>{{timeRange[range]}}</h5>
+			<ion-icon name="arrow-dropright" (click)="right()"></ion-icon>
+		</div>
+		<div class="schedule-contents">
+			<div class="line"></div>
+			<div>
+				<ion-list class="content-range" >
+					<ion-item>
+						<div class="topic">
+							<h2><b>TOPIC</b></h2>
+						</div>
+						<div class="room">
+							<h2><b>ROOM</b></h2>
+						</div>
+					</ion-item>
+					<ion-item *ngFor="let sched of schedule[range]">
+						<div class="topic">
+							<h5>{{sched.title}}</h5>
+							<h6>{{sched.speakers}}</h6>
+						</div>
+						<div class="room">
+							<h5>{{sched.room}}</h5>
+						</div>
+					</ion-item>
+				</ion-list>
+			</div>
+		</div>
+	</div>
+</ion-content>

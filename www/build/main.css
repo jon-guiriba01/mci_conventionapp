@@ -25704,7 +25704,7 @@ ion-navbar.toolbar {
 }
 
 .tabbar {
-  bottom: 80px !important;
+  bottom: 75px !important;
 }
 
 .back-button.bar-button {
@@ -25791,8 +25791,111 @@ ion-navbar.toolbar {
   margin-bottom: 130px !important;
 }
 
+.sponsor-popover .popover-wrapper .popover-content {
+  position: absolute;
+  left: 0 !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  margin: auto;
+  width: 80% !important;
+  height: 50% !important;
+}
+
+.sponsor-popover .scroll-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 page-accomodation .accomodation-content {
   margin-bottom: 79px;
+}
+
+page-clinical-encounter .time-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #5f5f5f;
+  color: #fff;
+}
+
+page-clinical-encounter .schedule-contents {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+page-clinical-encounter .topic {
+  width: 50%;
+  display: inline-block;
+}
+
+page-clinical-encounter .room {
+  width: 50%;
+  display: inline-block;
+}
+
+page-clinical-encounter .content-range h5, page-clinical-encounter .content-range h6 {
+  text-align: center;
+  white-space: normal;
+}
+
+page-clinical-encounter .content-range h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+page-clinical-encounter .content-range ion-item {
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+}
+
+page-clinical-encounter .content-range {
+  width: 100vw;
+}
+
+page-clinical-encounter ion-icon {
+  width: 30px;
+  text-align: center;
+}
+
+page-clinical-encounter ion-content .scroll-content {
+  padding: 0 !important;
+}
+
+page-clinical-encounter .line {
+  width: 1px;
+  height: 100vh;
+  background: #000;
+  position: absolute;
+  right: 45%;
+  z-index: 99;
+}
+
+page-day-schedule .time {
+  padding-top: 3px;
+  margin-bottom: 10px;
 }
 
 page-event .list-option img, page-event .list-option h5, page-event .list-option p {
@@ -25852,15 +25955,6 @@ page-event-info h5 {
   color: #fff;
 }
 
-page-event-list .header-logo {
-  height: 70px;
-}
-
-page-event-list ion-navbar img, page-event-list ion-title {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 page-event-list .event-list-item .event-img {
   height: 80px;
   display: inline-block;
@@ -25871,23 +25965,6 @@ page-event-list .event-list-item .event-info {
   display: inline-block;
   vertical-align: middle;
   padding-left: 15px;
-}
-
-page-event-list .toolbar-content-md {
-  margin-bottom: 0px;
-  background: #4a1a53;
-  /* Old browsers */
-  /* FF3.6-15 */
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #4a1a53 0%, #682672 50%, #702c91 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a1a53', endColorstr='#702c91',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
-  padding: 10px;
-}
-
-page-event-list .toolbar-title-md {
-  color: #fff;
 }
 
 page-home .basic-btn {
@@ -26023,6 +26100,121 @@ page-research-presentation .sub-opt h5 {
   font-size: 12px;
 }
 
+page-schedule .sched-tab .tabbar {
+  height: 60px;
+}
+
+page-schedule ion-tabs.sched-tab {
+  margin-top: 0;
+}
+
+page-schedule .sched-tab .tab-button[aria-selected=false] {
+  background: #fff;
+}
+
+page-schedule .sched-tab .tab-button[aria-selected=false] {
+  border-right: 1px solid #dedede;
+}
+
+page-schedule .sched-tab .tab-button[aria-selected=false] * {
+  color: #000;
+}
+
+page-speaker-info .header {
+  padding: 14px;
+  background: #000;
+  height: 110px;
+}
+
+page-speaker-info .header * {
+  color: #fff;
+}
+
+page-speaker-info .header > div {
+  width: 70%;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+page-speaker-info .header h6 {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+page-speaker-info .header p {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+page-speaker-info .speaker-img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+}
+
+page-speaker-info .details {
+  font-size: 14px;
+}
+
+page-speaker-info .speaker-docs {
+  border-bottom: 1px solid #dedede;
+}
+
+page-speaker-info .book-icon {
+  width: 50px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+page-speaker-info .doc-info {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  width: 60%;
+  white-space: normal;
+}
+
+page-speaker-info .arrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+page-speaker-info .speaker-docs {
+  margin-top: 40px;
+}
+
+page-speakers .speaker-item img {
+  width: 50px;
+  height: 50px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+page-speakers .speaker-item h5 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 50%;
+  white-space: normal;
+}
+
+page-speakers .speaker-item .star-icon {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
 page-sponsors .sponsor-header {
   width: 100%;
   max-height: 70px;
@@ -26073,7 +26265,33 @@ page-sponsors .sponsor-row {
 }
 
 page-tabs ion-tabs {
-  margin-top: 79px;
+  margin-top: 75px;
+}
+
+page-tabs .header-logo {
+  height: 70px;
+}
+
+page-tabs ion-navbar img, page-tabs ion-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+page-tabs .default .toolbar-content-md {
+  margin-bottom: 0px;
+  background: #4a1a53;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #4a1a53 0%, #682672 50%, #702c91 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a1a53', endColorstr='#702c91',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  padding: 10px;
+}
+
+page-tabs .default .toolbar-title-md {
+  color: #fff;
 }
 
 page-venue .venue-container {

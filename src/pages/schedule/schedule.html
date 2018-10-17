@@ -1,0 +1,8 @@
+<ion-content padding>
+	<ion-tabs class="sched-tab" tabsPlacement="top" selectedIndex="0">
+	  <ion-tab [root]="tab1Root" tabTitle="DAY 1" (ionSelect)="schedTabClick(1)"></ion-tab>
+	  <ion-tab [root]="tab2Root" tabTitle="DAY 2" (ionSelect)="schedTabClick(2)"></ion-tab>
+	  <ion-tab [root]="tab3Root" tabTitle="DAY 3" (ionSelect)="schedTabClick(3)"></ion-tab>
+	  <ion-tab [root]="tab4Root" tabTitle="Clinical Encounter"></ion-tab>
+	</ion-tabs>
+</ion-content>

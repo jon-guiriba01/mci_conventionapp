@@ -1,0 +1,62 @@
+page-clinical-encounter {
+	.time-row{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		background: #5f5f5f;
+		color: #fff;
+	}
+
+	.schedule-contents{
+		display: flex;
+	}
+
+	.topic{
+		width: 50%;
+		display: inline-block;
+	}
+	.room{
+		width: 50%;
+		display: inline-block;
+	}
+
+	.content-range h5, .content-range h6{
+		text-align: center;
+	  white-space: normal;
+	}
+
+	.content-range h2{
+		font-size: 20px;
+		text-align: center;
+	}
+	.content-range ion-item{
+		width: 100%;
+		border-bottom: 1px solid #dedede;
+		/*display: flex;*/
+		/*justify-content: space-between;*/
+	}
+
+	.content-range div{
+	}
+	.content-range{
+		width: 100vw;
+	}
+
+	ion-icon{
+		width: 30px;
+		text-align: center;
+	}
+
+	ion-content .scroll-content{
+		padding: 0 !important;
+	}
+
+	.line{
+		width: 1px;
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    right: 45%;
+    z-index: 99;
+	}
+}

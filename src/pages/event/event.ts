@@ -5,6 +5,8 @@ import { AnnouncementsPage } from '../announcements/announcements';
 import { AboutPage } from '../about/about';
 import { EventListPage } from '../event-list/event-list';
 import { ResearchPresentationPage } from '../research-presentation/research-presentation';
+import { SchedulePage } from '../schedule/schedule';
+import { SpeakersPage } from '../speakers/speakers';
 
 @Component({
   selector: 'page-event',
@@ -30,10 +32,10 @@ export class EventPage {
   	let p;
   	switch (page) {
   		case "program":
-  			p = SponsorsPage;
+  			p = SchedulePage;
   			break;
   		case "speakers":
-  			p = SponsorsPage;
+  			p = SpeakersPage;
   			break;
   		case "research":
   			p = ResearchPresentationPage;
@@ -51,7 +53,7 @@ export class EventPage {
   			p = AnnouncementsPage;
   			break;
   	}
-
+    console.log("p: ", p)
   	this.navCtrl.push(p)
   }
 

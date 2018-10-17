@@ -1,7 +1,14 @@
 <ion-header >
 
-  <ion-navbar class="theme-background">
+  <ion-navbar class="theme-background" *ngIf="event">
   	<img class="header-banner" src="{{event.bannerUrl}}">
+  </ion-navbar>
+
+
+
+  <ion-navbar class="theme-background default" *ngIf="!event">
+  	<img class="header-logo" src="assets/imgs/cce_logo.png">
+    <ion-title>Congress & Events</ion-title>
   </ion-navbar>
 
 </ion-header>

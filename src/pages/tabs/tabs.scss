@@ -1,5 +1,26 @@
 page-tabs {
 	ion-tabs{
-		margin-top: 79px;
+		margin-top: 75px;
+	}
+	.header-logo{
+		height: 70px;
+	}
+	ion-navbar img, ion-title{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.default .toolbar-content-md {
+    margin-bottom: 0px;
+		background: #4a1a53; /* Old browsers */
+		background: -moz-linear-gradient(45deg, #4a1a53 0%, #682672 50%, #702c91 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(45deg, #4a1a53 0%,#682672 50%,#702c91 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(45deg, #4a1a53 0%,#682672 50%,#702c91 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a1a53', endColorstr='#702c91',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		padding: 10px;
+	}
+
+	.default .toolbar-title-md{
+		color: #fff;
 	}
 }

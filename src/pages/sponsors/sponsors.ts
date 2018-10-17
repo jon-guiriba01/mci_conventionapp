@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, Events } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Events, PopoverController } from 'ionic-angular';
+import { SponsorPopoverPage } from '../sponsor-popover/sponsor-popover';
 
 @Component({
   selector: 'page-sponsors',
@@ -23,7 +24,7 @@ export class SponsorsPage {
 			},
 			{
 				name: "mylan"
-				, imageUrl: "assets/imgs/mylan_logo.jpg"
+				, imageUrl: "assets/imgs/mylan_logoo.jpg"
 			},
 		],
 		silver: [
@@ -320,11 +321,45 @@ export class SponsorsPage {
     public navCtrl: NavController
     , public navParams: NavParams
     , public evt: Events
+    , public popoverCtrl: PopoverController
     ) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SponsorsPage');
+  }
+
+  showSponsorPopover(logo){
+  	let imageUrl;
+
+  	switch (logo) {
+  		case "m":
+  			imageUrl = "assets/imgs/sponsors_popup/CCE_Sponsor Popup_FA-01.jpg"
+  			break;
+  		case "abbott":
+  			imageUrl = "assets/imgs/sponsors_popup/CCE_Sponsor Popup_FA-02.jpg"
+  			break;
+  		case "gsk":
+  			imageUrl = "assets/imgs/sponsors_popup/CCE_Sponsor Popup_FA-03.jpg"
+  			break;
+  		case "mylan":
+  			imageUrl = "assets/imgs/sponsors_popup/CCE_Sponsor Popup_FA-04.jpg"
+  			break;
+  		case "natrapham":
+  			imageUrl = "assets/imgs/sponsors_popup/CCE_Sponsor Popup_FA-05.jpg"
+  			break;
+  		case "uap":
+  			imageUrl = "assets/imgs/sponsors_popup/CCE_Sponsor Popup_FA-06.jpg"
+  			break;
+  	}
+  		let popover = this.popoverCtrl.create(SponsorPopoverPage, {
+  			imageUrl:imageUrl
+  		}, {
+  			cssClass : "sponsor-popover",
+  			enableBackdropDismiss: true,
+  			showBackdrop: true
+  		})
+
+  		popover.present({})
   }
 
 }

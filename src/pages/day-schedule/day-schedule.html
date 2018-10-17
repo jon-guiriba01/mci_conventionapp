@@ -1,0 +1,12 @@
+<ion-content padding>
+	<ion-list>
+		<ion-item *ngFor="let daySched of daySchedule">
+			<h6 class="time">{{daySched.time}}</h6>
+			<h2 class="title">{{daySched.title}}</h2>
+			<h5 class="speaker" *ngIf="daySched.speaker">{{daySched.speaker}}</h5>
+			<h6 class="location">{{daySched.location}}</h6>
+			<h5 class="sponsor" *ngIf="daySched.sponsor">Sponsored by: {{daySched.sponsor}}</h5>
+			<h5 class="coords" *ngIf="daySched.coords">Research Coordinators: {{daySched.coords}}</h5>
+		</ion-item>
+	</ion-list>
+</ion-content>

@@ -7,19 +7,19 @@
 <div padding>
 	<img src="assets/imgs/sponsor_platinum_header.png" class="sponsor-header">
 	<div class="sponsor-row">
-	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.platinum">
+	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.platinum" (click)="showSponsorPopover(sponsor.name)">
 	</div>
 	<img src="assets/imgs/sponsor_gold_header.png" class="sponsor-header">
 	<div class="sponsor-row">
-	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.gold">
+	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.gold" (click)="showSponsorPopover(sponsor.name)">
 	</div>
 	<img src="assets/imgs/sponsor_silver_header.png" class="sponsor-header">
 	<div class="sponsor-row">
-	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.silver">
+	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.silver" (click)="showSponsorPopover(sponsor.name)">
 	</div>
 	<img src="assets/imgs/sponsor_bronze_header.png" class="sponsor-header">
 	<div class="sponsor-row">
-	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.bronze">
+	<img src="{{sponsor.imageUrl}}" class="sponsor-icon" *ngFor="let sponsor of sponsors.bronze" (click)="showSponsorPopover(sponsor.name)">
 	</div>
 		<img src="assets/imgs/sponsor_minor_header.png" class="sponsor-header">
 	<div class="sponsor-minor-row" padding>

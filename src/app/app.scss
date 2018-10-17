@@ -12,7 +12,7 @@
 		width: 100%;
 	}
 	.tabbar{
-		bottom: 80px !important;
+		bottom: 75px !important;
 	}
 
 	.back-button.bar-button{
@@ -83,4 +83,21 @@
 
 	.header-fix .scroll-content{
 		margin-bottom: 130px !important;
+	}
+
+
+	.sponsor-popover .popover-wrapper .popover-content{
+		position: absolute;
+		left: 0 !important;
+		top: 0 !important;
+		right: 0 !important;
+		bottom: 0 !important;
+		margin: auto;
+		width: 80% !important;
+		height: 50% !important;
+	}
+	.sponsor-popover .scroll-content{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
