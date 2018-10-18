@@ -17,7 +17,7 @@ export class HomePage {
   navTo(page){
   	switch (page) {
   		case "eventlist":
-  			this.navCtrl.push(TabsPage)
+  			this.navCtrl.push(EventListPage)
   			break;
   		case "contact":
   			this.navCtrl.push(EventInfoPage)

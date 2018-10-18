@@ -25842,6 +25842,8 @@ page-clinical-encounter .schedule-contents {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
+  position: relative;
 }
 
 page-clinical-encounter .topic {
@@ -25886,10 +25888,10 @@ page-clinical-encounter ion-content .scroll-content {
 
 page-clinical-encounter .line {
   width: 1px;
-  height: 100vh;
+  height: 1000vh;
   background: #000;
   position: absolute;
-  right: 45%;
+  right: 40%;
   z-index: 99;
 }
 
@@ -25965,6 +25967,32 @@ page-event-list .event-list-item .event-info {
   display: inline-block;
   vertical-align: middle;
   padding-left: 15px;
+}
+
+page-event-list .default .toolbar-content-md {
+  margin-bottom: 0px;
+  background: #4a1a53;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #4a1a53 0%, #682672 50%, #702c91 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a1a53', endColorstr='#702c91',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  padding: 10px;
+}
+
+page-event-list .default .toolbar-title-md {
+  color: #fff;
+}
+
+page-event-list .header-logo {
+  height: 70px;
+}
+
+page-event-list ion-navbar img, page-event-list ion-title {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 page-home .basic-btn {
@@ -26098,6 +26126,10 @@ page-research-presentation .sub-opt h5 {
   background: #757575;
   padding: 6px;
   font-size: 12px;
+}
+
+page-schedule .sched-content .scroll-content {
+  margin-bottom: 70px;
 }
 
 page-schedule .sched-tab .tabbar {

@@ -18,7 +18,7 @@ export class SpeakersPage {
 					{
 							title:"Videostroboscopy"
 						, info: "Oct. 24, 8:00-9:00 AM, Champagne Salon"
-						, link: "https://www.dropbox.com/s/r7xy1l0d8zyp5bn/CE%205.2%20ROLDAN.pdf?dl=1"
+						, link: "assets/pdfs/CE 5.2 ROLDAN.pdf"
 					}
 				]
 			},

@@ -1,3 +1,9 @@
+<ion-header >
+	<ion-navbar class="theme-background default" >
+		<img class="header-logo" src="assets/imgs/cce_logo.png">
+	  <ion-title>Congress & Events</ion-title>
+	</ion-navbar>
+</ion-header>
 <ion-content padding>
 	<ion-list>
 		<ion-item class="event-list-item" *ngFor="let event of events" (click)="navToEvent(event)">

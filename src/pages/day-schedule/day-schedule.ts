@@ -55,7 +55,7 @@ export class DaySchedulePage {
 			},
 			{
 				time: "12:30 – 1:30 PM"
-				, title: "LUNCH SYMPOSIUM \r\nAllergic Rhinitis 101: Simple Case Present... "
+				, title: "LUNCH SYMPOSIUM \r\nAllergic Rhinitis 101: Simple Case Presentation"
 				, speaker: "Dr. Generoso T. Abes"
 				, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 			},
@@ -79,7 +79,7 @@ export class DaySchedulePage {
 			{
 				time: "2:30 – 3:30 PM"
 				, title: "Panel Discussion – Multidisciplinary Panel"
-				, speaker: "Dr. Ashok R. Shaha, Dr. Marlinda Adham (INDO), Dr..."
+				, speaker: "Dr. Ashok R. Shaha, Dr. Marlinda Adham (INDO), Dr. Jorge G. Ignacio (PH), Dr. Michael B. Mejia (PH)"
 				, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 			},
 			{
@@ -95,7 +95,7 @@ export class DaySchedulePage {
 			{
 				time: "4:15 – 4:45 PM"
 				, title: "Panel Discussion – Salivary Gland Tumors"
-				, speaker: "Dr. Jatin P. Shah, Dr. Ian Witterick, Dr. Mohd Razif Yunus..."
+				, speaker: "Dr. Jatin P. Shah, Dr. Ian Witterick, Dr. Mohd Razif Yunus (MAL), Dr. Jacob S. Matubis (PH), Dr. Arturo S. dela Peña (PH)"
 				, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 			},
 			{
@@ -113,7 +113,7 @@ export class DaySchedulePage {
 			},
 			{
 				time: "8:00 – 10:00 PM"
-				, title: "GALA NIGHT (A tribute to Dr. Mariano..."
+				, title: "GALA NIGHT (A tribute to Dr. Mariano and Dr. Armando Chiong Sr.)"
 				, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 			},
 		]
@@ -142,7 +142,7 @@ export class DaySchedulePage {
 				{
 					time: "8:40 – 9:30 AM"
 					, title: "Panel Discussion – Oropharynx Cancer"
-					, speaker: "Dr. Ian Witterick, Dr. Johanna Patricia A. Cañal (PH), Dr... "
+					, speaker: "Dr. Ian Witterick, Dr. Johanna Patricia A. Cañal (PH), Dr. Heinrick Martin Jude Strebel (PH) "
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
 				{
@@ -157,7 +157,7 @@ export class DaySchedulePage {
 				},
 				{
 					time: "10:20 – 10:40 AM"
-					, title: "Non-Surgical: Chemotherapy of Larynx... "
+					, title: "Non-Surgical: Chemotherapy of Larynx Cancer"
 					, speaker: "Dr. Jan B. Vermorken"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
@@ -170,12 +170,12 @@ export class DaySchedulePage {
 				{
 					time: "11:00 – 12:00 NN"
 					, title: "Panel Discussion – Larynx Cancer"
-					, speaker: "Dr. Ian Witterick, Dr. Alfredo Q.Y. Pontejos, Jr. (PH), Dr.... "
+					, speaker: "Dr. Ian Witterick, Dr. Alfredo Q.Y. Pontejos, Jr. (PH), Dr. William L. Lim (PH), Dr. Edilberto Joaquin V. Fragante, Jr., (PH)"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
 				{
 					time: "12:00 – 1:00 PM"
-					, title: "LUNCH SYMPOSIUM \r\nThe Unmet Medical Need in AR: European... "
+					, title: "LUNCH SYMPOSIUM \r\The Unmet Medical Need in AR: European Perspective and Parallels in the Philippines"
 					, speaker: "Prof. Jean Bousquet, MD, PhD"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 					, sponser: "MYLAN"
@@ -190,7 +190,7 @@ export class DaySchedulePage {
 					time: "1:30 – 2:00 PM"
 					, title: "Panel Discussion – Skull Base Tumors"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
-					, speaker: "Dr. Sandro Porceddu, Dr. Jan B. Vermorken, Dr. Sheng-Po... "
+					, speaker: "Dr. Sandro Porceddu, Dr. Jan B. Vermorken, Dr. Sheng-PoHao (TW), Dr. Ramon Antonio B. Lopa (PH) "
 				},
 				{
 					time: "2:00 – 2:30 PM"
@@ -201,7 +201,7 @@ export class DaySchedulePage {
 				{
 					time: "2:30 – 3:00 PM"
 					, title: "Panel Discussion -Reconstructive Surgery"
-					, speaker: "Dr. Phakdee Sannikorn (TH), Dr. Samantha S. Castaneda... ("
+					, speaker: "Dr. Phakdee Sannikorn (TH), Dr. Samantha S. Castaneda (PH), Dr. Armando M. Chiong, Jr. (PH)"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
 				{
@@ -224,7 +224,7 @@ export class DaySchedulePage {
 				{
 					time: "3:30 – 4:30 PM"
 					, title: "Panel Discussion"
-					, speaker: "Dr. Jatin P. Shah, Dr. Ian Witterick, Dr. Sandro Porceddu, Dr... "
+					, speaker: "Dr. Jatin P. Shah, Dr. Ian Witterick, Dr. Sandro Porceddu, Dr. Jan B. Vermorken"
 					, location: "Maynila Ballroom"
 					, sponsor: "UAP"
 				},
@@ -236,7 +236,7 @@ export class DaySchedulePage {
 				},
 				{
 					time: "7:00 – 11:00 PM"
-					, title: "DINNER SYMPOSIUM \r\nAllergic Rhinoconjunctivitis: Guidelines... "
+					, title: "DINNER SYMPOSIUM \r\nAllergic Rhinoconjunctivitis: Guidelines Update and New Treatment Strategies"
 					, speaker: "Prof. Ralph Mosges, MD, PhD, FAAAAI"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 					, sponsor: "Menarini"
@@ -273,7 +273,7 @@ export class DaySchedulePage {
 				},
 				{
 					time: "8:00 – 8:15 AM"
-					, title: "3D Imaging / Printing and Planning in... "
+					, title: "3D Imaging / Printing and Planning in Maxillofacial Surgery"
 					, speaker : "Dr. Francis V. Roasa"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
@@ -297,8 +297,8 @@ export class DaySchedulePage {
 				},
 				{
 					time: "9:00 – 9:30 AM"
-					, title: "Panel Discussion – Laser Surgery in Laryn..."
-					, speaker: "Dr. William L. Lim, Dr. Ma. Clarissa S. Fortuna, Dr. Melfred..."
+					, title: "Panel Discussion – Laser Surgery in Laryngology"
+					, speaker: "Dr. William L. Lim, Dr. Ma. Clarissa S. Fortuna, Dr. Melfred L. Hernandez"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
 				{
@@ -309,19 +309,19 @@ export class DaySchedulePage {
 				},
 				{
 					time: "9:20 – 9:40 AM"
-					, title: "Basic CT and MRI Imaging for Common... Head and Neck Conditions"
+					, title: "Basic CT and MRI Imaging for Common Head and Neck Conditions"
 					, speaker: "Dr. Johanna A Cañal"
 					, location: "Maynila Ballroom"
 				},
 				{
 					time: "9:30 – 9:45 AM"
-					, title: "Epistaxis in Children: What Can We Do in... "
+					, title: "Epistaxis in Children: What Can We Do in the Clinic?"
 					, speaker: "Dr. Lyra V. Veloro"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
 				{
 					time: "9:45 – 10:00 AM"
-					, title: "Ventilation tubes for OME in Cleft Palate:... "
+					, title: "Ventilation tubes for OME in Cleft Palate: Do We or Do We Not?"
 					, speaker: "Dr. Cecilia Gretchen S. Navarro- Locsin"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
@@ -333,7 +333,7 @@ export class DaySchedulePage {
 				},
 				{
 					time: "10:25 – 10:50 AM"
-					, title: "EMR: Issues and Challenges in the Clinical... "
+					, title: "EMR: Issues and Challenges in the Clinical Practice"
 					, location: "Maynila Ballroom"
 					, speaker: "Dr. Eduard M. Alfanta"
 				},
@@ -351,19 +351,26 @@ export class DaySchedulePage {
 				},
 				{
 					time: "10:45 – 11:00 AM"
-					, title: "Shoeboex Audiometry Updates: How the... "
+					, title: "Shoeboex Audiometry Updates: How the iPad Audiometer Continues to Revolutionize the World of Hearing Health"
+
 					, speaker: "Ms. Natalie Mai"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
 				{
 					time: "11:00 – 11:20 AM"
-					, title: "AEP Testing with Patient Follow-up via... "
+					, title: "AEP Testing with Patient Follow-up via Pathtrack Tracking Software"
 					, speaker: "Mr. Russell Higgs"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
 				{
+					time: "11:00 – 12:00 NN"
+					, title: "Poster Session Contest on Surgical Innovation & instrumentation"
+					, location: "Maynila Ballroom"
+					, coords: "Dr. Eduard M. Alfanta/ Dr. Erasmo Gonzalo D.V. LLanes"
+				},
+				{
 					time: "11:30 – 12:00 NN"
-					, title: "PRE-LUNCH SYMPOSIUM \r\nNECK Session (Natrapharm Enhancing..."
+					, title: "PRE-LUNCH SYMPOSIUM \r\nNECK Session (Natrapharm Enhancing Clinical Knowledge in Current Practice): Solving the Mysteries of Cervical Lymphaenopath)y"
 					, speaker: "Dr. Mark Kristoffer U. Pasayan"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 					, sponsor: "Natrapharm"
@@ -377,7 +384,7 @@ export class DaySchedulePage {
 				},
 				{
 					time: "1:00 – 1:15 PM"
-					, title: "Nerve Blocks/Anesthesia for Office Proc..."
+					, title: "Nerve Blocks/Anesthesia for Office Procedures and Goretex Thread for Rhinoplasty"
 					, speaker: "Dr. Homer M. Matias"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
@@ -419,13 +426,13 @@ export class DaySchedulePage {
 				},
 				{
 					time: "2:15 – 2:30 PM"
-					, title: "Office Procedures in Managing Chronic..."
+					, title: "Office Procedures in Managing Chronic Rhinosinusitis and Nasal Polyposis"
 					, speaker: "Dr. Ma. Lourdes B. Enecilla"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},
 				{
 					time: "2:30 – 2:45 PM"
-					, title: "Image-guided Systems in Sinus and Skull... "
+					, title: "Image-guided Systems in Sinus and Skullbase Surgery"
 					, speaker: "Dr. Peter R. Jarin"
 					, location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
 				},

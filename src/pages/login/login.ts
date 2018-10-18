@@ -26,7 +26,7 @@ export class LoginPage {
 
   login(){
     if(this.passwordInput == this.password)
-      this.navCtrl.push(EventPage, {event: this.event})
+      this.navCtrl.push(TabsPage, {event: this.event})
   }
 
   back(){

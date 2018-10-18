@@ -24,6 +24,39 @@ export class SpeakerInfoPage {
   ionViewDidLoad() {
   }
 
+  // download(doc){
+  //   console.log("file", this.file.externalRootDirectory  + 'file.pdf')
+  //   const fileTransfer: FileTransferObject = this.transfer.create();
+
+  //   let loading = this.loadingCtrl.create({
+  //     content: 'Downloading PDF...'
+  //   });
+
+  //   loading.present();
+
+
+  //   fileTransfer.download(doc.link, this.file.externalRootDirectory+"/Download/" +doc.title+".pdf", true).then((e)=>{
+  //     console.log("success: ", e)
+  //     loading.dismiss();  
+  //     let toast = this.toastCtrl.create({
+  //       message: 'Successfully downloaded document',
+  //       duration: 5000,
+  //       position: 'top'
+  //     });
+  //     toast.present();
+  //   }).catch((err)=>{
+  //     let toast = this.toastCtrl.create({
+  //       message: 'Failed to download document',
+  //       duration: 5000,
+  //       position: 'top'
+  //     });
+  //     toast.present();
+
+  //     console.log("err",err)
+  //     loading.dismiss();  
+  //   });
+  // }
+
   download(doc){
     console.log("file", this.file.externalRootDirectory  + 'file.pdf')
     const fileTransfer: FileTransferObject = this.transfer.create();
@@ -33,18 +66,23 @@ export class SpeakerInfoPage {
     });
 
     loading.present();
+    var fileName = doc.link.split("/")[2];
 
-
-    fileTransfer.download(doc.link, this.file.externalRootDirectory+"/Download/" +doc.title+".pdf", true).then((e)=>{
-      console.log("success: ", e)
-      loading.dismiss();  
+    this.file.copyFile(
+     this.file.applicationDirectory + 'www/assets/pdfs/', 
+      fileName, 
+      this.file.externalRootDirectory+"/Download/", 
+      fileName
+    ).then((e)=>{
       let toast = this.toastCtrl.create({
-        message: 'Successfully downloaded document',
+        message: 'Downloaded to ' + e.fullPath,
         duration: 5000,
         position: 'top'
       });
       toast.present();
-    }).catch((err)=>{
+      console.log("e",e)
+      loading.dismiss();
+    }).catch((e)=>{
       let toast = this.toastCtrl.create({
         message: 'Failed to download document',
         duration: 5000,
@@ -52,8 +90,8 @@ export class SpeakerInfoPage {
       });
       toast.present();
 
-      console.log("err",err)
-      loading.dismiss();  
-    });
+      console.log("f",e)
+      loading.dismiss();
+    })
   }
 }

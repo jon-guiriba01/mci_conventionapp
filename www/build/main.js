@@ -7,7 +7,7 @@ webpackJsonp([0],{
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(196);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,7 +44,7 @@ var EventListPage = /** @class */ (function () {
     };
     EventListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-event-list',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\event-list\event-list.html"*/'<ion-content padding>\n	<ion-list>\n		<ion-item class="event-list-item" *ngFor="let event of events" (click)="navToEvent(event)">\n			<img class="event-img" src="{{event.iconUrl}}">\n			<div class="event-info" >\n				<h5>{{event.name}}</h5>\n				<h5>{{event.location}}</h5>\n				<h5>{{event.date}}</h5>\n			</div>\n		</ion-item>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\event-list\event-list.html"*/,
+            selector: 'page-event-list',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\event-list\event-list.html"*/'<ion-header >\n	<ion-navbar class="theme-background default" >\n		<img class="header-logo" src="assets/imgs/cce_logo.png">\n	  <ion-title>Congress & Events</ion-title>\n	</ion-navbar>\n</ion-header>\n<ion-content padding>\n	<ion-list>\n		<ion-item class="event-list-item" *ngFor="let event of events" (click)="navToEvent(event)">\n			<img class="event-img" src="{{event.iconUrl}}">\n			<div class="event-info" >\n				<h5>{{event.name}}</h5>\n				<h5>{{event.location}}</h5>\n				<h5>{{event.date}}</h5>\n			</div>\n		</ion-item>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\event-list\event-list.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
@@ -57,275 +57,19 @@ var EventListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 110:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 110;
-
-/***/ }),
-
-/***/ 151:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 151;
-
-/***/ }),
-
-/***/ 194:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_info_event_info__ = __webpack_require__(215);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    HomePage.prototype.navTo = function (page) {
-        switch (page) {
-            case "eventlist":
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__tabs_tabs__["a" /* TabsPage */]);
-                break;
-            case "contact":
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__event_info_event_info__["a" /* EventInfoPage */]);
-                break;
-        }
-    };
-    HomePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\home\home.html"*/'<ion-content padding>\n\n<div class="flex-center-column" style="height: 100%;">\n	<img class="logo" src="assets/imgs/cce_logo.png">\n	<h5><b>Congress</b> & <b>Events</b></h5>\n	<button ion-button class="basic-btn theme-background" (click)="navTo(\'eventlist\')">EVENTS</button>\n	<button ion-button class="basic-btn theme-background" (click)="navTo(\'contact\')">CONTACTS</button>\n</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\home\home.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-    ], HomePage);
-    return HomePage;
-}());
-
-//# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 195:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__information_information__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_list_event_list__ = __webpack_require__(100);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var TabsPage = /** @class */ (function () {
-    function TabsPage(navCtrl, navParams, evt, platform) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.evt = evt;
-        this.platform = platform;
-        this.tab2Root = __WEBPACK_IMPORTED_MODULE_3__event_list_event_list__["a" /* EventListPage */];
-        this.tab3Root = __WEBPACK_IMPORTED_MODULE_2__information_information__["a" /* InformationPage */];
-        this.event = null;
-        this.event = this.navParams.get("event");
-        this.evt.subscribe("select:event", function (event) {
-            _this.event = event;
-        });
-        this.platform.registerBackButtonAction(function () {
-            _this.navCtrl.pop();
-        }, 1);
-    }
-    TabsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad TabsPage', this.event);
-    };
-    TabsPage.prototype.back = function () {
-        this.evt.publish("cmd:back");
-    };
-    TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tabs',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/'<ion-header >\n\n  <ion-navbar class="theme-background" *ngIf="event">\n  	<img class="header-banner" src="{{event.bannerUrl}}">\n  </ion-navbar>\n\n\n\n  <ion-navbar class="theme-background default" *ngIf="!event">\n  	<img class="header-logo" src="assets/imgs/cce_logo.png">\n    <ion-title>Congress & Events</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-tabs tabsPlacement="bottom" selectedIndex="1">\n  <ion-tab  tabTitle="Back" tabIcon="arrow-round-back" (ionSelect)="back()"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Information" tabIcon="information-circle">\n  <ion-tab  tabTitle="Favourites" tabIcon="star-outline"></ion-tab>\n  </ion-tab>\n</ion-tabs>'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]])
-    ], TabsPage);
-    return TabsPage;
-}());
-
-//# sourceMappingURL=tabs.js.map
-
-/***/ }),
-
-/***/ 196:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InformationPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var InformationPage = /** @class */ (function () {
-    function InformationPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.information = [
-            {
-                title: "Getting to the Philippines",
-                imageUrl: "assets/imgs/ph_icon.png",
-                content: "In a country that is made up of over 7,100 islands and islets, most travel from other countries will be via air. Manila, Cebu, Davao, Clark, Subic, and Laoag are the international gateways, with the Ninoy Aquino International Airport (NAIA) in Manila as the primary airport. It is served by more than 30 airlines, which fly to different cities around the world. There are three international terminals, each serving specific airlines. Flights for IFHNOS delegates are best booked to fly to NAIA."
-            },
-            {
-                title: "Entry Formalities",
-                imageUrl: "assets/imgs/passport_icon.png",
-                content: "Nationals from countries (click list below) who are traveling to the Philippines for business and tourism purposes are allowed to enter the Philippines without visas for a stay not exceeding twenty-one (21) days, provided they hold valid tickets for their return journey to port of origin or next port of destination and their passports are valid for a period of at least six (6) months beyond the contemplated period of stay. However, Immigration Officers at ports of entry may exercise their discretion to admit holders of passports valid for at least sixty (60) days beyond the intended period of stay. 	Nationals from countries allowed to enter the Philippines without Visas for a stay not exceeding 21 days"
-            },
-            {
-                title: "Customs and Currency Regulation",
-                imageUrl: "assets/imgs/currency_icon.png",
-                content: "Upon Arriving: Visitors are allowed to bring in duty free personal belongings, two cartons of cigarettes or two tins of pipe tobacco and up to one liter of alcohol. Balikbayans have separate rules and should check with the Embassy or Consulate in their home city. The currency in the Philippines is the Peso (PhP) and the Centavo. 100 centavos = P1. Coin denominations are: 1, 5, 10, and 25 centavos, P1, and P5. Bill denominations are : 10, 20, 50, 100, 500 and 1, 000 pesos. Foreign currency may be exchanged at your hotel, and in most of the large department stores, banks and authorized money changing shops. Exchanging money anywhere else is illegal and the laws are strictly enforced.Most large stores, restaurants , hotels and resorts accept major credit cards including American Express, Visa and MasterCard. Personal checks drawn on foreign banks are generally not accepted.It is illegal for any incoming or outgoing passenger to bring in or out Philippine Pesos in excess of P10,000.00 without prior authority from the Bangko Sentral ng Pilipinas. Any violation of this rule may lead to its seizure and civil penalties and / or criminal prosecution. (BSP Circular 98-1995)The transportation of foreign currency or monetary instruments is legal. However, the carrying of foreign currency in excess of US$10,000.00 or its equivalent in other foreign currencies must be declared to a Customs Officer or the Bangko Sentral ng Pilipinas. Violation of this rule may lead to seizure and sanctions, fines and / or penalties."
-            }
-        ];
-    }
-    InformationPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad InformationPage', this.information);
-    };
-    InformationPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-information',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\information\information.html"*/'<ion-content padding class="header-fix">\n	<ion-list>\n		<ion-item *ngFor="let info of information" text-wrap>\n			<div class="info-header">\n				<img src="{{info.imageUrl}}">\n				<h2><b>{{info.title}}</b></h2>\n			</div>\n			<p style="margin-top: 10px;">{{info.content}}</p>\n\n		</ion-item>\n		<h5>For more information about the Philippines, please visit the website of the Department of Tourism</h5>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\information\information.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], InformationPage);
-    return InformationPage;
-}());
-
-//# sourceMappingURL=information.js.map
-
-/***/ }),
-
-/***/ 197:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_list_event_list__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_event__ = __webpack_require__(198);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var LoginPage = /** @class */ (function () {
-    function LoginPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.event = {};
-        // password = "opensesame"
-        this.password = "";
-        this.passwordInput = "";
-        this.event = this.navParams.get("event");
-    }
-    LoginPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LoginPage');
-    };
-    LoginPage.prototype.login = function () {
-        if (this.passwordInput == this.password)
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__event_event__["a" /* EventPage */], { event: this.event });
-    };
-    LoginPage.prototype.back = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__event_list_event_list__["a" /* EventListPage */]);
-    };
-    LoginPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\login\login.html"*/'<ion-content padding>\n\n	<div class="flex-center-column password-container">\n		<h5>Enter password to proceed</h5>\n		<input class="password-container" type="password" name="password" [(ngModel)]="passwordInput">\n		<div class="action-btn-row">\n			<button ion-button (click)="back()" style="background: #000;">BACK</button>\n			<button ion-button (click)="login()" style="background: #000;">LOGIN</button>\n		</div>\n		<h5 class="please-ask-text">Please ask the confress secretariat for the password</h5>\n	</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\login\login.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], LoginPage);
-    return LoginPage;
-}());
-
-//# sourceMappingURL=login.js.map
-
-/***/ }),
-
-/***/ 198:
+/***/ 101:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsors_sponsors__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__announcements_announcements__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_about__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__research_presentation_research_presentation__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__schedule_schedule__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__speakers_speakers__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsors_sponsors__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__announcements_announcements__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_about__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__research_presentation_research_presentation__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__schedule_schedule__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__speakers_speakers__ = __webpack_require__(209);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -397,14 +141,153 @@ var EventPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 199:
+/***/ 111:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 111;
+
+/***/ }),
+
+/***/ 152:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 152;
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_list_event_list__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_info_event_info__ = __webpack_require__(213);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    HomePage.prototype.navTo = function (page) {
+        switch (page) {
+            case "eventlist":
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__event_list_event_list__["a" /* EventListPage */]);
+                break;
+            case "contact":
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__event_info_event_info__["a" /* EventInfoPage */]);
+                break;
+        }
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\home\home.html"*/'<ion-content padding>\n\n<div class="flex-center-column" style="height: 100%;">\n	<img class="logo" src="assets/imgs/cce_logo.png">\n	<h5><b>Congress</b> & <b>Events</b></h5>\n	<button ion-button class="basic-btn theme-background" (click)="navTo(\'eventlist\')">EVENTS</button>\n	<button ion-button class="basic-btn theme-background" (click)="navTo(\'contact\')">CONTACTS</button>\n</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_list_event_list__ = __webpack_require__(100);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var LoginPage = /** @class */ (function () {
+    function LoginPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.event = {};
+        // password = "opensesame"
+        this.password = "";
+        this.passwordInput = "";
+        this.event = this.navParams.get("event");
+    }
+    LoginPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LoginPage');
+    };
+    LoginPage.prototype.login = function () {
+        if (this.passwordInput == this.password)
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__tabs_tabs__["a" /* TabsPage */], { event: this.event });
+    };
+    LoginPage.prototype.back = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__event_list_event_list__["a" /* EventListPage */]);
+    };
+    LoginPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-login',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\login\login.html"*/'<ion-content padding>\n\n	<div class="flex-center-column password-container">\n		<h5>Enter password to proceed</h5>\n		<input class="password-container" type="password" name="password" [(ngModel)]="passwordInput">\n		<div class="action-btn-row">\n			<button ion-button (click)="back()" style="background: #000;">BACK</button>\n			<button ion-button (click)="login()" style="background: #000;">LOGIN</button>\n		</div>\n		<h5 class="please-ask-text">Please ask the confress secretariat for the password</h5>\n	</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\login\login.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+    ], LoginPage);
+    return LoginPage;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=login.js.map
+
+/***/ }),
+
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SponsorsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsor_popover_sponsor_popover__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsor_popover_sponsor_popover__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -780,7 +663,7 @@ var SponsorsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -820,7 +703,7 @@ var SponsorPopoverPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 199:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -865,16 +748,16 @@ var AnnouncementsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__registration_registration__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__accomodation_accomodation__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__venue_venue__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__registration_registration__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__accomodation_accomodation__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__venue_venue__ = __webpack_require__(203);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -928,7 +811,7 @@ var AboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 203:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -970,7 +853,7 @@ var RegistrationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1013,7 +896,7 @@ var AccomodationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 205:
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1054,14 +937,14 @@ var VenuePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 206:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResearchPresentationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__research_info_research_info__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__research_info_research_info__ = __webpack_require__(205);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1102,7 +985,7 @@ var ResearchPresentationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 207:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1188,6 +1071,18 @@ var ResearchInfoPage = /** @class */ (function () {
                     "FP19: Frontotemporal mass in oral cavity carcinoma: synchronous tumor or distant metastasis?",
                     "FP20: Game of Groans: A Case Report on Recurrent Pancreatitis with Primary Hyperparathyroidism",
                     "FP21: Hypoglossal nerve schwannoma, Parapharyngeal space, post styloid, right",
+                    "FP22: Implication of Extracapsular Spread in the Staging of Patients with Head and Neck Squamous Cell Carcinoma Who Underwent Neck Dissection in a Tertiary Hospital in the City of Manila, Philippines ",
+                    "FP23: In vitro study on tea tree oil and eucalyptus as alternative treatment for aspergillus spp.",
+                    "FP24: Inflammatory Myofibroblastic Tumor of the Gingiva",
+                    "FP25: Intratracheal Mass: Adenoid Cystic Carcinoma",
+                    "FP26: Juvenile Laryngeal Amyloidosis Presenting as Laryngeal Papillomatosis : A Case Report",
+                    "FP27: Laryngeal Amyloidosis Presenting as a Glottic-Subglottic Bulging",
+                    "FP28: Malignancy that Mimics Cholesteatoma",
+                    "FP29: Meta-analysis and systematic review of the post-operative ionized calcium slope in predicting symptomatic hypocalcemia among post-thyroidectomy patients",
+                    "FP30: Nasopharyngolaryngeal amyloidosis in a 70 year old female",
+                    "FP31: Non-Recurrent Laryngeal Nerve in Thyroid Surgery: A Report of Case Series in Vietnam and Literature Review",
+                    "FP32: One Stage Simultaneous Bilateral Endoscopic Type I Tympanoplasty with Cartilage reinforcement: Our experience in Ospital ng Makati",
+                    "FP33: Outcomes of Transoral CO2 Laser Surgery for Early Glottic Carcinoma: Experience of Two Private Tertiary Hospitals",
                     "FP34: Palliative Right lower lid blepharoplasty, right partial temporal bone resection, right neck dissection, right tympanoplasty, right pectoralis major flap reconstruction in a case of a Recurrent Parotid Adenocarcinoma",
                     "FP35: Patterns Of Craniomaxillofacial Fractures Among Military Personnel: A 3-Year Retrospective Analysis In A Tertiary Military Hospital",
                     "FP36: Profile and Treatment Outcomes of Laryngo-tracheal stenosis in a Tertiary Private Hospital",
@@ -1215,24 +1110,25 @@ var ResearchInfoPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-research-info',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\research-info\research-info.html"*/'<ion-content padding class="header-fix">\n<div class="page-header">\n	<img src="assets/imgs/chart.png">\n	<h5>Research Presentation</h5>\n</div>\n\n<div class="research-info">\n	<h5 class="title">\n		{{title}}\n	</h5>\n	<ion-list>\n		<ion-item *ngFor="let item of content" text-wrap>\n			{{item}}\n		</ion-item>\n	</ion-list>\n		\n</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\research-info\research-info.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
     ], ResearchInfoPage);
     return ResearchInfoPage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=research-info.js.map
 
 /***/ }),
 
-/***/ 208:
+/***/ 206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SchedulePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__day_schedule_day_schedule__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clinical_encounter_clinical_encounter__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__day_schedule_day_schedule__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clinical_encounter_clinical_encounter__ = __webpack_require__(208);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1265,7 +1161,7 @@ var SchedulePage = /** @class */ (function () {
     };
     SchedulePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-schedule',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\schedule\schedule.html"*/'<ion-content padding>\n	<ion-tabs class="sched-tab" tabsPlacement="top" selectedIndex="0">\n	  <ion-tab [root]="tab1Root" tabTitle="DAY 1" (ionSelect)="schedTabClick(1)"></ion-tab>\n	  <ion-tab [root]="tab2Root" tabTitle="DAY 2" (ionSelect)="schedTabClick(2)"></ion-tab>\n	  <ion-tab [root]="tab3Root" tabTitle="DAY 3" (ionSelect)="schedTabClick(3)"></ion-tab>\n	  <ion-tab [root]="tab4Root" tabTitle="Clinical Encounter"></ion-tab>\n	</ion-tabs>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\schedule\schedule.html"*/,
+            selector: 'page-schedule',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\schedule\schedule.html"*/'<ion-content padding class="sched-content">\n	<ion-tabs class="sched-tab" tabsPlacement="top" selectedIndex="0">\n	  <ion-tab [root]="tab1Root" tabTitle="DAY 1" (ionSelect)="schedTabClick(1)"></ion-tab>\n	  <ion-tab [root]="tab2Root" tabTitle="DAY 2" (ionSelect)="schedTabClick(2)"></ion-tab>\n	  <ion-tab [root]="tab3Root" tabTitle="DAY 3" (ionSelect)="schedTabClick(3)"></ion-tab>\n	  <ion-tab [root]="tab4Root" tabTitle="Clinical Encounter"></ion-tab>\n	</ion-tabs>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\schedule\schedule.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
@@ -1278,7 +1174,7 @@ var SchedulePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 209:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1351,7 +1247,7 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "12:30 – 1:30 PM",
-                    title: "LUNCH SYMPOSIUM \r\nAllergic Rhinitis 101: Simple Case Present... ",
+                    title: "LUNCH SYMPOSIUM \r\nAllergic Rhinitis 101: Simple Case Presentation",
                     speaker: "Dr. Generoso T. Abes",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
@@ -1375,7 +1271,7 @@ var DaySchedulePage = /** @class */ (function () {
                 {
                     time: "2:30 – 3:30 PM",
                     title: "Panel Discussion – Multidisciplinary Panel",
-                    speaker: "Dr. Ashok R. Shaha, Dr. Marlinda Adham (INDO), Dr...",
+                    speaker: "Dr. Ashok R. Shaha, Dr. Marlinda Adham (INDO), Dr. Jorge G. Ignacio (PH), Dr. Michael B. Mejia (PH)",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
@@ -1391,7 +1287,7 @@ var DaySchedulePage = /** @class */ (function () {
                 {
                     time: "4:15 – 4:45 PM",
                     title: "Panel Discussion – Salivary Gland Tumors",
-                    speaker: "Dr. Jatin P. Shah, Dr. Ian Witterick, Dr. Mohd Razif Yunus...",
+                    speaker: "Dr. Jatin P. Shah, Dr. Ian Witterick, Dr. Mohd Razif Yunus (MAL), Dr. Jacob S. Matubis (PH), Dr. Arturo S. dela Peña (PH)",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
@@ -1409,7 +1305,7 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "8:00 – 10:00 PM",
-                    title: "GALA NIGHT (A tribute to Dr. Mariano...",
+                    title: "GALA NIGHT (A tribute to Dr. Mariano and Dr. Armando Chiong Sr.)",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
             ],
@@ -1436,7 +1332,7 @@ var DaySchedulePage = /** @class */ (function () {
                 {
                     time: "8:40 – 9:30 AM",
                     title: "Panel Discussion – Oropharynx Cancer",
-                    speaker: "Dr. Ian Witterick, Dr. Johanna Patricia A. Cañal (PH), Dr... ",
+                    speaker: "Dr. Ian Witterick, Dr. Johanna Patricia A. Cañal (PH), Dr. Heinrick Martin Jude Strebel (PH) ",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
@@ -1451,7 +1347,7 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "10:20 – 10:40 AM",
-                    title: "Non-Surgical: Chemotherapy of Larynx... ",
+                    title: "Non-Surgical: Chemotherapy of Larynx Cancer",
                     speaker: "Dr. Jan B. Vermorken",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
@@ -1464,12 +1360,12 @@ var DaySchedulePage = /** @class */ (function () {
                 {
                     time: "11:00 – 12:00 NN",
                     title: "Panel Discussion – Larynx Cancer",
-                    speaker: "Dr. Ian Witterick, Dr. Alfredo Q.Y. Pontejos, Jr. (PH), Dr.... ",
+                    speaker: "Dr. Ian Witterick, Dr. Alfredo Q.Y. Pontejos, Jr. (PH), Dr. William L. Lim (PH), Dr. Edilberto Joaquin V. Fragante, Jr., (PH)",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
                     time: "12:00 – 1:00 PM",
-                    title: "LUNCH SYMPOSIUM \r\nThe Unmet Medical Need in AR: European... ",
+                    title: "LUNCH SYMPOSIUM \r\The Unmet Medical Need in AR: European Perspective and Parallels in the Philippines",
                     speaker: "Prof. Jean Bousquet, MD, PhD",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)",
                     sponser: "MYLAN"
@@ -1484,7 +1380,7 @@ var DaySchedulePage = /** @class */ (function () {
                     time: "1:30 – 2:00 PM",
                     title: "Panel Discussion – Skull Base Tumors",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)",
-                    speaker: "Dr. Sandro Porceddu, Dr. Jan B. Vermorken, Dr. Sheng-Po... "
+                    speaker: "Dr. Sandro Porceddu, Dr. Jan B. Vermorken, Dr. Sheng-PoHao (TW), Dr. Ramon Antonio B. Lopa (PH) "
                 },
                 {
                     time: "2:00 – 2:30 PM",
@@ -1495,7 +1391,7 @@ var DaySchedulePage = /** @class */ (function () {
                 {
                     time: "2:30 – 3:00 PM",
                     title: "Panel Discussion -Reconstructive Surgery",
-                    speaker: "Dr. Phakdee Sannikorn (TH), Dr. Samantha S. Castaneda... (",
+                    speaker: "Dr. Phakdee Sannikorn (TH), Dr. Samantha S. Castaneda (PH), Dr. Armando M. Chiong, Jr. (PH)",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
@@ -1518,7 +1414,7 @@ var DaySchedulePage = /** @class */ (function () {
                 {
                     time: "3:30 – 4:30 PM",
                     title: "Panel Discussion",
-                    speaker: "Dr. Jatin P. Shah, Dr. Ian Witterick, Dr. Sandro Porceddu, Dr... ",
+                    speaker: "Dr. Jatin P. Shah, Dr. Ian Witterick, Dr. Sandro Porceddu, Dr. Jan B. Vermorken",
                     location: "Maynila Ballroom",
                     sponsor: "UAP"
                 },
@@ -1530,7 +1426,7 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "7:00 – 11:00 PM",
-                    title: "DINNER SYMPOSIUM \r\nAllergic Rhinoconjunctivitis: Guidelines... ",
+                    title: "DINNER SYMPOSIUM \r\nAllergic Rhinoconjunctivitis: Guidelines Update and New Treatment Strategies",
                     speaker: "Prof. Ralph Mosges, MD, PhD, FAAAAI",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)",
                     sponsor: "Menarini"
@@ -1563,7 +1459,7 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "8:00 – 8:15 AM",
-                    title: "3D Imaging / Printing and Planning in... ",
+                    title: "3D Imaging / Printing and Planning in Maxillofacial Surgery",
                     speaker: "Dr. Francis V. Roasa",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
@@ -1587,8 +1483,8 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "9:00 – 9:30 AM",
-                    title: "Panel Discussion – Laser Surgery in Laryn...",
-                    speaker: "Dr. William L. Lim, Dr. Ma. Clarissa S. Fortuna, Dr. Melfred...",
+                    title: "Panel Discussion – Laser Surgery in Laryngology",
+                    speaker: "Dr. William L. Lim, Dr. Ma. Clarissa S. Fortuna, Dr. Melfred L. Hernandez",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
@@ -1599,19 +1495,19 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "9:20 – 9:40 AM",
-                    title: "Basic CT and MRI Imaging for Common... Head and Neck Conditions",
+                    title: "Basic CT and MRI Imaging for Common Head and Neck Conditions",
                     speaker: "Dr. Johanna A Cañal",
                     location: "Maynila Ballroom"
                 },
                 {
                     time: "9:30 – 9:45 AM",
-                    title: "Epistaxis in Children: What Can We Do in... ",
+                    title: "Epistaxis in Children: What Can We Do in the Clinic?",
                     speaker: "Dr. Lyra V. Veloro",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
                     time: "9:45 – 10:00 AM",
-                    title: "Ventilation tubes for OME in Cleft Palate:... ",
+                    title: "Ventilation tubes for OME in Cleft Palate: Do We or Do We Not?",
                     speaker: "Dr. Cecilia Gretchen S. Navarro- Locsin",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
@@ -1623,7 +1519,7 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "10:25 – 10:50 AM",
-                    title: "EMR: Issues and Challenges in the Clinical... ",
+                    title: "EMR: Issues and Challenges in the Clinical Practice",
                     location: "Maynila Ballroom",
                     speaker: "Dr. Eduard M. Alfanta"
                 },
@@ -1641,19 +1537,25 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "10:45 – 11:00 AM",
-                    title: "Shoeboex Audiometry Updates: How the... ",
+                    title: "Shoeboex Audiometry Updates: How the iPad Audiometer Continues to Revolutionize the World of Hearing Health",
                     speaker: "Ms. Natalie Mai",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
                     time: "11:00 – 11:20 AM",
-                    title: "AEP Testing with Patient Follow-up via... ",
+                    title: "AEP Testing with Patient Follow-up via Pathtrack Tracking Software",
                     speaker: "Mr. Russell Higgs",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
+                    time: "11:00 – 12:00 NN",
+                    title: "Poster Session Contest on Surgical Innovation & instrumentation",
+                    location: "Maynila Ballroom",
+                    coords: "Dr. Eduard M. Alfanta/ Dr. Erasmo Gonzalo D.V. LLanes"
+                },
+                {
                     time: "11:30 – 12:00 NN",
-                    title: "PRE-LUNCH SYMPOSIUM \r\nNECK Session (Natrapharm Enhancing...",
+                    title: "PRE-LUNCH SYMPOSIUM \r\nNECK Session (Natrapharm Enhancing Clinical Knowledge in Current Practice): Solving the Mysteries of Cervical Lymphaenopath)y",
                     speaker: "Dr. Mark Kristoffer U. Pasayan",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)",
                     sponsor: "Natrapharm"
@@ -1667,7 +1569,7 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "1:00 – 1:15 PM",
-                    title: "Nerve Blocks/Anesthesia for Office Proc...",
+                    title: "Nerve Blocks/Anesthesia for Office Procedures and Goretex Thread for Rhinoplasty",
                     speaker: "Dr. Homer M. Matias",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
@@ -1709,13 +1611,13 @@ var DaySchedulePage = /** @class */ (function () {
                 },
                 {
                     time: "2:15 – 2:30 PM",
-                    title: "Office Procedures in Managing Chronic...",
+                    title: "Office Procedures in Managing Chronic Rhinosinusitis and Nasal Polyposis",
                     speaker: "Dr. Ma. Lourdes B. Enecilla",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
                 {
                     time: "2:30 – 2:45 PM",
-                    title: "Image-guided Systems in Sinus and Skull... ",
+                    title: "Image-guided Systems in Sinus and Skullbase Surgery",
                     speaker: "Dr. Peter R. Jarin",
                     location: "Fiesta Pavilion (Rigodon, Polkabal, Pandanggo)"
                 },
@@ -1760,18 +1662,17 @@ var DaySchedulePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-day-schedule',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\day-schedule\day-schedule.html"*/'<ion-content padding>\n	<ion-list>\n		<ion-item *ngFor="let daySched of daySchedule">\n			<h6 class="time">{{daySched.time}}</h6>\n			<h2 class="title">{{daySched.title}}</h2>\n			<h5 class="speaker" *ngIf="daySched.speaker">{{daySched.speaker}}</h5>\n			<h6 class="location">{{daySched.location}}</h6>\n			<h5 class="sponsor" *ngIf="daySched.sponsor">Sponsored by: {{daySched.sponsor}}</h5>\n			<h5 class="coords" *ngIf="daySched.coords">Research Coordinators: {{daySched.coords}}</h5>\n		</ion-item>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\day-schedule\day-schedule.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
     ], DaySchedulePage);
     return DaySchedulePage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=day-schedule.js.map
 
 /***/ }),
 
-/***/ 210:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2050,23 +1951,24 @@ var ClinicalEncounterPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-clinical-encounter',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\clinical-encounter\clinical-encounter.html"*/'<ion-content>\n	<div class="container">\n		<div class="time-row">\n			<ion-icon name="arrow-dropleft" (click)="left()"></ion-icon>\n			<h5>{{timeRange[range]}}</h5>\n			<ion-icon name="arrow-dropright" (click)="right()"></ion-icon>\n		</div>\n		<div class="schedule-contents">\n			<div class="line"></div>\n			<div>\n				<ion-list class="content-range" >\n					<ion-item>\n						<div class="topic">\n							<h2><b>TOPIC</b></h2>\n						</div>\n						<div class="room">\n							<h2><b>ROOM</b></h2>\n						</div>\n					</ion-item>\n					<ion-item *ngFor="let sched of schedule[range]">\n						<div class="topic">\n							<h5>{{sched.title}}</h5>\n							<h6>{{sched.speakers}}</h6>\n						</div>\n						<div class="room">\n							<h5>{{sched.room}}</h5>\n						</div>\n					</ion-item>\n				</ion-list>\n			</div>\n		</div>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\clinical-encounter\clinical-encounter.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
     ], ClinicalEncounterPage);
     return ClinicalEncounterPage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=clinical-encounter.js.map
 
 /***/ }),
 
-/***/ 211:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpeakersPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__speaker_info_speaker_info__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__speaker_info_speaker_info__ = __webpack_require__(210);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2093,7 +1995,7 @@ var SpeakersPage = /** @class */ (function () {
                     {
                         title: "Videostroboscopy",
                         info: "Oct. 24, 8:00-9:00 AM, Champagne Salon",
-                        link: "https://www.dropbox.com/s/r7xy1l0d8zyp5bn/CE%205.2%20ROLDAN.pdf?dl=1"
+                        link: "assets/pdfs/CE 5.2 ROLDAN.pdf"
                     }
                 ]
             },
@@ -2193,15 +2095,15 @@ var SpeakersPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 212:
+/***/ 210:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpeakerInfoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_file_transfer__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_file__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_file_transfer__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_file__ = __webpack_require__(212);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2228,6 +2130,33 @@ var SpeakerInfoPage = /** @class */ (function () {
     }
     SpeakerInfoPage.prototype.ionViewDidLoad = function () {
     };
+    // download(doc){
+    //   console.log("file", this.file.externalRootDirectory  + 'file.pdf')
+    //   const fileTransfer: FileTransferObject = this.transfer.create();
+    //   let loading = this.loadingCtrl.create({
+    //     content: 'Downloading PDF...'
+    //   });
+    //   loading.present();
+    //   fileTransfer.download(doc.link, this.file.externalRootDirectory+"/Download/" +doc.title+".pdf", true).then((e)=>{
+    //     console.log("success: ", e)
+    //     loading.dismiss();  
+    //     let toast = this.toastCtrl.create({
+    //       message: 'Successfully downloaded document',
+    //       duration: 5000,
+    //       position: 'top'
+    //     });
+    //     toast.present();
+    //   }).catch((err)=>{
+    //     let toast = this.toastCtrl.create({
+    //       message: 'Failed to download document',
+    //       duration: 5000,
+    //       position: 'top'
+    //     });
+    //     toast.present();
+    //     console.log("err",err)
+    //     loading.dismiss();  
+    //   });
+    // }
     SpeakerInfoPage.prototype.download = function (doc) {
         var _this = this;
         console.log("file", this.file.externalRootDirectory + 'file.pdf');
@@ -2236,23 +2165,24 @@ var SpeakerInfoPage = /** @class */ (function () {
             content: 'Downloading PDF...'
         });
         loading.present();
-        fileTransfer.download(doc.link, this.file.externalRootDirectory + "/Download/" + doc.title + ".pdf", true).then(function (e) {
-            console.log("success: ", e);
-            loading.dismiss();
+        var fileName = doc.link.split("/")[2];
+        this.file.copyFile(this.file.applicationDirectory + 'www/assets/pdfs/', fileName, this.file.externalRootDirectory + "/Download/", fileName).then(function (e) {
             var toast = _this.toastCtrl.create({
-                message: 'Successfully downloaded document',
+                message: 'Downloaded to ' + e.fullPath,
                 duration: 5000,
                 position: 'top'
             });
             toast.present();
-        }).catch(function (err) {
+            console.log("e", e);
+            loading.dismiss();
+        }).catch(function (e) {
             var toast = _this.toastCtrl.create({
                 message: 'Failed to download document',
                 duration: 5000,
                 position: 'top'
             });
             toast.present();
-            console.log("err", err);
+            console.log("f", e);
             loading.dismiss();
         });
     };
@@ -2274,7 +2204,7 @@ var SpeakerInfoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 215:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2328,13 +2258,69 @@ var EventInfoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 216:
+/***/ 214:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InformationPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var InformationPage = /** @class */ (function () {
+    function InformationPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.information = [
+            {
+                title: "Getting to the Philippines",
+                imageUrl: "assets/imgs/ph_icon.png",
+                content: "In a country that is made up of over 7,100 islands and islets, most travel from other countries will be via air. Manila, Cebu, Davao, Clark, Subic, and Laoag are the international gateways, with the Ninoy Aquino International Airport (NAIA) in Manila as the primary airport. It is served by more than 30 airlines, which fly to different cities around the world. There are three international terminals, each serving specific airlines. Flights for IFHNOS delegates are best booked to fly to NAIA."
+            },
+            {
+                title: "Entry Formalities",
+                imageUrl: "assets/imgs/passport_icon.png",
+                content: "Nationals from countries (click list below) who are traveling to the Philippines for business and tourism purposes are allowed to enter the Philippines without visas for a stay not exceeding twenty-one (21) days, provided they hold valid tickets for their return journey to port of origin or next port of destination and their passports are valid for a period of at least six (6) months beyond the contemplated period of stay. However, Immigration Officers at ports of entry may exercise their discretion to admit holders of passports valid for at least sixty (60) days beyond the intended period of stay. 	Nationals from countries allowed to enter the Philippines without Visas for a stay not exceeding 21 days"
+            },
+            {
+                title: "Customs and Currency Regulation",
+                imageUrl: "assets/imgs/currency_icon.png",
+                content: "Upon Arriving: Visitors are allowed to bring in duty free personal belongings, two cartons of cigarettes or two tins of pipe tobacco and up to one liter of alcohol. Balikbayans have separate rules and should check with the Embassy or Consulate in their home city. The currency in the Philippines is the Peso (PhP) and the Centavo. 100 centavos = P1. Coin denominations are: 1, 5, 10, and 25 centavos, P1, and P5. Bill denominations are : 10, 20, 50, 100, 500 and 1, 000 pesos. Foreign currency may be exchanged at your hotel, and in most of the large department stores, banks and authorized money changing shops. Exchanging money anywhere else is illegal and the laws are strictly enforced.Most large stores, restaurants , hotels and resorts accept major credit cards including American Express, Visa and MasterCard. Personal checks drawn on foreign banks are generally not accepted.It is illegal for any incoming or outgoing passenger to bring in or out Philippine Pesos in excess of P10,000.00 without prior authority from the Bangko Sentral ng Pilipinas. Any violation of this rule may lead to its seizure and civil penalties and / or criminal prosecution. (BSP Circular 98-1995)The transportation of foreign currency or monetary instruments is legal. However, the carrying of foreign currency in excess of US$10,000.00 or its equivalent in other foreign currencies must be declared to a Customs Officer or the Bangko Sentral ng Pilipinas. Violation of this rule may lead to seizure and sanctions, fines and / or penalties."
+            }
+        ];
+    }
+    InformationPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad InformationPage', this.information);
+    };
+    InformationPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-information',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\information\information.html"*/'<ion-content padding class="header-fix">\n	<ion-list>\n		<ion-item *ngFor="let info of information" text-wrap>\n			<div class="info-header">\n				<img src="{{info.imageUrl}}">\n				<h2><b>{{info.title}}</b></h2>\n			</div>\n			<p style="margin-top: 10px;">{{info.content}}</p>\n\n		</ion-item>\n		<h5>For more information about the Philippines, please visit the website of the Department of Tourism</h5>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\information\information.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], InformationPage);
+    return InformationPage;
+}());
+
+//# sourceMappingURL=information.js.map
+
+/***/ }),
+
+/***/ 215:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(238);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -2342,7 +2328,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 239:
+/***/ 238:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2350,32 +2336,32 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(289);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_event_list_event_list__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_event_info_event_info__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_event_event__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_sponsors_sponsors__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_tabs_tabs__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_information_information__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_announcements_announcements__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_about__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_registration_registration__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_accomodation_accomodation__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_research_presentation_research_presentation__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_research_info_research_info__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_schedule_schedule__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_day_schedule_day_schedule__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_clinical_encounter_clinical_encounter__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_speakers_speakers__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_speaker_info_speaker_info__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_sponsor_popover_sponsor_popover__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_file_transfer__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_event_info_event_info__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_event_event__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_sponsors_sponsors__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_tabs_tabs__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_information_information__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_announcements_announcements__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_about__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_registration_registration__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_accomodation_accomodation__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_research_presentation_research_presentation__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_research_info_research_info__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_schedule_schedule__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_day_schedule_day_schedule__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_clinical_encounter_clinical_encounter__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_speakers_speakers__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_speaker_info_speaker_info__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_sponsor_popover_sponsor_popover__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_file_transfer__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__ = __webpack_require__(212);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2487,17 +2473,17 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 289:
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2540,7 +2526,69 @@ var MyApp = /** @class */ (function () {
 
 //# sourceMappingURL=app.component.js.map
 
+/***/ }),
+
+/***/ 289:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_event__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__information_information__ = __webpack_require__(214);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var TabsPage = /** @class */ (function () {
+    function TabsPage(navCtrl, navParams, evt, platform) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.evt = evt;
+        this.platform = platform;
+        this.tab2Root = __WEBPACK_IMPORTED_MODULE_2__event_event__["a" /* EventPage */];
+        this.tab3Root = __WEBPACK_IMPORTED_MODULE_3__information_information__["a" /* InformationPage */];
+        this.event = null;
+        this.event = this.navParams.get("event");
+        this.evt.subscribe("select:event", function (event) {
+            _this.event = event;
+        });
+        this.platform.registerBackButtonAction(function () {
+            _this.navCtrl.pop();
+        }, 1);
+    }
+    TabsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad TabsPage', this.event);
+    };
+    TabsPage.prototype.back = function () {
+        this.evt.publish("cmd:back");
+    };
+    TabsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-tabs',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/'<ion-header >\n\n  <ion-navbar class="theme-background" *ngIf="event">\n  	<img class="header-banner" src="{{event.bannerUrl}}">\n  </ion-navbar>\n\n\n\n  <ion-navbar class="theme-background default" *ngIf="!event">\n  	<img class="header-logo" src="assets/imgs/cce_logo.png">\n    <ion-title>Congress & Events</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-tabs tabsPlacement="bottom" selectedIndex="1">\n  <ion-tab  tabTitle="Back" tabIcon="arrow-round-back" (ionSelect)="back()"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Information" tabIcon="information-circle">\n  <ion-tab  tabTitle="Favourites" tabIcon="star-outline"></ion-tab>\n  </ion-tab>\n</ion-tabs>'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]])
+    ], TabsPage);
+    return TabsPage;
+}());
+
+//# sourceMappingURL=tabs.js.map
+
 /***/ })
 
-},[216]);
+},[215]);
 //# sourceMappingURL=main.js.map

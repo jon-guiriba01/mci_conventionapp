@@ -9,6 +9,8 @@ page-clinical-encounter {
 
 	.schedule-contents{
 		display: flex;
+		overflow: hidden;
+		position: relative;
 	}
 
 	.topic{
@@ -53,10 +55,13 @@ page-clinical-encounter {
 
 	.line{
 		width: 1px;
-    height: 100vh;
+    height: 1000vh;
     background: #000;
     position: absolute;
-    right: 45%;
+    right: 40%;
     z-index: 99;
+	}
+
+	.options-list{
 	}
 }

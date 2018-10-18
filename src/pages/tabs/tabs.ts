@@ -12,7 +12,7 @@ import { EventListPage } from '../event-list/event-list';
 })
 export class TabsPage {
 	
-  tab2Root = EventListPage;
+  tab2Root = EventPage;
   tab3Root = InformationPage;
   event = null;
 
