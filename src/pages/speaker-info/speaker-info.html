@@ -1,10 +1,11 @@
-<ion-content>
+<ion-content class="speaker-info-content">
 	<div class="header">
-		<div>
+		<div class="speaker-name">
 			<p>Name:</p>
 			<h6>{{speaker.lastname}}, {{speaker.firstname}}</h6>
 		</div>
-		<img class="speaker-img" src="{{speaker.imageUrl}}">
+		<img class="speaker-img" src="{{speaker.imageUrl}}" *ngIf="speaker.imageUrl != ''">
+		<div class="speaker-empty" *ngIf="speaker.imageUrl == ''"></div>
 	</div>
 	<div padding>
 		<div class="details">

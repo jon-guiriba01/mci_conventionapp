@@ -4,6 +4,7 @@ import { EventPage } from '../event/event';
 import { HomePage } from '../home/home';
 import { InformationPage } from '../information/information';
 import { EventListPage } from '../event-list/event-list';
+import { App } from 'ionic-angular/components/app/app';
 
 
 @Component({
@@ -21,6 +22,7 @@ export class TabsPage {
     , public navParams: NavParams
     , public evt: Events
     , public platform: Platform
+    , public app: App
     ){
     this.event = this.navParams.get("event")
 
@@ -29,7 +31,7 @@ export class TabsPage {
     })
 
     this.platform.registerBackButtonAction(() => {
-      this.navCtrl.pop();
+      app.navPop()
     },1);
  
 
@@ -40,7 +42,7 @@ export class TabsPage {
   }
 
   back(){
-    this.evt.publish("cmd:back")
+    this.app.navPop()
   }
 
 }

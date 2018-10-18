@@ -58,6 +58,17 @@ export class SpeakerInfoPage {
   // }
 
   download(doc){
+
+    if(doc.link.trim().length <= 0){
+      let toast = this.toastCtrl.create({
+        message: 'No Document to download',
+        duration: 3000,
+        position: 'top'
+      });
+      toast.present();
+      return;
+    }
+
     console.log("file", this.file.externalRootDirectory  + 'file.pdf')
     const fileTransfer: FileTransferObject = this.transfer.create();
 
@@ -76,7 +87,7 @@ export class SpeakerInfoPage {
     ).then((e)=>{
       let toast = this.toastCtrl.create({
         message: 'Downloaded to ' + e.fullPath,
-        duration: 5000,
+        duration: 3000,
         position: 'top'
       });
       toast.present();
@@ -85,7 +96,7 @@ export class SpeakerInfoPage {
     }).catch((e)=>{
       let toast = this.toastCtrl.create({
         message: 'Failed to download document',
-        duration: 5000,
+        duration: 3000,
         position: 'top'
       });
       toast.present();

@@ -26162,7 +26162,7 @@ page-speaker-info .header * {
   color: #fff;
 }
 
-page-speaker-info .header > div {
+page-speaker-info .header > .speaker-name {
   width: 70%;
   margin-top: 10px;
   display: inline-block;
@@ -26186,6 +26186,15 @@ page-speaker-info .speaker-img {
   vertical-align: middle;
 }
 
+page-speaker-info .speaker-empty {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+  background: #acacac;
+}
+
 page-speaker-info .details {
   font-size: 14px;
 }
@@ -26207,6 +26216,7 @@ page-speaker-info .doc-info {
   margin-left: 20px;
   width: 60%;
   white-space: normal;
+  padding-top: 5px;
 }
 
 page-speaker-info .arrow {
@@ -26217,6 +26227,10 @@ page-speaker-info .arrow {
 
 page-speaker-info .speaker-docs {
   margin-top: 40px;
+}
+
+page-speaker-info .speaker-info-content .scroll-content {
+  margin-bottom: 70px;
 }
 
 page-speakers .speaker-item img {
@@ -26245,6 +26259,17 @@ page-speakers .speaker-item .star-icon {
   margin-right: 20px;
   vertical-align: middle;
   line-height: 50px;
+}
+
+page-speakers .speaker-img-empty {
+  width: 50px;
+  height: 50px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  background: #acacac;
 }
 
 page-sponsors .sponsor-header {

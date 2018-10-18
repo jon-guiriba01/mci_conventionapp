@@ -6,8 +6,8 @@ webpackJsonp([0],{
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -57,19 +57,222 @@ var EventListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 101:
+/***/ 110:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 110;
+
+/***/ }),
+
+/***/ 151:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 151;
+
+/***/ }),
+
+/***/ 194:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_list_event_list__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_info_event_info__ = __webpack_require__(215);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    HomePage.prototype.navTo = function (page) {
+        switch (page) {
+            case "eventlist":
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__event_list_event_list__["a" /* EventListPage */]);
+                break;
+            case "contact":
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__event_info_event_info__["a" /* EventInfoPage */]);
+                break;
+        }
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\home\home.html"*/'<ion-content padding>\n\n<div class="flex-center-column" style="height: 100%;">\n	<img class="logo" src="assets/imgs/cce_logo.png">\n	<h5><b>Congress</b> & <b>Events</b></h5>\n	<button ion-button class="basic-btn theme-background" (click)="navTo(\'eventlist\')">EVENTS</button>\n	<button ion-button class="basic-btn theme-background" (click)="navTo(\'contact\')">CONTACTS</button>\n</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_list_event_list__ = __webpack_require__(100);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var LoginPage = /** @class */ (function () {
+    function LoginPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.event = {};
+        // password = "opensesame"
+        this.password = "";
+        this.passwordInput = "";
+        this.event = this.navParams.get("event");
+    }
+    LoginPage.prototype.ionViewDidLoad = function () {
+    };
+    LoginPage.prototype.login = function () {
+        if (this.passwordInput == this.password)
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__tabs_tabs__["a" /* TabsPage */], { event: this.event });
+    };
+    LoginPage.prototype.back = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__event_list_event_list__["a" /* EventListPage */]);
+    };
+    LoginPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-login',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\login\login.html"*/'<ion-content padding>\n\n	<div class="flex-center-column password-container">\n		<h5>Enter password to proceed</h5>\n		<input class="password-container" type="password" name="password" [(ngModel)]="passwordInput">\n		<div class="action-btn-row">\n			<button ion-button (click)="back()" style="background: #000;">BACK</button>\n			<button ion-button (click)="login()" style="background: #000;">LOGIN</button>\n		</div>\n		<h5 class="please-ask-text">Please ask the confress secretariat for the password</h5>\n	</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\login\login.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], LoginPage);
+    return LoginPage;
+}());
+
+//# sourceMappingURL=login.js.map
+
+/***/ }),
+
+/***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_event__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__information_information__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var TabsPage = /** @class */ (function () {
+    function TabsPage(navCtrl, navParams, evt, platform, app) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.evt = evt;
+        this.platform = platform;
+        this.app = app;
+        this.tab2Root = __WEBPACK_IMPORTED_MODULE_2__event_event__["a" /* EventPage */];
+        this.tab3Root = __WEBPACK_IMPORTED_MODULE_3__information_information__["a" /* InformationPage */];
+        this.event = null;
+        this.event = this.navParams.get("event");
+        this.evt.subscribe("select:event", function (event) {
+            _this.event = event;
+        });
+        this.platform.registerBackButtonAction(function () {
+            app.navPop();
+        }, 1);
+    }
+    TabsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad TabsPage', this.event);
+    };
+    TabsPage.prototype.back = function () {
+        this.app.navPop();
+    };
+    TabsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-tabs',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/'<ion-header >\n\n  <ion-navbar class="theme-background" *ngIf="event">\n  	<img class="header-banner" src="{{event.bannerUrl}}">\n  </ion-navbar>\n\n\n\n  <ion-navbar class="theme-background default" *ngIf="!event">\n  	<img class="header-logo" src="assets/imgs/cce_logo.png">\n    <ion-title>Congress & Events</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-tabs tabsPlacement="bottom" selectedIndex="1">\n  <ion-tab  tabTitle="Back" tabIcon="arrow-round-back" (ionSelect)="back()"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Information" tabIcon="information-circle">\n  <ion-tab  tabTitle="Favourites" tabIcon="star-outline"></ion-tab>\n  </ion-tab>\n</ion-tabs>'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__["a" /* App */]])
+    ], TabsPage);
+    return TabsPage;
+}());
+
+//# sourceMappingURL=tabs.js.map
+
+/***/ }),
+
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsors_sponsors__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__announcements_announcements__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_about__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__research_presentation_research_presentation__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__schedule_schedule__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__speakers_speakers__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsors_sponsors__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__announcements_announcements__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_about__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__research_presentation_research_presentation__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__schedule_schedule__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__speakers_speakers__ = __webpack_require__(210);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -141,153 +344,14 @@ var EventPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 111:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 111;
-
-/***/ }),
-
-/***/ 152:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 152;
-
-/***/ }),
-
-/***/ 195:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_list_event_list__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_info_event_info__ = __webpack_require__(213);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    HomePage.prototype.navTo = function (page) {
-        switch (page) {
-            case "eventlist":
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__event_list_event_list__["a" /* EventListPage */]);
-                break;
-            case "contact":
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__event_info_event_info__["a" /* EventInfoPage */]);
-                break;
-        }
-    };
-    HomePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\home\home.html"*/'<ion-content padding>\n\n<div class="flex-center-column" style="height: 100%;">\n	<img class="logo" src="assets/imgs/cce_logo.png">\n	<h5><b>Congress</b> & <b>Events</b></h5>\n	<button ion-button class="basic-btn theme-background" (click)="navTo(\'eventlist\')">EVENTS</button>\n	<button ion-button class="basic-btn theme-background" (click)="navTo(\'contact\')">CONTACTS</button>\n</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\home\home.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-    ], HomePage);
-    return HomePage;
-}());
-
-//# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 196:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(289);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__event_list_event_list__ = __webpack_require__(100);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var LoginPage = /** @class */ (function () {
-    function LoginPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.event = {};
-        // password = "opensesame"
-        this.password = "";
-        this.passwordInput = "";
-        this.event = this.navParams.get("event");
-    }
-    LoginPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LoginPage');
-    };
-    LoginPage.prototype.login = function () {
-        if (this.passwordInput == this.password)
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__tabs_tabs__["a" /* TabsPage */], { event: this.event });
-    };
-    LoginPage.prototype.back = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__event_list_event_list__["a" /* EventListPage */]);
-    };
-    LoginPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\login\login.html"*/'<ion-content padding>\n\n	<div class="flex-center-column password-container">\n		<h5>Enter password to proceed</h5>\n		<input class="password-container" type="password" name="password" [(ngModel)]="passwordInput">\n		<div class="action-btn-row">\n			<button ion-button (click)="back()" style="background: #000;">BACK</button>\n			<button ion-button (click)="login()" style="background: #000;">LOGIN</button>\n		</div>\n		<h5 class="please-ask-text">Please ask the confress secretariat for the password</h5>\n	</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\login\login.html"*/,
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
-    ], LoginPage);
-    return LoginPage;
-    var _a, _b;
-}());
-
-//# sourceMappingURL=login.js.map
-
-/***/ }),
-
-/***/ 197:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SponsorsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsor_popover_sponsor_popover__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sponsor_popover_sponsor_popover__ = __webpack_require__(199);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -663,13 +727,13 @@ var SponsorsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 198:
+/***/ 199:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SponsorPopoverPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -703,13 +767,13 @@ var SponsorPopoverPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 199:
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AnnouncementsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -748,16 +812,16 @@ var AnnouncementsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__registration_registration__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__accomodation_accomodation__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__venue_venue__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__registration_registration__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__accomodation_accomodation__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__venue_venue__ = __webpack_require__(204);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -811,13 +875,13 @@ var AboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegistrationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -853,13 +917,13 @@ var RegistrationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccomodationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -896,13 +960,13 @@ var AccomodationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 203:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VenuePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -937,14 +1001,14 @@ var VenuePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResearchPresentationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__research_info_research_info__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__research_info_research_info__ = __webpack_require__(206);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -985,13 +1049,13 @@ var ResearchPresentationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 205:
+/***/ 206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResearchInfoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1110,25 +1174,24 @@ var ResearchInfoPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-research-info',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\research-info\research-info.html"*/'<ion-content padding class="header-fix">\n<div class="page-header">\n	<img src="assets/imgs/chart.png">\n	<h5>Research Presentation</h5>\n</div>\n\n<div class="research-info">\n	<h5 class="title">\n		{{title}}\n	</h5>\n	<ion-list>\n		<ion-item *ngFor="let item of content" text-wrap>\n			{{item}}\n		</ion-item>\n	</ion-list>\n		\n</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\research-info\research-info.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ResearchInfoPage);
     return ResearchInfoPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=research-info.js.map
 
 /***/ }),
 
-/***/ 206:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SchedulePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__day_schedule_day_schedule__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clinical_encounter_clinical_encounter__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__day_schedule_day_schedule__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clinical_encounter_clinical_encounter__ = __webpack_require__(209);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1174,13 +1237,13 @@ var SchedulePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 207:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DaySchedulePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1662,23 +1725,24 @@ var DaySchedulePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-day-schedule',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\day-schedule\day-schedule.html"*/'<ion-content padding>\n	<ion-list>\n		<ion-item *ngFor="let daySched of daySchedule">\n			<h6 class="time">{{daySched.time}}</h6>\n			<h2 class="title">{{daySched.title}}</h2>\n			<h5 class="speaker" *ngIf="daySched.speaker">{{daySched.speaker}}</h5>\n			<h6 class="location">{{daySched.location}}</h6>\n			<h5 class="sponsor" *ngIf="daySched.sponsor">Sponsored by: {{daySched.sponsor}}</h5>\n			<h5 class="coords" *ngIf="daySched.coords">Research Coordinators: {{daySched.coords}}</h5>\n		</ion-item>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\day-schedule\day-schedule.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
     ], DaySchedulePage);
     return DaySchedulePage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=day-schedule.js.map
 
 /***/ }),
 
-/***/ 208:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ClinicalEncounterPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1951,24 +2015,23 @@ var ClinicalEncounterPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-clinical-encounter',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\clinical-encounter\clinical-encounter.html"*/'<ion-content>\n	<div class="container">\n		<div class="time-row">\n			<ion-icon name="arrow-dropleft" (click)="left()"></ion-icon>\n			<h5>{{timeRange[range]}}</h5>\n			<ion-icon name="arrow-dropright" (click)="right()"></ion-icon>\n		</div>\n		<div class="schedule-contents">\n			<div class="line"></div>\n			<div>\n				<ion-list class="content-range" >\n					<ion-item>\n						<div class="topic">\n							<h2><b>TOPIC</b></h2>\n						</div>\n						<div class="room">\n							<h2><b>ROOM</b></h2>\n						</div>\n					</ion-item>\n					<ion-item *ngFor="let sched of schedule[range]">\n						<div class="topic">\n							<h5>{{sched.title}}</h5>\n							<h6>{{sched.speakers}}</h6>\n						</div>\n						<div class="room">\n							<h5>{{sched.room}}</h5>\n						</div>\n					</ion-item>\n				</ion-list>\n			</div>\n		</div>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\clinical-encounter\clinical-encounter.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ClinicalEncounterPage);
     return ClinicalEncounterPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=clinical-encounter.js.map
 
 /***/ }),
 
-/***/ 209:
+/***/ 210:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpeakersPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__speaker_info_speaker_info__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__speaker_info_speaker_info__ = __webpack_require__(211);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2025,8 +2088,8 @@ var SpeakersPage = /** @class */ (function () {
                 docs: [
                     {
                         title: "Multidisciplinary Management",
-                        info: "Oct. 22, 2:30-3:00 PM, Fiesta Pavilion",
-                        link: "assets/pdfs/CE 5.2 ROLDAN.pdf"
+                        info: "Oct. 22, 2:30-3:00 PM, Fiesta Pavilion"
+                        // , link: "assets/pdfs/CE 5.2 ROLDAN.pdf"
                     },
                 ]
             },
@@ -2053,6 +2116,1345 @@ var SpeakersPage = /** @class */ (function () {
                         title: "EMR: Issues and Challenges in the Clinical Practice",
                         info: "Oct. 24, 10:25 – 10:50 AM, Maynila Ballroom",
                         link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ALMAZAN",
+                firstname: "Natividad MD",
+                details: "Secretary, Philippine Board of Otolaryngology-HNS Head, Otology Section, East Avenue Medical Center, Manila Central University and Veterans-MMC",
+                imageUrl: "assets/imgs/speakers/ALMAZAN.jpg",
+                docs: [
+                    {
+                        title: "Management of Estachian Tube Dysfunction",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita A",
+                        link: "images/assets/pdfs/CE 2.2 ALMAZAN.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ALMELOR",
+                firstname: "Mamerto MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/ALFANTA.jpg",
+                docs: [
+                    {
+                        title: "Cancer of Oral Cavity",
+                        info: "Oct. 22, 9:45-10:30 AM, Fiesta Pavilion "
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ALONZO",
+                firstname: "Daniel MD",
+                details: "Director, Cancer Institute, The Medical City",
+                imageUrl: "assets/imgs/speakers/ALFANTA.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Thyroid Cancer",
+                        info: "Oct. 22, 11:30 AM – 12:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                    {
+                        title: "The Value of Ultrasound in the Evaluation of Head and Neck Neoplasms",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Champagne Salon",
+                        link: "images/assets/pdfs/CE 20.1 ALONZO.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ARZADON",
+                firstname: "Jaime Anthony, IV MD",
+                details: "Proprietor & Medical Director, Arzadon Clinic Cosmetic Surgery & Dermatology Head, Section of Facial Plastic Surgery, Department of ORL-HNS, Asian 	Hospital & Med. Ctr.",
+                imageUrl: "assets/imgs/speakers/ARZADON.jpg",
+                docs: [
+                    {
+                        title: "Basic Principles & Overview on the Use of the Harmonic Scalpel in ENT",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Roma Salon"
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                    {
+                        title: "Neuromodulators",
+                        info: "Oct. 24, 1:15 – 1:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "AYAHAO",
+                firstname: "Felixberto MD",
+                details: "MS 3, Baguio General Hospital",
+                imageUrl: "assets/imgs/speakers/AYAHAO.jpg",
+                docs: [
+                    {
+                        title: "My Unconventional Methods in Otolaryngology-Head and Neck Surgery",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon",
+                        link: "images/assets/pdfs/CE 15.4 AYAHAO.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "BAÑEZ",
+                firstname: "Ryan Julius MD",
+                details: "Clinical Associate Professor, UPCM Medical Informatics Unit Lecturer, Ateneo School of Medicine and Public Health Consultant for Health Information Systems, National Kidney and Transplant Institute",
+                imageUrl: "assets/imgs/speakers/BANEZ.png",
+                docs: [
+                    {
+                        title: "Overview of EMR in the Philippines",
+                        info: "Oct. 24, 10:00 – 10:25 AM, Maynila Ballroom",
+                        link: "images/assets/pdfs/S2.1 BANEZ.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "BOUSQUET",
+                firstname: "Jean MD, PhD",
+                details: "Director, Cancer Institute, The Medical City",
+                imageUrl: "assets/imgs/speakers/BOUSQUET.jpg",
+                docs: [
+                    {
+                        title: "The Unmet Medical Need in AR: European Perspective and Parallels in the Philippines",
+                        info: "Oct. 23, 12:00 – 1:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CABUNGCAL",
+                firstname: "Arsenio Claro MD",
+                details: "Clinical Associate Professor, UP-PGH Board of Trustee, Philippine Society of Otolaryngology-HNS Attending ORL, Victor R. Potenciano Medical Center and National Kidney & Transplant Institute",
+                imageUrl: "assets/imgs/speakers/CABUNGCAL.jpg",
+                docs: [
+                    {
+                        title: "Endonasal Endoscopic Transphenoidal Pituitary Surgery ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C",
+                        link: "images/assets/pdfs/CE 8.3 CABUNGCAL.pdf"
+                    },
+                    {
+                        title: "Facial Nerve Identification & Dissection in Parotid Surgery: Let's Make it Easy ",
+                        info: "Oct. 24, 3:00 - 4:00 PM, Sampaguita C"
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CAÑAL",
+                firstname: "Johanna MD",
+                details: "Professor 4, University of the Philippines-College of Medicine Chair, Radiology, UP-Philippine General Hospital",
+                imageUrl: "assets/imgs/speakers/CANAL.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Oropharynx Cancer",
+                        info: "Oct 23, 8:40-9:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                    {
+                        title: "Basic CT and MRI Imaging for Common Head and Neck Conditions",
+                        info: "Oct. 24, 9:20 – 9:40 AM, Maynila Ballroom",
+                        link: "images/assets/pdfs/S1.2 Cañal.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CAPUZ",
+                firstname: "Maria Karen MD",
+                details: "Clinical Faculty, Ateneo School of Medicine & Public Health Assistant Professor, Manila Central University, College of Medicine Head & Neck Subspecialty Consultant, Dept. of ORL-HNS, UST Hospital",
+                imageUrl: "assets/imgs/speakers/CAPUZ.jpg",
+                docs: [
+                    {
+                        title: "Techniques of Office Ultrasonography",
+                        info: "Oct. 24, 3:00 – 4:00 PM, Champagne Salon",
+                        link: "images/assets/pdfs/CE 20.3 CAPUZ.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CARRILLO",
+                firstname: "Ryner Jose MD",
+                details: "Associate Professor, Dept. of Anatomy, UP-College of Medicine Clinical Associate Professor, Section of Laryngology 			Bronchoesophagology, Dept. of ORL-HNS, UP-PGH",
+                imageUrl: "assets/imgs/speakers/CARRILLO.jpg",
+                docs: [
+                    {
+                        title: "Flexible Laryngoscopy and Related ENT Procedures",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Champagne Salon"
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CARO",
+                firstname: "Ruzanne MD",
+                details: "Associate Professor, UP-College of Medicine Active Consultant, Capitol Medical Center and UPCM-Philippine General	Hospital",
+                imageUrl: "assets/imgs/speakers/CARO.jpg",
+                docs: [
+                    {
+                        title: "Steroids 101 ",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita A",
+                        link: "images/assets/pdfs/CE 11.1 CARO.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CASTAÑEDA",
+                firstname: "Samantha MD",
+                details: "Assistant Professor, Ateneo School of Medicine & Public Health Section Head, Head & Neck, The Medical City  Training Officer, Dept. of ORL-HNS, Rizal Medical Center",
+                imageUrl: "assets/imgs/speakers/CASTANEDA.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion – Reconstructive Surgery",
+                        info: "Oct. 24, 2:30 - 3:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CHANG",
+                firstname: "Jimmy MD",
+                details: "Secretary, Philippine Society of Sleep Medicine Vice-President, Philippine Academy of Sleep Surgery (PASS) Head, Comprehensive Sleep Disorder Center, St. Luke's Medical Center, QC",
+                imageUrl: "assets/imgs/speakers/CHANG.jpg",
+                docs: [
+                    {
+                        title: "Upper Airway Evaluation in OSA Surgery ",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita C",
+                        link: "images/assets/pdfs/CE 13.2 CHANG.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CHIE-YEH",
+                firstname: "Chien MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/CHIE-YEH.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Cancer of the Oral Cavity",
+                        info: "Oct 22, 9:45 - 10:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CHIONG",
+                firstname: "Armando, Jr. MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/CHIONG.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Reconstructive Surgery",
+                        info: "Oct 23, 2:30 - 3:00PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CHIONG",
+                firstname: "Charlotte MD",
+                details: "Dean, University of the Philippines-College of Medicine Director, Philippine National Ear Institute Director, Newborn Hearing Screening Reference Center",
+                imageUrl: "assets/imgs/speakers/CHIONG2.jpg",
+                docs: [
+                    {
+                        title: "Approach for Single-sided Deafness",
+                        info: "Oct. 24, 10:30 – 10:45 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CHUA",
+                firstname: "Antonio MD",
+                details: "Oct. 24, 10:00 – 11:00 AM,   Champagne Salon",
+                imageUrl: "assets/imgs/speakers/CHUA.jpg",
+                docs: [
+                    {
+                        title: "Overview and Indications of Image-Guided Systems in Sinus and Skull Base Surgery",
+                        info: "",
+                        link: "images/assets/pdfs/CE 10.1 CHUA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "CLARAVALL",
+                firstname: "Henry John MD",
+                details: "Consultant, Dept. of ORL-HNS, University of Santo Tomas Hospital, St. Luke's Global City and The Medical City",
+                imageUrl: "assets/imgs/speakers/CLARAVALL.jpg",
+                docs: [
+                    {
+                        title: "Threadlifts and Fillers for Noselift",
+                        info: "Oct. 24, 1:45 – 2:00 PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P7.4 CLARAVALL.pdf"
+                    },
+                    {
+                        title: "Nasal Augmentation using Thread and Fillers ",
+                        info: "Oct. 24, 3:00 – 4:00 PM, Roma Salon",
+                        link: "images/assets/pdfs/P7.4 CLARAVALL.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "DAVID",
+                firstname: "Joselito MD",
+                details: "Chairman, Dept. of ORL-HNS, Jose R. Reyes Memorial Medical Center Clinical Faculty, Dept. of ORL-HNS, Faculty of Medicine & Surgery, UST Consultant, Santo Tomas University Hospital & Angeles University Foundation Med. Ctr.",
+                imageUrl: "assets/imgs/speakers/DAVID.jpg",
+                docs: [
+                    {
+                        title: "Prosthesis",
+                        info: "Oct. 24, 8:30 – 8:45 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P2.3 DAVID.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "DELA PEÑA",
+                firstname: "Arturo MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/DelaPena.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Salivary Gland Tumors",
+                        info: "Oct 22, 4:15-4:45PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "DE RAMOS",
+                firstname: "Joanne Sebastiana MD",
+                details: "Professor 1 (former College Secretary & Associate Dean), St. Luke's College 	of Medicine Active Consultant, Section Head Otology, St. Luke's Medical Center QC Medical Specialist !, Part Time, Veterans Memorial Medical Center",
+                imageUrl: "assets/imgs/speakers/DE RAMOS.jpg",
+                docs: [
+                    {
+                        title: "Diagnosis, Differentiation and Management of Different Types of BPPV",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita A",
+                        link: "images/assets/pdfs/CE 6.1 DE RAMOS.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "DOFITAS",
+                firstname: "Rodney MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/DOFITAS.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Thyroid Cancer",
+                        info: "Oct 22, 11:30-12:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "EMBATE",
+                firstname: "Jose Raindrop MD",
+                details: "Assistant Professor 1, Davao Medical School Active Consultant, Davao Medical School Foundation Hospital Part Time Associate Active Consultant, Davao Doctors Hospital",
+                imageUrl: "assets/imgs/speakers/EMBATE.png",
+                docs: [
+                    {
+                        title: "Image Guided Surgery in the Sinuses and Beyond ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Champagne Salon",
+                        link: "images/assets/pdfs/CE 10.2 EMBATE.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ENECILLA",
+                firstname: "Ma. Lourdes MD",
+                details: "Secretary, Philippine Academy of Rhinology (PAR) Active Consultant, St. Luke's Medical Center-Global City  and Asian 	Hospital & Medical Center ",
+                imageUrl: "assets/imgs/speakers/ENECILLA.jpg",
+                docs: [
+                    {
+                        title: "Office Procedures in Managing Chronic Rhinosinusitis and Nasal Polyposis",
+                        info: "Oct. 24, 2:15 – 2:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ESPIRITU",
+                firstname: "Anne Marie MD",
+                details: "Board of Trustee, Philippine Society of Otolaryngology-HNS Head, Section of Rhinopharyngology & Allergy, Dept. of ORL-HNS, Manila Doctors Hospital Associate Board ExAMiner, Philippine Board of Otolaryngology-HNS",
+                imageUrl: "assets/imgs/speakers/ESPIRITU.jpg",
+                docs: [
+                    {
+                        title: "Barrier Dysfunction in Allergic Rhinitis ",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita B",
+                        link: "images/assets/pdfs/CE 12.1 ESPIRITU.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "FORTUNA",
+                firstname: "Ma. Clarissa MD",
+                details: "Chair, Dept. of ORL-HNS, The Medical City Consultant Director, ENT-HNS, Center for Voice & Swallowing Disorders, The Medical City Head, Section of Laryngology, Dept. of ORL-HNS, UST Hospital  ",
+                imageUrl: "assets/imgs/speakers/CHANG.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Laser Surgery in Laryngology",
+                        info: "Oct 24, 9:00-9:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Unsedated Office-based Procedure in Laryngology ",
+                        info: "Oct. 24, 3:00 – 4:00 PM, Sampaguita B"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "FRAGANTE",
+                firstname: "Edilberto Joaquin Jr. MD",
+                details: "Clinical Associate Professor, UP-College of Medicine Medical Specialist, UP-PGH and National Kidney & Transplant Institute Active Consultant, Cardinal Santos Medical Center",
+                imageUrl: "assets/imgs/speakers/FRAGANTE.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Larynx Cancer",
+                        info: "Oct 23, 11:00 AM-12:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "GALVEZ",
+                firstname: "Joseph Amado MD",
+                details: "Chairman, Dept. of ORL-HNS, Ospital ng Maynila Associate Professor, Dept. of ORL-HNS, Emilio Aguinaldo College- College of Medicine Instructor, ORL-HNS, PAMantasan ng Lungsod ng Maynila  College of Medicine",
+                imageUrl: "assets/imgs/speakers/GALVEZ.jpg",
+                docs: [
+                    {
+                        title: "Soft Tissue Filler Augmentation",
+                        info: "Oct. 24, 1:30 – 1:45 PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P7.3  GALVEZ.pdf"
+                    },
+                    {
+                        title: "Facial Shaping with Neuromodulators and Fillers",
+                        info: "Oct. 24, 3:00 – 4:00 PM, Roma Salon",
+                        link: "images/assets/pdfs/CE 19.1 GALVEZ.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "GLORIA-CRUZ",
+                firstname: "Teresa Luisa MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/GLORIA.jpg",
+                docs: [
+                    {
+                        title: "Vertigo: Let’s Review",
+                        info: "Oct. 22, 7:00 – 8:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "HAO",
+                firstname: "Sheng-po MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/HAO.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Skull Base Tumors",
+                        info: "Oct 23, 1:30-3:00PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "HASSAN",
+                firstname: "Dewan MD",
+                details: "Senior Consultant & Head, Otolaryngology & Head and Neck Surgery, Sarkari Karmachari Hospital Life Member, Society of Otolaryngology & Head and Neck Surgeons of Bangladesh ",
+                imageUrl: "assets/imgs/speakers/HASSAN.jpg",
+                docs: [
+                    {
+                        title: "Retroauricular incision: A New Surgical Technique on Selected Parotid Gland Cases ",
+                        info: "Oct 24, 3:00-4:00 PM, Sampaguita C",
+                        link: "images/assets/pdfs/CE 18.1 HASSAN.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "HERNANDEZ",
+                firstname: "Josefino MD",
+                details: "Associate Professor & Vice-Chairman, Dept. of ORL-HNS, UP-Philippine 	General Hospital Consultant, Asian Hospital & Medical Center and Rizal Medical Center",
+                imageUrl: "assets/imgs/speakers/HERNANDEZ.jpg",
+                docs: [
+                    {
+                        title: "Surgery of Juvenile Angiofibroma ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C",
+                        link: "images/assets/pdfs/CE 8.1 HERNANDEZ.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "HERNANDEZ",
+                firstname: "Melfred MD",
+                details: "Director, Office of Alumni Relations, UP Manila Assistant to the Vice Chancellor for Administration, UP Manila Head, Section of Laryngobronchoesophagology & Neck, Asian Hospital & 	Medical Center ",
+                imageUrl: "assets/imgs/speakers/HERNANDEZ2.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Laser Surgery in Laryngology",
+                        info: "Oct 24, 9:00-9:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Vocal Fold Injection in the Clinic: When, Why, How ",
+                        info: "Oct. 24, 3:00 – 4:00 PM, Sampaguita B",
+                        link: "images/assets/pdfs/CE 17.2 HERNANDEZ M.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "HIGGS",
+                firstname: "Russell",
+                details: "International Sales Manager, PATH Medical GmbH (Germany)",
+                imageUrl: "",
+                docs: [
+                    {
+                        title: "AEP Testing with Patient Follow-up via Pathtrack Tracking Software",
+                        info: "Oct 24, 11:00-11:20 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "IGNACIO",
+                firstname: "Jorge MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/IGNACIO.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion–Multidisciplinary",
+                        info: "Oct 22, 2:30-3:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ISIP-TAN",
+                firstname: "Iris MD",
+                details: "Professor 3, Dept. of Medicine, University of the Philippines College of Medicine Attending Physician, Dept. of Medicine, UP-Philippine General Hospital Visiting Consultant, Manila Doctors Hospital ",
+                imageUrl: "assets/imgs/speakers/ISIP.jpg",
+                docs: [
+                    {
+                        title: "Social Media in the Clinical Practice",
+                        info: "Oct. 24, 1:25 – 1:50 PM, Maynila Ballroom"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "JARIN",
+                firstname: "Peter MD",
+                details: "Chair, Philippine Academy of Rhinology (PAR) Consultant, Dept. of ORL-HNS, The Medical City & Quirino Memorial 	Medical Center",
+                imageUrl: "assets/imgs/speakers/JARIN.jpg",
+                docs: [
+                    {
+                        title: "Image-guided Systems in Sinus and Skullbase Surgery",
+                        info: "Oct. 24, 2:30 – 2:45 PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P8.3 JARIN.pdf"
+                    },
+                    {
+                        title: "Landmark Base Endoscopic Sinus Surgery",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Roma Salon",
+                        link: "images/assets/pdfs/CE 14.1 JARIN.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "JURADO",
+                firstname: "Adonis MD",
+                details: "Chair, Philippine Academy of Paediatric Otolaryngology (PAPO) Head, Section of Paediatric ORL, Philippine Children's Medical Center Consultant, Dept. of ORL-HNS, Philippine Heart Center and The Medical 	City ",
+                imageUrl: "assets/imgs/speakers/JURADO.jpg",
+                docs: [
+                    {
+                        title: "Office Management of the Pediatric Airway",
+                        info: "Oct. 24, 10:00 – 10:15 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "KAY-IGNACIO",
+                firstname: "Caroline Bernadette King MD",
+                details: "Doctor of Medicine, Faculty of Medicine and Surgery, University of Santo Tomas, Espana, Manila Residency Training in Internal Medicine, University of Santo Tomas Hospital, Espana Manila Fellowshi",
+                imageUrl: "assets/imgs/speakers/KAY-IGNACIO.jpg",
+                docs: [
+                    {
+                        title: "Patient Preference Study for Allergic Rhinitis",
+                        info: "Oct. 24, 3:30 – 4:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "LACOUR",
+                firstname: "Michel MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/LACOUR.jpg",
+                docs: [
+                    {
+                        title: "Vestibular Compensation",
+                        info: "Oct. 24, 12:00 – 1:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "LAXAMANA",
+                firstname: "Joman MD",
+                details: "Rhinology Fellow & Rhinology Section Consultant, Dept. of ORL-HNS, East Avenue Medical Center Visiting/Teaching Consultant, Dept. of ORL-HNS, Jose B. Lingad, Memorial 	Regional Hospital ",
+                imageUrl: "assets/imgs/speakers/LAXAMANA.jpg",
+                docs: [
+                    {
+                        title: "Evolving Trends in Sinus Surgery",
+                        info: "Oct. 24, 2:00 – 2:15 PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P8.1 LAXAMANA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "LIM",
+                firstname: "Ida Marie MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/LIM.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion - Cancer of the Oral Cavity",
+                        info: "Oct 22, 9:45-10:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "LIM",
+                firstname: "WilliAM MD",
+                details: "Associate Professor, UERMMMC Head, Dept. of ORL-HNS, St. Luke's Medical Center-Global City",
+                imageUrl: "assets/imgs/speakers/LIM2.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion - Larynx Cancer",
+                        info: "Oct 23, 11:00 AM - 12:00 NN, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Office-based Laryngeal Surgery",
+                        info: "Oct. 24, 8:45 – 9:00 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P3.1 LIM.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Laser Surgery in Laryngology",
+                        info: "Oct. 24, 9:00 – 9:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "LLANES",
+                firstname: "Erasmo Gonzalo MD",
+                details: "Treasurer, Philippine Society of Otolaryngology-HNS Clinical Associate Professor/Attending Otorhinolaryngologist, Dept. of 	ORL-HNS, PGH Consultant Staff and Faculty-External Services, Philippine National Ear 	Institute, NIH, UP Manila ",
+                imageUrl: "assets/imgs/speakers/LLANES.jpg",
+                docs: [
+                    {
+                        title: "Bone-Anchored Hearing Aid ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita B",
+                        link: "images/assets/pdfs/CE 7.1 LLANES.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "LOPA",
+                firstname: "Ramon Antonio MD",
+                details: "Associate Professor, University of the Philippines College of Medicine Attending Consultant, Dept. of ORL-HNS, Makati Medical Center Section Chief, Section of Rhinology, Dept. of ORL-HNS, Makati Medical 	Center ",
+                imageUrl: "assets/imgs/speakers/LOPA.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion – Skull Base Tumors ",
+                        info: "Oct 23, 1:30-2:00PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Surgery of Inverting Papilloma ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "LUNA",
+                firstname: "Geraldine MD",
+                details: "Consultant, Dept. of ORL-HNS, Asian Hospital & Medical Center",
+                imageUrl: "assets/imgs/speakers/LUNA.jpg",
+                docs: [
+                    {
+                        title: "\"No More Blind Biopsies\": Integrating the Use of Ultrasound in Head and Neck Practice ",
+                        info: "Oct. 24, 3:00 – 4:00 PM, Champagne Salon",
+                        link: "images/assets/pdfs/CE 20.2 LUNA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "MAGLAYA",
+                firstname: "Jehan Grace MD",
+                details: "Assistant Professor, UERMMMCI Visiting Consultant, East Avenue Medical Center",
+                imageUrl: "assets/imgs/speakers/MAGLAYA.jpg",
+                docs: [
+                    {
+                        title: "Closed Reduction: Nasal Bone Fracture",
+                        info: "Oct. 24, 8:15 – 8:30 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P2.2 MAGLAYA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "MAI",
+                firstname: "Natalie",
+                details: "Director of Sales of Healthcare and Hearing Services",
+                imageUrl: "assets/imgs/speakers/MAI.jpg",
+                docs: [
+                    {
+                        title: "Shoebox Audiometry Update: How the iPad Audiometer Continues to Revolutionize the World of Hearing Health",
+                        info: "Oct 24, 10:45-11:00 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P6.1 MAI.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "MANAS",
+                firstname: "Ernest Roberto MD",
+                details: "Chairman, Dept. of ORL-HNS, Asian Hospital & Medical Center",
+                imageUrl: "assets/imgs/speakers/MANAS.jpg",
+                docs: [
+                    {
+                        title: "Basic VNG for the ENT ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita A",
+                        link: "images/assets/pdfs/CE 6.3 MANAS.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "MATIAS",
+                firstname: "Homer MD",
+                details: "Plastic, Reconstructive, Aesthetic Surgeon & Head and Neck Surgeon in General Santos City and Davao City Member, PSO-HNS and Philippine Academy of Aesthetics Surgery (PAAS)",
+                imageUrl: "assets/imgs/speakers/MATIAS.png",
+                docs: [
+                    {
+                        title: "Nerve Blocks/Anesthesia for Office Procedures and Goretex Thread for Rhinoplasty",
+                        info: "Oct. 24, 1:00 – 1:15 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "MATUBIS",
+                firstname: "Jacob MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/MATUBIS.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion - Salivary Gland Tumors",
+                        info: "Oct. 22, 4:15 – 4:45 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "MARTINEZ",
+                firstname: "Norberto MD",
+                details: "Professor, Dept. of ENT, Faculty of Medicine, University of Santo Tomas Chair, Dept. of ENT, Faculty of Medicine, University of Santo Tomas Head, Section of Otology, St. Luke's Medical Center-Quezon City Head, Hearing & Balance Lab., St. Luke's Medical Center-Global City ",
+                imageUrl: "assets/imgs/speakers/MARTINEZ.jpg",
+                docs: [
+                    {
+                        title: "Fat Myringoplasty",
+                        info: "Oct. 24, 10:15 – 10:30 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P4.3 MARTINEZ.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "MEJIA",
+                firstname: "Michael MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/MEJIA.jpg",
+                docs: [
+                    {
+                        title: "Panel Discusson - Multidisciplinary Management",
+                        info: "Oct. 22, 2:30 – 3:00 PM, Sampaguita B"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "METHEETRAIRUT",
+                firstname: "Choakchai MD",
+                details: "Senior Consultant & Head, Otolaryngology & Head and Neck Surgery, Sarkari Karmachari Hospital Life Member, Society of Otolaryngology & Head and Neck Surgeons of 	Bangladesh",
+                imageUrl: "",
+                docs: [
+                    {
+                        title: "Panel Discusson - Thyroid Cancer",
+                        info: "Oct. 22, 11:30 AM – 12:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "MOSGES",
+                firstname: "Ralph MD PhD, FAAAAI",
+                details: "Associate Professor & Vice-Chairman, Dept. of ORL-HNS, UP-Philippine 	General Hospital Consultant, Asian Hospital & Medical Center and Rizal Medical Center",
+                imageUrl: "",
+                docs: [
+                    {
+                        title: "Allergic Rhinoconjunctivitis: Guidelines Update and New Treatment Strategies",
+                        info: "Oct. 23, 7:00 – 11:00 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "NAVARRO-LOCSIN",
+                firstname: "Cecilia Gretchen MD",
+                details: "Assistant Professor II, St. Luke's Medical Center College of Medicine Head, Dept. of ORL-HNS, St. Luke's Medical Center-Quezon City Medical Specialist II, Philippine Children's Medical Center",
+                imageUrl: "assets/imgs/speakers/NAVARRO-LOCSIN.jpg",
+                docs: [
+                    {
+                        title: "Ventilation tubes for OME in Cleft Palate: Do We or Do We Not?",
+                        info: "Oct. 24, 9:45 – 10:00 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P4.2 LOCSIN.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "NONATO",
+                firstname: "Rodolfo MD",
+                details: "Board of Director, Philippine Board of Otolaryngology-HNS Consultant, Dept. of ORL-HNS, Corazon Locsin Montelibano Memorial Regional Hospital ",
+                imageUrl: "assets/imgs/speakers/NONATO.png",
+                docs: [
+                    {
+                        title: "Common ENT-HNS Outpatient Selected Conditions and Situations: How I Managed It ",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon",
+                        link: "images/assets/pdfs/CE 15.2 NONATO.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "PANGAN",
+                firstname: "Roberto MD",
+                details: "Associate Clinical Professor, Dept. of ORL-HNS, UP-Philippine General Hospital Consultant, Dept. of ORL-HNS, East Avenue Medical Center and Cebu 	Doctor's Hospital",
+                imageUrl: "assets/imgs/speakers/PANGAN.png",
+                docs: [
+                    {
+                        title: "Condylar Fractures: When and When Not To Plate ",
+                        info: "Oct. 24, 3:00 – 4:00 PM, Sampaguita A"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "PASAYAN",
+                firstname: "Mark Kristoffer MD",
+                details: "Chair, Philippine Academy of Rhinology (PAR) Consultant, Dept. of ORL-HNS, The Medical City & Quirino Memorial 	Medical Center",
+                imageUrl: "assets/imgs/speakers/PASAYAN.jpg",
+                docs: [
+                    {
+                        title: "NECK Session (Natrapharm Enhancing Clinical Knowledge in Current Practice): Solving the Mysteries of Cervical Lymphadenopathy",
+                        info: "Oct. 24, 11:30 AM – 12:00 NN, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "PATDU",
+                firstname: "Ivy MD, REB, JD",
+                details: "Lecturer in Medical Jurisprudence, UP Manila, College of Medicine. Lecturer in Legal Medicine, San Beda College of Law. Lecturer in Forensic Medicine, Ateneo Law School",
+                imageUrl: "assets/imgs/speakers/PATDU.png",
+                docs: [
+                    {
+                        title: "Data Privacy",
+                        info: "Oct. 24, 1:00 – 1:25 PM, Maynila Ballroom",
+                        link: "images/assets/pdfs/S3.1 PATDU.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "PONTEJOS",
+                firstname: "Alfredo Jr. MD",
+                details: "Professor 8, University of Manila-College of Medicine Board of Director, Philippine Board of Otolaryngology-HNS Otorhinolaryngologist, Manila Doctors Hospital and Philippine General 	Hospital",
+                imageUrl: "assets/imgs/speakers/PONTEJOS.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion - Larynx Cancer",
+                        info: "Oct. 23, 11:00 AM – 12:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "The Use of Harmonic Scalpel in ORL-Head and Neck Surgeries ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Roma Salon",
+                        link: "images/assets/pdfs/CE 9.2 PONTEJOS.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "PUNO",
+                firstname: "Maria Patricia Ann MD",
+                details: "Active Consultant, Dept. of ORL-HNS, Makati Medical Center",
+                imageUrl: "assets/imgs/speakers/PUNO.jpg",
+                docs: [
+                    {
+                        title: "Overview and Management of OSA",
+                        info: "Oct. 24, 2:45 – 3:00 PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P9.1 PUNO.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "REMULLA",
+                firstname: "Agnes MD",
+                details: "President, Philippine Society of Otolaryngology-HNS Clinical Associate Professor, UP-Philippine General Hospital Attending ORL, Asian Hospital & Medical Center and Philippine General 	Hospital ",
+                imageUrl: "assets/imgs/speakers/REMULLA.jpg",
+                docs: [
+                    {
+                        title: "Challenges and Advances in Tonsillectomy and Adenoidectomy",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita A"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "REYES-QUINTOS",
+                firstname: "Maria Rina MD",
+                details: "Deputy Executive Director, National Institutes of Health Clinical Associate Professor, UP-Philippine General Hospital Consultant Director Hearing and Dizziness Center, The Medical City ",
+                imageUrl: "assets/imgs/speakers/QUINTOS.jpg",
+                docs: [
+                    {
+                        title: "Implantable Devices: Candidacy, Indications and Contraindications ",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita C",
+                        link: "images/assets/pdfs/CE 3.2 QUINTOS.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "RICALDE",
+                firstname: "Rosario MD",
+                details: "Clinical Associate Professor, University of the Philippines Manila, College of Medicine Consultant, Dept. of ORL-HNS, Philippine General Hospital Chair, Dept. of ORL-HNS, Providence Hospital ",
+                imageUrl: "assets/imgs/speakers/RICALDE.jpg",
+                docs: [
+                    {
+                        title: "Steroids for Hearing Loss and Vertigo ",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita A",
+                        link: "images/assets/pdfs/CE 11.2 RICALDE.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ROASA",
+                firstname: "Francis MD",
+                details: "Associate Professor III, UST Faculty of Medicine & Surgery Consultant, Dept. of ORL-HNS, UST Hospital and St. Luke's Medical 	Center-Global City Medical Specialist II, Ospital ng Makati",
+                imageUrl: "assets/imgs/speakers/ROASA.jpg",
+                docs: [
+                    {
+                        title: "3D Imaging / Printing and Planning in Maxillofacial Surgery",
+                        info: "Oct. 24, 8:00 – 8:15 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P2.1 ROASA.pdf"
+                    },
+                    {
+                        title: "CMF Plating That Gets the Best Results: What an ENT Should Know Otorhinolaryngologist",
+                        info: "Oct. 24, 3:00 – 4:00 PM, Sampaguita A",
+                        link: "images/assets/pdfs/CE 16.1 ROASA.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "RODRIGUEZ",
+                firstname: "Edgardo Jr. MD",
+                details: "Associate Professor, Pamantasan ng Lungsod ng Maynila Chairman Emeritus, Dept. of ORL-HNS, Ospital ng Maynila Consultant, Medical Center Parañaque and Asian Hospital & Medical	Center",
+                imageUrl: "assets/imgs/speakers/RODRIGUEZ.jpg",
+                docs: [
+                    {
+                        title: "Investment",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon",
+                        link: "images/assets/pdfs/CE 15.1 RODRIGUEZ.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "ROMUALDEZ",
+                firstname: "Joel MD",
+                details: "Faculty in Otolaryngology, Faculty of Medicine & Surgery, University of 	Santo Tomas Executive Officer, St. Luke's Medical Center-QC Vice-Chair, Philippine Academy of Neurotology, Otology & Related 	Sciences (PANORS) ",
+                imageUrl: "assets/imgs/speakers/ROMUALDEZ.jpg",
+                docs: [
+                    {
+                        title: "Home-Based Vestibular Exercises ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita A",
+                        link: "images/assets/pdfs/CE 6.2 ROMUALDEZ.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "SANNIKORN",
+                firstname: "Phakdee MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/SANNIKORN.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion - Reconstructive Surgery ",
+                        info: "Oct. 24, 2:30 – 3:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "SARMIENTO",
+                firstname: "Victoria MD",
+                details: "Active Consultant, Dept. of ORL-HNS, Makati Medical Center and Manila 	Doctors Hospital",
+                imageUrl: "assets/imgs/speakers/SARMIENTO.png",
+                docs: [
+                    {
+                        title: "Challenges of the Aging Physician",
+                        info: "Oct. 24, 7:30 – 7:45 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Local Allergic Rhinitis ",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita B"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "SARTE",
+                firstname: "Michael Alexius MD",
+                details: "Chairman, Dept. of ORL-HNS, Rizal Medical Center Consultant, Director Sleep Lab., The Medical City ",
+                imageUrl: "assets/imgs/speakers/SARTE.jpg",
+                docs: [
+                    {
+                        title: "Office-based Surgery for the Nasal Cavity",
+                        info: "Oct. 24, 3:00 – 3:15 PM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P9.2 SARTE.pdf"
+                    },
+                    {
+                        title: "Diagnostic Tests for OSA ",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita C",
+                        link: "images/assets/pdfs/CE 13.1 SARTE.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "SHAH",
+                firstname: "Jatin MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/SHAH.jpg",
+                docs: [
+                    {
+                        title: "Keynote Speaker",
+                        info: "Oct. 22, 8:45 – 9:00 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Cancer of the Oral Cavity",
+                        info: "Oct. 22, 9:15 – 9:45 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Surgery for the Primary",
+                        info: "Oct. 22, 10:30 – 11:00 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Stump the Faculty",
+                        info: "Oct 23, 3:30-4:30pm, Maynila Ballroom"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "SHAHA",
+                firstname: "Ashok MD",
+                details: "Oct. 22, 2:30 – 3:00 PM, Fiesta Pavilion",
+                imageUrl: "assets/imgs/speakers/SHAHA.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion - Multidisciplinary Management",
+                        info: "Oct. 22, 2:30 – 3:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Surgery for the Neck",
+                        info: "Oct. 22, 11:00 – 11:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Salivary Gland Tumors",
+                        info: "Oct. 22, 3:45 – 4:15 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "STREBEL",
+                firstname: "Heinrick Martin Jude MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/STREBEL.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion - Oropharynx Cancer",
+                        info: "Oct. 23, 8:40 – 9:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "TAN-NGO",
+                firstname: "Angelo",
+                details: "",
+                imageUrl: "assets/imgs/speakers/TAN-NGO.jpg",
+                docs: [
+                    {
+                        title: "Level-3 Home Sleep Test - A Convenient Way to Diagnose OSA",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Roma Salon"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "PORCEDDU",
+                firstname: "Sandro MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/PORCEDDU.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Cancer of the Oral Cavity",
+                        info: "Oct. 22, 9:45 - 10:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Thyroid Cancer",
+                        info: "Oct. 22, 11:30 AM - 12:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Advances in Radiotherapy",
+                        info: "Oct. 22, 1:30 – 2:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Radiotherapy in Oropharynx Cancer",
+                        info: "Oct. 23, 8:20 – 8:40 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Non-Surgical: Radiation in Larynx Cancer",
+                        info: "Oct. 23, 10:40 – 11:00 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Skull Base Tumors ",
+                        info: "Oct .23, 1:30 - 2:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Stump the Faculty ",
+                        info: "Oct. 23, 3:30 - 4:30 PM, Maynila Ballroom"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "VERMORKEN",
+                firstname: "Jan MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/VERMORKEN.jpg",
+                docs: [
+                    {
+                        title: "Advances in Systemic Therapy",
+                        info: "Oct. 22, 2:00 – 2:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Non-Surgical: Chemotherapy of Larynx Cancer",
+                        info: "Oct. 23, 10:20 – 10:40 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Skull Base Tumors",
+                        info: "Oct. 23, 1:30 - 2:00 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Stump the Faculty",
+                        info: "Oct. 23, 3:30 - 4:30 PM, Maynila Ballroom"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "TANTOCO",
+                firstname: "Ma. Leah MD",
+                details: "Senior Lecturer, UP-CAMP Consultant, Dept. of ORL-HNS, Philippine General Hospital",
+                imageUrl: "assets/imgs/speakers/TANTOCO.jpg",
+                docs: [
+                    {
+                        title: "Hearing Aids: Updates and New Trends",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita C",
+                        link: "images/assets/pdfs/CE 3.1 TANTOCO.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "VELORO",
+                firstname: "Lyra MD",
+                details: "Section Head, Pediatric ENT, The Medical City Active Consultant, Philippine Children's Medical Center ",
+                imageUrl: "assets/imgs/speakers/VELORO.jpg",
+                docs: [
+                    {
+                        title: "Epistaxis in Children: What Can We Do in the Clinic?",
+                        info: "Oct. 24, 9:30 – 9:45 AM, Fiesta Pavilion",
+                        link: "images/assets/pdfs/P4.1 VELORO.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "VILLAFUERTE",
+                firstname: "Cesar Jr. MD",
+                details: "President, Philippine Board of Otolaryngology-HNS Associate Professor, Dept. of ORL-HNS, FEU-NRMF and UP-College of Medicine Section Head, Facial Plastic Surgery Section, The Medical City",
+                imageUrl: "assets/imgs/speakers/VILLAFUERTE.jpg",
+                docs: [
+                    {
+                        title: "Septorhinoplasty for the Crooked Nose",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Roma Salon",
+                        link: "images/assets/pdfs/CE 4.1 VILLAFUERTE.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "VILLEGAS",
+                firstname: "Manuel Jr. MD",
+                details: "Chief Medical Officer, Asian Hospital & Medical Cente Professor, ORL-HNS, Emilio Aguinaldo College of Medicin Consultant, Dept. of ORL-HNS, Manila Doctors Hospital and Ospital ng 	Muntinlupa",
+                imageUrl: "assets/imgs/speakers/VILLEGAS.jpg",
+                docs: [
+                    {
+                        title: "Symptoms of Eustachian Tube Dysfunction",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita B"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Practice Pearls in Preventive ORL",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "WITTERICK",
+                firstname: "Ian MD",
+                details: "President, Philippine Society of Otolaryngology-HNS Clinical Associate Professor, UP-Philippine General Hospital Attending ORL, Asian Hospital & Medical Center and Philippine General 	Hospital",
+                imageUrl: "assets/imgs/speakers/WITTERICK.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Thyroid Cancer",
+                        info: "Oct. 22, 11:30 - 12:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Salivary Gland Tumors",
+                        info: "Oct. 22, 4:15 - 4:45 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Surgery of Oropharynx Cancer",
+                        info: "Oct. 23, 8:00 – 8:20 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Oropharynx Cancer",
+                        info: "Oct. 23, 8:40 - 9:30 AM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Larynx Cancer",
+                        info: "Oct. 23, 11:00 AM - 12:00 NN, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Skull Base Surgery",
+                        info: "Oct. 23, 1:00 – 1:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Reconstructive Surgery",
+                        info: "Oct. 23, 2:00 – 2:30 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                    {
+                        title: "Panel Discussion: Stump the Faculty ",
+                        info: "Oct. 23, 3:30 - 4:30 PM, Maynila Ballroom"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "YABUT",
+                firstname: "Cesar Anthony MD",
+                details: "Consultant, Dept. of ORL-HNS, Southern Philippines Med. Ctr. and General 	Santos Doctor's Hosp. Associate Consultant, Hearing Conservation UP-PGH, Philippine National 	Ear Institute ",
+                imageUrl: "assets/imgs/speakers/YABUT.png",
+                docs: [
+                    {
+                        title: "Tympanostomy and Nasal Polypectomy using Microdebrider in the Clinic ",
+                        info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon",
+                        link: "images/assets/pdfs/CE 15.3 YABUT.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "YANG",
+                firstname: "Nathaniel MD",
+                details: "Assistant Professor, Dept. of ORL-HNS, FEU-NRMF Clinical Associate Professor, Dept. of ORL-HNS, UP-Philippine General. Hospital Chief, Section of Otology & Neurotology, Dept. of ORL-HNS, FEU-NRMF and 	The Medical City",
+                imageUrl: "assets/imgs/speakers/YANG.jpg",
+                docs: [
+                    {
+                        title: "Cochlear Implant Surgery ",
+                        info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita B",
+                        link: "images/assets/pdfs/CE 7.2 YANG.pdf"
+                    },
+                    {
+                        title: "The Evolution of Temporal Bone Imaging",
+                        info: "Oct. 24, 9:00 – 9:20 AM, Maynila Ballroom",
+                        link: "images/assets/pdfs/S1.1 YANG.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "YAP",
+                firstname: "Eduardo MD",
+                details: "Consultant - FPS, Belo Medical Group. Consultant, Dept. of ORL-HNS, Metropolitan Medical Center. Founding President, Facial Aesthetic Core of ENT Surgeons (FACES). ",
+                imageUrl: "assets/imgs/speakers/YAP.jpg",
+                docs: [
+                    {
+                        title: "The Role of Nasal Septum in Structural Rhinoplasty ",
+                        info: "Oct. 24, 8:00 – 9:00 AM, Roma Salon",
+                        link: "images/assets/pdfs/CE 4.2 YAP.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "YEE",
+                firstname: "Don Izzy MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/YEE.jpg",
+                docs: [
+                    {
+                        title: "Clearvue CME: \"IV Nutrient Supplementation\" ",
+                        info: "Oct. 23, 3:00 – 3:30 PM, Roma Salon"
+                        // , link: "images/assets/pdfs/.pdf"
+                    },
+                ]
+            },
+            {
+                lastname: "YUNUS",
+                firstname: "Mohd Razif MD",
+                details: "",
+                imageUrl: "assets/imgs/speakers/YUNUS.jpg",
+                docs: [
+                    {
+                        title: "Panel Discussion: Salivary Gland Tumors",
+                        info: "Oct. 22, 4:15 - 4:45 PM, Fiesta Pavilion"
+                        // , link: "images/assets/pdfs/.pdf"
                     },
                 ]
             },
@@ -2084,7 +3486,7 @@ var SpeakersPage = /** @class */ (function () {
     };
     SpeakersPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-speakers',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\speakers\speakers.html"*/'<ion-content padding>\n	<div>\n		<ion-searchbar\n		  [(ngModel)]="searchInput"\n		  [showCancelButton]="true"\n		  (ionInput)="onInput($event)"\n		  (ionCancel)="onCancel($event)">\n		</ion-searchbar>\n	</div>\n	<ion-list>\n		<ion-item class="speaker-item" *ngFor="let speaker of speakerData" (click)="navToSpeakerInfo(speaker)">\n			<img src="{{speaker.imageUrl}}">\n			<h5>{{speaker.lastname}}, {{speaker.firstname}}</h5>\n			<ion-icon class="star-icon" name="star-outline"></ion-icon>\n		</ion-item>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\speakers\speakers.html"*/,
+            selector: 'page-speakers',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\speakers\speakers.html"*/'<ion-content padding>\n	<div>\n		<ion-searchbar\n		  [(ngModel)]="searchInput"\n		  [showCancelButton]="true"\n		  (ionInput)="onInput($event)"\n		  (ionCancel)="onCancel($event)">\n		</ion-searchbar>\n	</div>\n	<ion-list>\n		<ion-item class="speaker-item" *ngFor="let speaker of speakerData" (click)="navToSpeakerInfo(speaker)">\n			<img src="{{speaker.imageUrl}}" *ngIf="speaker.imageUrl != \'\'">\n			<div class="speaker-img-empty" *ngIf="speaker.imageUrl == \'\'"></div>\n			<h5>{{speaker.lastname}}, {{speaker.firstname}}</h5>\n			<ion-icon class="star-icon" name="star-outline"></ion-icon>\n		</ion-item>\n	</ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\speakers\speakers.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], SpeakersPage);
@@ -2095,15 +3497,15 @@ var SpeakersPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 210:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpeakerInfoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_file_transfer__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_file__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_file_transfer__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_file__ = __webpack_require__(213);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2159,6 +3561,15 @@ var SpeakerInfoPage = /** @class */ (function () {
     // }
     SpeakerInfoPage.prototype.download = function (doc) {
         var _this = this;
+        if (doc.link.trim().length <= 0) {
+            var toast = this.toastCtrl.create({
+                message: 'No Document to download',
+                duration: 3000,
+                position: 'top'
+            });
+            toast.present();
+            return;
+        }
         console.log("file", this.file.externalRootDirectory + 'file.pdf');
         var fileTransfer = this.transfer.create();
         var loading = this.loadingCtrl.create({
@@ -2169,7 +3580,7 @@ var SpeakerInfoPage = /** @class */ (function () {
         this.file.copyFile(this.file.applicationDirectory + 'www/assets/pdfs/', fileName, this.file.externalRootDirectory + "/Download/", fileName).then(function (e) {
             var toast = _this.toastCtrl.create({
                 message: 'Downloaded to ' + e.fullPath,
-                duration: 5000,
+                duration: 3000,
                 position: 'top'
             });
             toast.present();
@@ -2178,7 +3589,7 @@ var SpeakerInfoPage = /** @class */ (function () {
         }).catch(function (e) {
             var toast = _this.toastCtrl.create({
                 message: 'Failed to download document',
-                duration: 5000,
+                duration: 3000,
                 position: 'top'
             });
             toast.present();
@@ -2188,7 +3599,7 @@ var SpeakerInfoPage = /** @class */ (function () {
     };
     SpeakerInfoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-speaker-info',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\speaker-info\speaker-info.html"*/'<ion-content>\n	<div class="header">\n		<div>\n			<p>Name:</p>\n			<h6>{{speaker.lastname}}, {{speaker.firstname}}</h6>\n		</div>\n		<img class="speaker-img" src="{{speaker.imageUrl}}">\n	</div>\n	<div padding>\n		<div class="details">\n			{{speaker.details}}\n		</div>\n		<ion-list class="speaker-docs">\n			<ion-item *ngFor="let doc of speaker.docs" (click)="download(doc)">\n				<img src="assets/imgs/book.png" class="book-icon">\n				<div class="doc-info">\n					<h5>{{doc.title}}</h5>\n					<h5>{{doc.info}}</h5>\n				</div>\n				<h5 class="arrow">></h5>\n			</ion-item>\n		</ion-list>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\speaker-info\speaker-info.html"*/,
+            selector: 'page-speaker-info',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\speaker-info\speaker-info.html"*/'<ion-content class="speaker-info-content">\n	<div class="header">\n		<div class="speaker-name">\n			<p>Name:</p>\n			<h6>{{speaker.lastname}}, {{speaker.firstname}}</h6>\n		</div>\n		<img class="speaker-img" src="{{speaker.imageUrl}}" *ngIf="speaker.imageUrl != \'\'">\n		<div class="speaker-empty" *ngIf="speaker.imageUrl == \'\'"></div>\n	</div>\n	<div padding>\n		<div class="details">\n			{{speaker.details}}\n		</div>\n		<ion-list class="speaker-docs">\n			<ion-item *ngFor="let doc of speaker.docs" (click)="download(doc)">\n				<img src="assets/imgs/book.png" class="book-icon">\n				<div class="doc-info">\n					<h5>{{doc.title}}</h5>\n					<h5>{{doc.info}}</h5>\n				</div>\n				<h5 class="arrow">></h5>\n			</ion-item>\n		</ion-list>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\speaker-info\speaker-info.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
@@ -2204,67 +3615,13 @@ var SpeakerInfoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 213:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventInfoPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var EventInfoPage = /** @class */ (function () {
-    function EventInfoPage(navCtrl, navParams, platform) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.platform = platform;
-        this.event = {
-            address: "Level 10-1 One Global Place 5th Avenue & 25th Street, Taguig, 1632 Metro Manila",
-            landline: "994-1239",
-            cellNo: "0917-1144615"
-        };
-        this.platform.registerBackButtonAction(function () {
-            _this.navCtrl.pop();
-        }, 1);
-    }
-    EventInfoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad EventInfoPage');
-    };
-    EventInfoPage.prototype.navTo = function () {
-        // this.navCtrl.push(LoginPage, {"event":this.event})
-    };
-    EventInfoPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-event-info',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\event-info\event-info.html"*/'<ion-content class="theme-background" padding (click)="navTo()">\n	<div class="info-container">\n		<h5>{{event.address}}</h5>\n		<h5>Tel no.:{{event.landline}}</h5>\n		<h5>Cellphone no.:{{event.cellNo}}</h5>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\event-info\event-info.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]])
-    ], EventInfoPage);
-    return EventInfoPage;
-}());
-
-//# sourceMappingURL=event-info.js.map
-
-/***/ }),
-
 /***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InformationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2318,9 +3675,63 @@ var InformationPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventInfoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var EventInfoPage = /** @class */ (function () {
+    function EventInfoPage(navCtrl, navParams, platform) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.platform = platform;
+        this.event = {
+            address: "Level 10-1 One Global Place 5th Avenue & 25th Street, Taguig, 1632 Metro Manila",
+            landline: "994-1239",
+            cellNo: "0917-1144615"
+        };
+        this.platform.registerBackButtonAction(function () {
+            _this.navCtrl.pop();
+        }, 1);
+    }
+    EventInfoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EventInfoPage');
+    };
+    EventInfoPage.prototype.navTo = function () {
+        // this.navCtrl.push(LoginPage, {"event":this.event})
+    };
+    EventInfoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-event-info',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\event-info\event-info.html"*/'<ion-content class="theme-background" padding (click)="navTo()">\n	<div class="info-container">\n		<h5>{{event.address}}</h5>\n		<h5>Tel no.:{{event.landline}}</h5>\n		<h5>Cellphone no.:{{event.cellNo}}</h5>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\event-info\event-info.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]])
+    ], EventInfoPage);
+    return EventInfoPage;
+}());
+
+//# sourceMappingURL=event-info.js.map
+
+/***/ }),
+
+/***/ 216:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(239);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -2328,40 +3739,40 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 238:
+/***/ 239:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(288);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_event_list_event_list__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_event_info_event_info__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_event_event__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_sponsors_sponsors__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_tabs_tabs__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_event_info_event_info__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_event_event__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_sponsors_sponsors__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_tabs_tabs__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_information_information__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_announcements_announcements__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_about__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_registration_registration__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_accomodation_accomodation__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_research_presentation_research_presentation__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_research_info_research_info__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_schedule_schedule__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_day_schedule_day_schedule__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_clinical_encounter_clinical_encounter__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_speakers_speakers__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_speaker_info_speaker_info__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_sponsor_popover_sponsor_popover__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_file_transfer__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_announcements_announcements__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_about__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_registration_registration__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_accomodation_accomodation__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_venue_venue__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_research_presentation_research_presentation__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_research_info_research_info__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_schedule_schedule__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_day_schedule_day_schedule__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_clinical_encounter_clinical_encounter__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_speakers_speakers__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_speaker_info_speaker_info__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_sponsor_popover_sponsor_popover__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_file_transfer__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_file__ = __webpack_require__(213);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2473,17 +3884,17 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 288:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_app_app__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(194);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2526,69 +3937,7 @@ var MyApp = /** @class */ (function () {
 
 //# sourceMappingURL=app.component.js.map
 
-/***/ }),
-
-/***/ 289:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__event_event__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__information_information__ = __webpack_require__(214);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var TabsPage = /** @class */ (function () {
-    function TabsPage(navCtrl, navParams, evt, platform) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.evt = evt;
-        this.platform = platform;
-        this.tab2Root = __WEBPACK_IMPORTED_MODULE_2__event_event__["a" /* EventPage */];
-        this.tab3Root = __WEBPACK_IMPORTED_MODULE_3__information_information__["a" /* InformationPage */];
-        this.event = null;
-        this.event = this.navParams.get("event");
-        this.evt.subscribe("select:event", function (event) {
-            _this.event = event;
-        });
-        this.platform.registerBackButtonAction(function () {
-            _this.navCtrl.pop();
-        }, 1);
-    }
-    TabsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad TabsPage', this.event);
-    };
-    TabsPage.prototype.back = function () {
-        this.evt.publish("cmd:back");
-    };
-    TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tabs',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/'<ion-header >\n\n  <ion-navbar class="theme-background" *ngIf="event">\n  	<img class="header-banner" src="{{event.bannerUrl}}">\n  </ion-navbar>\n\n\n\n  <ion-navbar class="theme-background default" *ngIf="!event">\n  	<img class="header-logo" src="assets/imgs/cce_logo.png">\n    <ion-title>Congress & Events</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-tabs tabsPlacement="bottom" selectedIndex="1">\n  <ion-tab  tabTitle="Back" tabIcon="arrow-round-back" (ionSelect)="back()"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Information" tabIcon="information-circle">\n  <ion-tab  tabTitle="Favourites" tabIcon="star-outline"></ion-tab>\n  </ion-tab>\n</ion-tabs>'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\tabs\tabs.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]])
-    ], TabsPage);
-    return TabsPage;
-}());
-
-//# sourceMappingURL=tabs.js.map
-
 /***/ })
 
-},[215]);
+},[216]);
 //# sourceMappingURL=main.js.map

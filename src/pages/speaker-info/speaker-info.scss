@@ -8,7 +8,7 @@ page-speaker-info {
 	.header *{
 		color: #fff;
 	}
-	.header>div{
+	.header>.speaker-name{
 		width: 70%;
 		margin-top: 10px;
 		display: inline-block;
@@ -28,6 +28,15 @@ page-speaker-info {
 		float: right;
 		vertical-align: middle;
 	}
+	.speaker-empty{
+		width: 80px;
+		height: 80px;
+		display: inline-block;
+		float: right;
+		vertical-align: middle;
+		background: #acacac;
+
+	}
 	.details{
 		font-size: 14px;
 	}
@@ -46,6 +55,7 @@ page-speaker-info {
 		margin-left: 20px;
 		width: 60%;
 		white-space: normal;
+		padding-top: 5px;
 	}
 	.arrow{
 		display: inline-block;
@@ -54,5 +64,8 @@ page-speaker-info {
 	}
 	.speaker-docs{
 		margin-top: 40px;
+	}
+	.speaker-info-content .scroll-content{
+		margin-bottom: 70px;
 	}
 }

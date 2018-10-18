@@ -9,7 +9,8 @@
 	</div>
 	<ion-list>
 		<ion-item class="speaker-item" *ngFor="let speaker of speakerData" (click)="navToSpeakerInfo(speaker)">
-			<img src="{{speaker.imageUrl}}">
+			<img src="{{speaker.imageUrl}}" *ngIf="speaker.imageUrl != ''">
+			<div class="speaker-img-empty" *ngIf="speaker.imageUrl == ''"></div>
 			<h5>{{speaker.lastname}}, {{speaker.firstname}}</h5>
 			<ion-icon class="star-icon" name="star-outline"></ion-icon>
 		</ion-item>
