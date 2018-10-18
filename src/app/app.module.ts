@@ -29,6 +29,7 @@ import { SponsorPopoverPage } from '../pages/sponsor-popover/sponsor-popover';
 
 import { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
+import { AndroidPermissions } from '@ionic-native/android-permissions';
 
 @NgModule({
   declarations: [
@@ -89,6 +90,7 @@ import { File } from '@ionic-native/file';
     SplashScreen
     ,FileTransfer, FileTransferObject
     ,File
+    ,AndroidPermissions
     ,{provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

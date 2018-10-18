@@ -62,7 +62,7 @@ export class SpeakersPage {
 					{
 							title:"Challenges and Advances in Tonsillectomy and Adenoidectomy"
 						, info: "Oct. 24, 8:00-9:00 AM, Sampaguita A"
-						, link: "images/assets/pdfs/CE 1.1 AGUILERA.pdf"
+						, link: "assets/pdfs/CE 1.1 AGUILERA.pdf"
 					},
 				]
 			},
@@ -75,7 +75,7 @@ export class SpeakersPage {
 					{
 							title:"EMR: Issues and Challenges in the Clinical Practice"
 						, info: "Oct. 24, 10:25 – 10:50 AM, Maynila Ballroom"
-						, link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						, link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 				]
 			},
@@ -88,7 +88,7 @@ export class SpeakersPage {
 					{
 							title:"Management of Estachian Tube Dysfunction"
 						, info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita A"
-						, link: "images/assets/pdfs/CE 2.2 ALMAZAN.pdf"
+						, link: "assets/pdfs/CE 2.2 ALMAZAN.pdf"
 					},
 				]
 			},
@@ -96,12 +96,12 @@ export class SpeakersPage {
 				lastname: "ALMELOR"
 				, firstname: "Mamerto MD"
 				, details: ""
-				, imageUrl: "assets/imgs/speakers/ALFANTA.jpg"
+				, imageUrl: "assets/imgs/speakers/ALMELOR.jpg"
 				, docs: [
 					{
 							title:"Cancer of Oral Cavity"
 						, info: "Oct. 22, 9:45-10:30 AM, Fiesta Pavilion "
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 				]
 			},
@@ -109,17 +109,17 @@ export class SpeakersPage {
 				lastname: "ALONZO"
 				, firstname: "Daniel MD"
 				, details: "Director, Cancer Institute, The Medical City"
-				, imageUrl: "assets/imgs/speakers/ALFANTA.jpg"
+				, imageUrl: "assets/imgs/speakers/ALONZO.jpg"
 				, docs: [
 					{
 							title:"Panel Discussion: Thyroid Cancer"
 						, info: "Oct. 22, 11:30 AM – 12:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 					{
 							title:"The Value of Ultrasound in the Evaluation of Head and Neck Neoplasms"
 						, info: "Oct. 24, 8:00 – 9:00 AM, Champagne Salon"
-						, link: "images/assets/pdfs/CE 20.1 ALONZO.pdf"
+						, link: "assets/pdfs/CE 20.1 ALONZO.pdf"
 					},
 				]
 			},
@@ -132,12 +132,12 @@ export class SpeakersPage {
 					{
 							title:"Basic Principles & Overview on the Use of the Harmonic Scalpel in ENT"
 						, info: "Oct. 24, 8:00 – 9:00 AM, Roma Salon"
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 					{
 							title:"Neuromodulators"
 						, info: "Oct. 24, 1:15 – 1:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 				]
 			},
@@ -150,7 +150,7 @@ export class SpeakersPage {
 					{
 							title:"My Unconventional Methods in Otolaryngology-Head and Neck Surgery"
 						, info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon"
-						, link: "images/assets/pdfs/CE 15.4 AYAHAO.pdf"
+						, link: "assets/pdfs/CE 15.4 AYAHAO.pdf"
 					},
 				]
 			},
@@ -163,7 +163,7 @@ export class SpeakersPage {
 					{
 							title:"Overview of EMR in the Philippines"
 						, info: "Oct. 24, 10:00 – 10:25 AM, Maynila Ballroom"
-						, link: "images/assets/pdfs/S2.1 BANEZ.pdf"
+						, link: "assets/pdfs/S2.1 BANEZ.pdf"
 					},
 				]
 			},
@@ -176,7 +176,7 @@ export class SpeakersPage {
 					{
 							title:"The Unmet Medical Need in AR: European Perspective and Parallels in the Philippines"
 						, info: "Oct. 23, 12:00 – 1:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 				]
 			},
@@ -189,12 +189,12 @@ export class SpeakersPage {
 					{
 							title:"Endonasal Endoscopic Transphenoidal Pituitary Surgery "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C"
-						, link: "images/assets/pdfs/CE 8.3 CABUNGCAL.pdf"
+						, link: "assets/pdfs/CE 8.3 CABUNGCAL.pdf"
 					},
 					{
 							title:"Facial Nerve Identification & Dissection in Parotid Surgery: Let's Make it Easy "
 						, info: "Oct. 24, 3:00 - 4:00 PM, Sampaguita C"
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 				]
 			},
@@ -207,12 +207,12 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Oropharynx Cancer"
 						, info: "Oct 23, 8:40-9:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 					{
 							title:"Basic CT and MRI Imaging for Common Head and Neck Conditions"
 						, info: "Oct. 24, 9:20 – 9:40 AM, Maynila Ballroom"
-						, link: "images/assets/pdfs/S1.2 Cañal.pdf"
+						, link: "assets/pdfs/S1.2 Cañal.pdf"
 					},
 				]
 			},
@@ -225,7 +225,7 @@ export class SpeakersPage {
 					{
 							title:"Techniques of Office Ultrasonography"
 						, info: "Oct. 24, 3:00 – 4:00 PM, Champagne Salon"
-						, link: "images/assets/pdfs/CE 20.3 CAPUZ.pdf"
+						, link: "assets/pdfs/CE 20.3 CAPUZ.pdf"
 					},
 				]
 			},
@@ -238,7 +238,7 @@ export class SpeakersPage {
 					{
 							title:"Flexible Laryngoscopy and Related ENT Procedures"
 						, info: "Oct. 24, 8:00 – 9:00 AM, Champagne Salon"
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 				]
 			},
@@ -251,7 +251,7 @@ export class SpeakersPage {
 					{
 							title:"Steroids 101 "
 						, info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita A"
-						, link: "images/assets/pdfs/CE 11.1 CARO.pdf"
+						, link: "assets/pdfs/CE 11.1 CARO.pdf"
 					},
 				]
 			},
@@ -264,7 +264,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion – Reconstructive Surgery"
 						, info: "Oct. 24, 2:30 - 3:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/S2.2 ALFANTA.pdf"
+						// , link: "assets/pdfs/S2.2 ALFANTA.pdf"
 					},
 				]
 			},
@@ -277,7 +277,7 @@ export class SpeakersPage {
 					{
 							title:"Upper Airway Evaluation in OSA Surgery "
 						, info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita C"
-						, link: "images/assets/pdfs/CE 13.2 CHANG.pdf"
+						, link: "assets/pdfs/CE 13.2 CHANG.pdf"
 					},
 				]
 			},
@@ -290,7 +290,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Cancer of the Oral Cavity"
 						, info: "Oct 22, 9:45 - 10:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -303,7 +303,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Reconstructive Surgery"
 						, info: "Oct 23, 2:30 - 3:00PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -316,7 +316,7 @@ export class SpeakersPage {
 					{
 							title:"Approach for Single-sided Deafness"
 						, info: "Oct. 24, 10:30 – 10:45 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -329,7 +329,7 @@ export class SpeakersPage {
 					{
 							title:"Overview and Indications of Image-Guided Systems in Sinus and Skull Base Surgery"
 						, info: ""
-						, link: "images/assets/pdfs/CE 10.1 CHUA.pdf"
+						, link: "assets/pdfs/CE 10.1 CHUA.pdf"
 					},
 				]
 			},
@@ -342,12 +342,12 @@ export class SpeakersPage {
 					{
 							title:"Threadlifts and Fillers for Noselift"
 						, info: "Oct. 24, 1:45 – 2:00 PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P7.4 CLARAVALL.pdf"
+						, link: "assets/pdfs/P7.4 CLARAVALL.pdf"
 					},
 					{
 							title:"Nasal Augmentation using Thread and Fillers "
 						, info: "Oct. 24, 3:00 – 4:00 PM, Roma Salon"
-						, link: "images/assets/pdfs/P7.4 CLARAVALL.pdf"
+						, link: "assets/pdfs/P7.4 CLARAVALL.pdf"
 					},
 				]
 			},
@@ -360,7 +360,7 @@ export class SpeakersPage {
 					{
 							title:"Prosthesis"
 						, info: "Oct. 24, 8:30 – 8:45 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P2.3 DAVID.pdf"
+						, link: "assets/pdfs/P2.3 DAVID.pdf"
 					},
 				]
 			},
@@ -373,7 +373,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Salivary Gland Tumors"
 						, info: "Oct 22, 4:15-4:45PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/.pdf"
+						, link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -386,7 +386,7 @@ export class SpeakersPage {
 					{
 							title:"Diagnosis, Differentiation and Management of Different Types of BPPV"
 						, info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita A"
-						, link: "images/assets/pdfs/CE 6.1 DE RAMOS.pdf"
+						, link: "assets/pdfs/CE 6.1 DE RAMOS.pdf"
 					},
 				]
 			},
@@ -399,7 +399,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Thyroid Cancer"
 						, info: "Oct 22, 11:30-12:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -412,7 +412,7 @@ export class SpeakersPage {
 					{
 							title:"Image Guided Surgery in the Sinuses and Beyond "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Champagne Salon"
-						, link: "images/assets/pdfs/CE 10.2 EMBATE.pdf"
+						, link: "assets/pdfs/CE 10.2 EMBATE.pdf"
 					},
 				]
 			},
@@ -425,7 +425,7 @@ export class SpeakersPage {
 					{
 							title:"Office Procedures in Managing Chronic Rhinosinusitis and Nasal Polyposis"
 						, info: "Oct. 24, 2:15 – 2:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -438,7 +438,7 @@ export class SpeakersPage {
 					{
 							title:"Barrier Dysfunction in Allergic Rhinitis "
 						, info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita B"
-						, link: "images/assets/pdfs/CE 12.1 ESPIRITU.pdf"
+						, link: "assets/pdfs/CE 12.1 ESPIRITU.pdf"
 					},
 				]
 			},
@@ -451,12 +451,12 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Laser Surgery in Laryngology"
 						, info: "Oct 24, 9:00-9:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Unsedated Office-based Procedure in Laryngology "
 						, info: "Oct. 24, 3:00 – 4:00 PM, Sampaguita B"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -469,7 +469,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Larynx Cancer"
 						, info: "Oct 23, 11:00 AM-12:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -482,12 +482,12 @@ export class SpeakersPage {
 					{
 							title:"Soft Tissue Filler Augmentation"
 						, info: "Oct. 24, 1:30 – 1:45 PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P7.3  GALVEZ.pdf"
+						, link: "assets/pdfs/P7.3  GALVEZ.pdf"
 					},
 					{
 							title:"Facial Shaping with Neuromodulators and Fillers"
 						, info: "Oct. 24, 3:00 – 4:00 PM, Roma Salon"
-						, link: "images/assets/pdfs/CE 19.1 GALVEZ.pdf"
+						, link: "assets/pdfs/CE 19.1 GALVEZ.pdf"
 					},
 				]
 			},
@@ -500,7 +500,7 @@ export class SpeakersPage {
 					{
 							title:"Vertigo: Let’s Review"
 						, info: "Oct. 22, 7:00 – 8:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -513,7 +513,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Skull Base Tumors"
 						, info: "Oct 23, 1:30-3:00PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/.pdf"
+						, link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -526,7 +526,7 @@ export class SpeakersPage {
 					{
 							title:"Retroauricular incision: A New Surgical Technique on Selected Parotid Gland Cases "
 						, info: "Oct 24, 3:00-4:00 PM, Sampaguita C"
-						, link: "images/assets/pdfs/CE 18.1 HASSAN.pdf"
+						, link: "assets/pdfs/CE 18.1 HASSAN.pdf"
 					},
 				]
 			},
@@ -539,7 +539,7 @@ export class SpeakersPage {
 					{
 							title:"Surgery of Juvenile Angiofibroma "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C"
-						, link: "images/assets/pdfs/CE 8.1 HERNANDEZ.pdf"
+						, link: "assets/pdfs/CE 8.1 HERNANDEZ.pdf"
 					},
 				]
 			},
@@ -552,12 +552,12 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Laser Surgery in Laryngology"
 						, info: "Oct 24, 9:00-9:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Vocal Fold Injection in the Clinic: When, Why, How "
 						, info: "Oct. 24, 3:00 – 4:00 PM, Sampaguita B"
-						, link: "images/assets/pdfs/CE 17.2 HERNANDEZ M.pdf"
+						, link: "assets/pdfs/CE 17.2 HERNANDEZ M.pdf"
 					},
 				]
 			},
@@ -570,7 +570,7 @@ export class SpeakersPage {
 					{
 							title:"AEP Testing with Patient Follow-up via Pathtrack Tracking Software"
 						, info: "Oct 24, 11:00-11:20 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -583,7 +583,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion–Multidisciplinary"
 						, info: "Oct 22, 2:30-3:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -596,7 +596,7 @@ export class SpeakersPage {
 					{
 							title:"Social Media in the Clinical Practice"
 						, info: "Oct. 24, 1:25 – 1:50 PM, Maynila Ballroom"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -609,12 +609,12 @@ export class SpeakersPage {
 					{
 							title:"Image-guided Systems in Sinus and Skullbase Surgery"
 						, info: "Oct. 24, 2:30 – 2:45 PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P8.3 JARIN.pdf"
+						, link: "assets/pdfs/P8.3 JARIN.pdf"
 					},
 					{
 							title:"Landmark Base Endoscopic Sinus Surgery"
 						, info: "Oct. 24, 1:00 – 2:00 PM, Roma Salon"
-						, link: "images/assets/pdfs/CE 14.1 JARIN.pdf"
+						, link: "assets/pdfs/CE 14.1 JARIN.pdf"
 					},
 				]
 			},
@@ -627,7 +627,7 @@ export class SpeakersPage {
 					{
 							title:"Office Management of the Pediatric Airway"
 						, info: "Oct. 24, 10:00 – 10:15 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -640,7 +640,7 @@ export class SpeakersPage {
 					{
 							title:"Patient Preference Study for Allergic Rhinitis"
 						, info: "Oct. 24, 3:30 – 4:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -653,7 +653,7 @@ export class SpeakersPage {
 					{
 							title:"Vestibular Compensation"
 						, info: "Oct. 24, 12:00 – 1:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -666,7 +666,7 @@ export class SpeakersPage {
 					{
 							title:"Evolving Trends in Sinus Surgery"
 						, info: "Oct. 24, 2:00 – 2:15 PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P8.1 LAXAMANA.pdf"
+						, link: "assets/pdfs/P8.1 LAXAMANA.pdf"
 					},
 				]
 			},
@@ -679,7 +679,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion - Cancer of the Oral Cavity"
 						, info: "Oct 22, 9:45-10:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -692,17 +692,17 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion - Larynx Cancer"
 						, info: "Oct 23, 11:00 AM - 12:00 NN, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Office-based Laryngeal Surgery"
 						, info: "Oct. 24, 8:45 – 9:00 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P3.1 LIM.pdf"
+						, link: "assets/pdfs/P3.1 LIM.pdf"
 					},
 					{
 							title:"Panel Discussion: Laser Surgery in Laryngology"
 						, info: "Oct. 24, 9:00 – 9:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -715,7 +715,7 @@ export class SpeakersPage {
 					{
 							title:"Bone-Anchored Hearing Aid "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita B"
-						, link: "images/assets/pdfs/CE 7.1 LLANES.pdf"
+						, link: "assets/pdfs/CE 7.1 LLANES.pdf"
 					},
 				]
 			},
@@ -728,12 +728,12 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion – Skull Base Tumors "
 						, info: "Oct 23, 1:30-2:00PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/.pdf"
+						, link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Surgery of Inverting Papilloma "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -746,7 +746,7 @@ export class SpeakersPage {
 					{
 							title:"\"No More Blind Biopsies\": Integrating the Use of Ultrasound in Head and Neck Practice "
 						, info: "Oct. 24, 3:00 – 4:00 PM, Champagne Salon"
-						, link: "images/assets/pdfs/CE 20.2 LUNA.pdf"
+						, link: "assets/pdfs/CE 20.2 LUNA.pdf"
 					},
 				]
 			},
@@ -759,7 +759,7 @@ export class SpeakersPage {
 					{
 							title:"Closed Reduction: Nasal Bone Fracture"
 						, info: "Oct. 24, 8:15 – 8:30 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P2.2 MAGLAYA.pdf"
+						, link: "assets/pdfs/P2.2 MAGLAYA.pdf"
 					},
 				]
 			},
@@ -772,7 +772,7 @@ export class SpeakersPage {
 					{
 							title:"Shoebox Audiometry Update: How the iPad Audiometer Continues to Revolutionize the World of Hearing Health"
 						, info: "Oct 24, 10:45-11:00 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P6.1 MAI.pdf"
+						, link: "assets/pdfs/P6.1 MAI.pdf"
 					},
 				]
 			},
@@ -785,7 +785,7 @@ export class SpeakersPage {
 					{
 							title:"Basic VNG for the ENT "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita A"
-						, link: "images/assets/pdfs/CE 6.3 MANAS.pdf"
+						, link: "assets/pdfs/CE 6.3 MANAS.pdf"
 					},
 				]
 			},
@@ -798,7 +798,7 @@ export class SpeakersPage {
 					{
 							title:"Nerve Blocks/Anesthesia for Office Procedures and Goretex Thread for Rhinoplasty"
 						, info: "Oct. 24, 1:00 – 1:15 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -811,7 +811,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion - Salivary Gland Tumors"
 						, info: "Oct. 22, 4:15 – 4:45 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -824,7 +824,7 @@ export class SpeakersPage {
 					{
 							title:"Fat Myringoplasty"
 						, info: "Oct. 24, 10:15 – 10:30 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P4.3 MARTINEZ.pdf"
+						, link: "assets/pdfs/P4.3 MARTINEZ.pdf"
 					},
 				]
 			},
@@ -837,7 +837,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discusson - Multidisciplinary Management"
 						, info: "Oct. 22, 2:30 – 3:00 PM, Sampaguita B"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -850,7 +850,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discusson - Thyroid Cancer"
 						, info: "Oct. 22, 11:30 AM – 12:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -863,7 +863,7 @@ export class SpeakersPage {
 					{
 							title:"Allergic Rhinoconjunctivitis: Guidelines Update and New Treatment Strategies"
 						, info: "Oct. 23, 7:00 – 11:00 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/.pdf"
+						, link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -876,7 +876,7 @@ export class SpeakersPage {
 					{
 							title:"Ventilation tubes for OME in Cleft Palate: Do We or Do We Not?"
 						, info: "Oct. 24, 9:45 – 10:00 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P4.2 LOCSIN.pdf"
+						, link: "assets/pdfs/P4.2 LOCSIN.pdf"
 					},
 				]
 			},
@@ -889,7 +889,7 @@ export class SpeakersPage {
 					{
 							title:"Common ENT-HNS Outpatient Selected Conditions and Situations: How I Managed It "
 						, info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon"
-						, link: "images/assets/pdfs/CE 15.2 NONATO.pdf"
+						, link: "assets/pdfs/CE 15.2 NONATO.pdf"
 					},
 				]
 			},
@@ -902,7 +902,7 @@ export class SpeakersPage {
 					{
 							title:"Condylar Fractures: When and When Not To Plate "
 						, info: "Oct. 24, 3:00 – 4:00 PM, Sampaguita A"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -915,7 +915,7 @@ export class SpeakersPage {
 					{
 							title:"NECK Session (Natrapharm Enhancing Clinical Knowledge in Current Practice): Solving the Mysteries of Cervical Lymphadenopathy"
 						, info: "Oct. 24, 11:30 AM – 12:00 NN, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -928,7 +928,7 @@ export class SpeakersPage {
 					{
 							title:"Data Privacy"
 						, info: "Oct. 24, 1:00 – 1:25 PM, Maynila Ballroom"
-						, link: "images/assets/pdfs/S3.1 PATDU.pdf"
+						, link: "assets/pdfs/S3.1 PATDU.pdf"
 					},
 				]
 			},
@@ -941,12 +941,12 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion - Larynx Cancer"
 						, info: "Oct. 23, 11:00 AM – 12:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"The Use of Harmonic Scalpel in ORL-Head and Neck Surgeries "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Roma Salon"
-						, link: "images/assets/pdfs/CE 9.2 PONTEJOS.pdf"
+						, link: "assets/pdfs/CE 9.2 PONTEJOS.pdf"
 					},
 				]
 			},
@@ -959,7 +959,7 @@ export class SpeakersPage {
 					{
 							title:"Overview and Management of OSA"
 						, info: "Oct. 24, 2:45 – 3:00 PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P9.1 PUNO.pdf"
+						, link: "assets/pdfs/P9.1 PUNO.pdf"
 					},
 				]
 			},
@@ -972,7 +972,7 @@ export class SpeakersPage {
 					{
 							title:"Challenges and Advances in Tonsillectomy and Adenoidectomy"
 						, info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita A"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -985,7 +985,7 @@ export class SpeakersPage {
 					{
 							title:"Implantable Devices: Candidacy, Indications and Contraindications "
 						, info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita C"
-						, link: "images/assets/pdfs/CE 3.2 QUINTOS.pdf"
+						, link: "assets/pdfs/CE 3.2 QUINTOS.pdf"
 					},
 				]
 			},
@@ -998,7 +998,7 @@ export class SpeakersPage {
 					{
 							title:"Steroids for Hearing Loss and Vertigo "
 						, info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita A"
-						, link: "images/assets/pdfs/CE 11.2 RICALDE.pdf"
+						, link: "assets/pdfs/CE 11.2 RICALDE.pdf"
 					},
 				]
 			},
@@ -1011,12 +1011,12 @@ export class SpeakersPage {
 					{
 							title:"3D Imaging / Printing and Planning in Maxillofacial Surgery"
 						, info: "Oct. 24, 8:00 – 8:15 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P2.1 ROASA.pdf"
+						, link: "assets/pdfs/P2.1 ROASA.pdf"
 					},
 					{
 							title:"CMF Plating That Gets the Best Results: What an ENT Should Know Otorhinolaryngologist"
 						, info: "Oct. 24, 3:00 – 4:00 PM, Sampaguita A"
-						, link: "images/assets/pdfs/CE 16.1 ROASA.pdf"
+						, link: "assets/pdfs/CE 16.1 ROASA.pdf"
 					},
 				]
 			},
@@ -1029,7 +1029,7 @@ export class SpeakersPage {
 					{
 							title:"Investment"
 						, info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon"
-						, link: "images/assets/pdfs/CE 15.1 RODRIGUEZ.pdf"
+						, link: "assets/pdfs/CE 15.1 RODRIGUEZ.pdf"
 					},
 				]
 			},
@@ -1042,7 +1042,7 @@ export class SpeakersPage {
 					{
 							title:"Home-Based Vestibular Exercises "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita A"
-						, link: "images/assets/pdfs/CE 6.2 ROMUALDEZ.pdf"
+						, link: "assets/pdfs/CE 6.2 ROMUALDEZ.pdf"
 					},
 				]
 			},
@@ -1055,7 +1055,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion - Reconstructive Surgery "
 						, info: "Oct. 24, 2:30 – 3:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1068,12 +1068,12 @@ export class SpeakersPage {
 					{
 							title:"Challenges of the Aging Physician"
 						, info: "Oct. 24, 7:30 – 7:45 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Local Allergic Rhinitis "
 						, info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita B"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1086,12 +1086,12 @@ export class SpeakersPage {
 					{
 							title:"Office-based Surgery for the Nasal Cavity"
 						, info: "Oct. 24, 3:00 – 3:15 PM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P9.2 SARTE.pdf"
+						, link: "assets/pdfs/P9.2 SARTE.pdf"
 					},
 					{
 							title:"Diagnostic Tests for OSA "
 						, info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita C"
-						, link: "images/assets/pdfs/CE 13.1 SARTE.pdf"
+						, link: "assets/pdfs/CE 13.1 SARTE.pdf"
 					},
 				]
 			},
@@ -1104,22 +1104,22 @@ export class SpeakersPage {
 					{
 							title:"Keynote Speaker"
 						, info: "Oct. 22, 8:45 – 9:00 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Cancer of the Oral Cavity"
 						, info: "Oct. 22, 9:15 – 9:45 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Surgery for the Primary"
 						, info: "Oct. 22, 10:30 – 11:00 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Stump the Faculty"
 						, info: "Oct 23, 3:30-4:30pm, Maynila Ballroom"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1132,17 +1132,17 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion - Multidisciplinary Management"
 						, info: "Oct. 22, 2:30 – 3:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Surgery for the Neck"
 						, info: "Oct. 22, 11:00 – 11:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Salivary Gland Tumors"
 						, info: "Oct. 22, 3:45 – 4:15 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1155,7 +1155,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion - Oropharynx Cancer"
 						, info: "Oct. 23, 8:40 – 9:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1168,7 +1168,7 @@ export class SpeakersPage {
 					{
 							title:"Level-3 Home Sleep Test - A Convenient Way to Diagnose OSA"
 						, info: "Oct. 24, 1:00 – 2:00 PM, Roma Salon"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1181,37 +1181,37 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Cancer of the Oral Cavity"
 						, info: "Oct. 22, 9:45 - 10:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Thyroid Cancer"
 						, info: "Oct. 22, 11:30 AM - 12:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Advances in Radiotherapy"
 						, info: "Oct. 22, 1:30 – 2:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Radiotherapy in Oropharynx Cancer"
 						, info: "Oct. 23, 8:20 – 8:40 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Non-Surgical: Radiation in Larynx Cancer"
 						, info: "Oct. 23, 10:40 – 11:00 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Skull Base Tumors "
 						, info: "Oct .23, 1:30 - 2:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Stump the Faculty "
 						, info: "Oct. 23, 3:30 - 4:30 PM, Maynila Ballroom"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1224,22 +1224,22 @@ export class SpeakersPage {
 					{
 							title:"Advances in Systemic Therapy"
 						, info: "Oct. 22, 2:00 – 2:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Non-Surgical: Chemotherapy of Larynx Cancer"
 						, info: "Oct. 23, 10:20 – 10:40 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Skull Base Tumors"
 						, info: "Oct. 23, 1:30 - 2:00 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Stump the Faculty"
 						, info: "Oct. 23, 3:30 - 4:30 PM, Maynila Ballroom"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1252,7 +1252,7 @@ export class SpeakersPage {
 					{
 							title:"Hearing Aids: Updates and New Trends"
 						, info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita C"
-						, link: "images/assets/pdfs/CE 3.1 TANTOCO.pdf"
+						, link: "assets/pdfs/CE 3.1 TANTOCO.pdf"
 					},
 				]
 			},
@@ -1265,7 +1265,7 @@ export class SpeakersPage {
 					{
 							title:"Epistaxis in Children: What Can We Do in the Clinic?"
 						, info: "Oct. 24, 9:30 – 9:45 AM, Fiesta Pavilion"
-						, link: "images/assets/pdfs/P4.1 VELORO.pdf"
+						, link: "assets/pdfs/P4.1 VELORO.pdf"
 					},
 				]
 			},
@@ -1278,7 +1278,7 @@ export class SpeakersPage {
 					{
 							title:"Septorhinoplasty for the Crooked Nose"
 						, info: "Oct. 24, 8:00 – 9:00 AM, Roma Salon"
-						, link: "images/assets/pdfs/CE 4.1 VILLAFUERTE.pdf"
+						, link: "assets/pdfs/CE 4.1 VILLAFUERTE.pdf"
 					},
 				]
 			},
@@ -1291,12 +1291,12 @@ export class SpeakersPage {
 					{
 							title:"Symptoms of Eustachian Tube Dysfunction"
 						, info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita B"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Practice Pearls in Preventive ORL"
 						, info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1309,42 +1309,42 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Thyroid Cancer"
 						, info: "Oct. 22, 11:30 - 12:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Salivary Gland Tumors"
 						, info: "Oct. 22, 4:15 - 4:45 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Surgery of Oropharynx Cancer"
 						, info: "Oct. 23, 8:00 – 8:20 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Oropharynx Cancer"
 						, info: "Oct. 23, 8:40 - 9:30 AM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Larynx Cancer"
 						, info: "Oct. 23, 11:00 AM - 12:00 NN, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Skull Base Surgery"
 						, info: "Oct. 23, 1:00 – 1:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Reconstructive Surgery"
 						, info: "Oct. 23, 2:00 – 2:30 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 					{
 							title:"Panel Discussion: Stump the Faculty "
 						, info: "Oct. 23, 3:30 - 4:30 PM, Maynila Ballroom"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1357,7 +1357,7 @@ export class SpeakersPage {
 					{
 							title:"Tympanostomy and Nasal Polypectomy using Microdebrider in the Clinic "
 						, info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon"
-						, link: "images/assets/pdfs/CE 15.3 YABUT.pdf"
+						, link: "assets/pdfs/CE 15.3 YABUT.pdf"
 					},
 				]
 			},
@@ -1370,12 +1370,12 @@ export class SpeakersPage {
 					{
 							title:"Cochlear Implant Surgery "
 						, info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita B"
-						, link: "images/assets/pdfs/CE 7.2 YANG.pdf"
+						, link: "assets/pdfs/CE 7.2 YANG.pdf"
 					},
 					{
 							title:"The Evolution of Temporal Bone Imaging"
 						, info: "Oct. 24, 9:00 – 9:20 AM, Maynila Ballroom"
-						, link: "images/assets/pdfs/S1.1 YANG.pdf"
+						, link: "assets/pdfs/S1.1 YANG.pdf"
 					},
 				]
 			},
@@ -1388,7 +1388,7 @@ export class SpeakersPage {
 					{
 							title:"The Role of Nasal Septum in Structural Rhinoplasty "
 						, info: "Oct. 24, 8:00 – 9:00 AM, Roma Salon"
-						, link: "images/assets/pdfs/CE 4.2 YAP.pdf"
+						, link: "assets/pdfs/CE 4.2 YAP.pdf"
 					},
 				]
 			},
@@ -1401,7 +1401,7 @@ export class SpeakersPage {
 					{
 							title:"Clearvue CME: \"IV Nutrient Supplementation\" "
 						, info: "Oct. 23, 3:00 – 3:30 PM, Roma Salon"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
@@ -1414,7 +1414,7 @@ export class SpeakersPage {
 					{
 							title:"Panel Discussion: Salivary Gland Tumors"
 						, info: "Oct. 22, 4:15 - 4:45 PM, Fiesta Pavilion"
-						// , link: "images/assets/pdfs/.pdf"
+						// , link: "assets/pdfs/.pdf"
 					},
 				]
 			},
