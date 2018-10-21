@@ -8,11 +8,14 @@
 		</ion-searchbar>
 	</div>
 	<ion-list>
-		<ion-item class="speaker-item" *ngFor="let speaker of speakerData" (click)="navToSpeakerInfo(speaker)">
-			<img src="{{speaker.imageUrl}}" *ngIf="speaker.imageUrl != ''">
-			<div class="speaker-img-empty" *ngIf="speaker.imageUrl == ''"></div>
-			<h5>{{speaker.lastname}}, {{speaker.firstname}}</h5>
-			<ion-icon class="star-icon" name="star-outline"></ion-icon>
+		<ion-item class="speaker-item" *ngFor="let speaker of speakerData" >
+			<span (click)="navToSpeakerInfo(speaker)">
+				<img src="{{speaker.imageUrl}}" *ngIf="speaker.imageUrl != ''">
+				<div class="speaker-img-empty" *ngIf="speaker.imageUrl == ''"></div>
+				<h5>{{speaker.lastname}}, {{speaker.firstname}}</h5>
+			</span>
+			<ion-icon class="star-icon" name="star-outline" (click)="addToFavorites(speaker)" *ngIf="!speaker.isFavorite"></ion-icon >
+			<ion-icon class="star-icon" name="md-star" (click)="addToFavorites(speaker)"  *ngIf="speaker.isFavorite"></ion-icon>
 		</ion-item>
 	</ion-list>
 </ion-content>

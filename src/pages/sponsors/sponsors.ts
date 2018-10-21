@@ -162,7 +162,7 @@ export class SponsorsPage {
 				, contactNo: "(63-2) 824-8845"
 			},
 			{
-				name: "ustright Healthcare Inc. "
+				name: "Justright Healthcare Inc. "
 				, address: "#20 Palanza corner Guirayan Streets, Brgy. Doña Imelda, Quezon City"
 				, contactNo: "(63-2) 412-2367"
 				, telefax: "(63-2) 413-0533"
@@ -241,10 +241,7 @@ export class SponsorsPage {
 			},
 			{
 				name: "Pharex Health Corp."
-				, address: "Units 101-102, G/F Bldg. Alpha UP-Ayala Land TechnoHub, Commonwealth Ave."
-			},
-			{
-				name: "Diliman, Quezon City"
+				, address: "Units 101-102, G/F Bldg. Alpha UP-Ayala Land TechnoHub, Commonwealth Ave., Diliman, Quezon City"
 				, contactNo: "(02) 433-8088 "
 			},
 			{

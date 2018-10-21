@@ -12,7 +12,7 @@ export class LoginPage {
 
 	event = {};
   // password = "opensesame"
-  password = ""
+  password = "2018"
   passwordInput = ""
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
@@ -24,7 +24,7 @@ export class LoginPage {
 
 
   login(){
-    if(this.passwordInput == this.password)
+    if(this.passwordInput === this.password)
       this.navCtrl.push(TabsPage, {event: this.event})
   }
 

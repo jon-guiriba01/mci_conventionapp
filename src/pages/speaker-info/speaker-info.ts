@@ -93,7 +93,7 @@ export class SpeakerInfoPage {
       this.file.copyFile(
        this.file.applicationDirectory + 'www/assets/pdfs/', 
         fileName, 
-        this.file.externalRootDirectory+"/Download/", 
+        "file:///storage/emulated/0/Download/", 
         fileName
       ).then((e)=>{
         let toast = this.toastCtrl.create({

@@ -14,12 +14,25 @@ page-clinical-encounter {
 	}
 
 	.topic{
-		width: 50%;
-		display: inline-block;
+		width: 70%;
+		display: inline-flex;
+    vertical-align: middle;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #000;
+    white-space: normal;
+    padding-top: 4px;
 	}
-	.room{
-		width: 50%;
-		display: inline-block;
+	.room{    
+		width: 30%;
+		display: inline-flex;
+    vertical-align: middle;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 	}
 
 	.content-range h5, .content-range h6{
@@ -38,7 +51,9 @@ page-clinical-encounter {
 		/*justify-content: space-between;*/
 	}
 
-	.content-range div{
+	.content-range .label{
+		height: 100%;
+
 	}
 	.content-range{
 		width: 100vw;

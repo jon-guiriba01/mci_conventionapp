@@ -5,6 +5,7 @@ import { HomePage } from '../home/home';
 import { InformationPage } from '../information/information';
 import { EventListPage } from '../event-list/event-list';
 import { App } from 'ionic-angular/components/app/app';
+import { FavoritesPage } from '../favorites/favorites';
 
 
 @Component({
@@ -15,6 +16,7 @@ export class TabsPage {
 	
   tab2Root = EventPage;
   tab3Root = InformationPage;
+  tab4Root = FavoritesPage;
   event = null;
 
   constructor(

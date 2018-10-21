@@ -26,10 +26,12 @@ import { ClinicalEncounterPage } from '../pages/clinical-encounter/clinical-enco
 import { SpeakersPage } from '../pages/speakers/speakers';
 import { SpeakerInfoPage } from '../pages/speaker-info/speaker-info';
 import { SponsorPopoverPage } from '../pages/sponsor-popover/sponsor-popover';
+import { FavoritesPage } from '../pages/favorites/favorites';
 
 import { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
 import { AndroidPermissions } from '@ionic-native/android-permissions';
+import { IonicStorageModule } from '@ionic/storage';
 
 @NgModule({
   declarations: [
@@ -55,9 +57,15 @@ import { AndroidPermissions } from '@ionic-native/android-permissions';
     ,SpeakersPage
     ,SpeakerInfoPage
     ,SponsorPopoverPage
+    ,FavoritesPage
   ],
   imports: [
     BrowserModule,
+    IonicStorageModule.forRoot({
+      name: '__mydb',
+         driverOrder: ['indexeddb', 'sqlite', 'websql']
+    })
+    ,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -84,6 +92,7 @@ import { AndroidPermissions } from '@ionic-native/android-permissions';
     ,SpeakersPage
     ,SpeakerInfoPage
     ,SponsorPopoverPage
+    ,FavoritesPage
   ],
   providers: [
     StatusBar,
@@ -91,6 +100,7 @@ import { AndroidPermissions } from '@ionic-native/android-permissions';
     ,FileTransfer, FileTransferObject
     ,File
     ,AndroidPermissions
+    ,IonicStorageModule
     ,{provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

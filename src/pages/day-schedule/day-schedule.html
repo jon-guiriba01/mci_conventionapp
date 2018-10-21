@@ -1,12 +1,20 @@
 <ion-content padding>
 	<ion-list>
 		<ion-item *ngFor="let daySched of daySchedule">
-			<h6 class="time">{{daySched.time}}</h6>
-			<h2 class="title">{{daySched.title}}</h2>
-			<h5 class="speaker" *ngIf="daySched.speaker">{{daySched.speaker}}</h5>
-			<h6 class="location">{{daySched.location}}</h6>
-			<h5 class="sponsor" *ngIf="daySched.sponsor">Sponsored by: {{daySched.sponsor}}</h5>
-			<h5 class="coords" *ngIf="daySched.coords">Research Coordinators: {{daySched.coords}}</h5>
+			<div class="day-sched">
+				<div class="sched-info"  (click)="navToSpeakerInfo(daySched.link)">
+					<h6 class="time">{{daySched.time}}</h6>
+					<h2 class="title">{{daySched.title}}</h2>
+					<h5 class="speaker" *ngIf="daySched.speaker">{{daySched.speaker}}</h5>
+					<h6 class="location">{{daySched.location}}</h6>
+					<h5 class="sponsor" *ngIf="daySched.sponsor">Sponsored by: {{daySched.sponsor}}</h5>
+					<h5 class="coords" *ngIf="daySched.coords">Research Coordinators: {{daySched.coords}}</h5>
+				</div>
+				<div class="fav-btn" (click)="addToFavorites(daySched)">
+					<ion-icon class="star-icon" name="star-outline" *ngIf="!daySched.isFavorite"></ion-icon>
+					<ion-icon class="star-icon" name="md-star" *ngIf="daySched.isFavorite"></ion-icon>
+				</div>
+			</div>
 		</ion-item>
 	</ion-list>
 </ion-content>

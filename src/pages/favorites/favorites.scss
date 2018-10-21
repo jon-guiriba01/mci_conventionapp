@@ -1,0 +1,62 @@
+page-favorites {
+
+	.scroll-content{
+		margin-bottom: 120px !important;	
+	}
+	.speaker-item img{
+		width:  50px;
+		height: 50px;
+		display: inline-flex;
+		vertical-align: middle;
+	}
+
+	.speaker-item h5{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 25px;
+		font-size: 15px;
+		font-weight: bold;
+    width: 50%;
+    white-space: normal;
+	}
+
+	.speaker-item .star-icon{
+		display: inline-block;
+		float: right;
+		margin-right: 20px;
+		vertical-align: middle;
+		line-height: 50px;
+	}
+
+	.speaker-img-empty{
+		width:  50px;
+		height: 50px;
+		display: inline-flex;
+		vertical-align: middle;
+		background: #acacac;
+	}
+
+	.speakers-content .scroll-content{
+		margin-bottom: 100px !important;
+	}
+
+	
+	.time{
+    padding-top: 3px;
+		margin-bottom: 10px;
+	}
+
+	.day-sched{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.sched-info{
+		width: 70%;
+		white-space: normal;
+	}
+	.fav-btn{
+
+	}
+}

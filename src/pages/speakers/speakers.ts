@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SpeakerInfoPage } from '../speaker-info/speaker-info';
+import { Storage } from '@ionic/storage';
 
 @Component({
   selector: 'page-speakers',
@@ -31,7 +32,7 @@ export class SpeakersPage {
 					{
 							title:"Allergic Rhinitis 101: Simple Case Presentation"
 						, info: "Oct. 22, 12:30-1:30 PM, Fiesta Pavilion"
-						, link: "assets/pdfs/CE 12.1 ESPIRITU.pdf"
+						// , link: "assets/pdfs/CE 12.1 ESPIRITU.pdf"
 					},
 					{
 							title:"Insights of a Seasoned Otorhinolaryngologist"
@@ -446,7 +447,7 @@ export class SpeakersPage {
 				lastname: "FORTUNA"
 				, firstname: "Ma. Clarissa MD"
 				, details: "Chair, Dept. of ORL-HNS, The Medical City Consultant Director, ENT-HNS, Center for Voice & Swallowing Disorders, The Medical City Head, Section of Laryngology, Dept. of ORL-HNS, UST Hospital  "
-				, imageUrl: "assets/imgs/speakers/CHANG.jpg"
+				, imageUrl: "assets/imgs/speakers/FORTUNA.jpg"
 				, docs: [
 					{
 							title:"Panel Discussion: Laser Surgery in Laryngology"
@@ -495,7 +496,7 @@ export class SpeakersPage {
 				lastname: "GLORIA-CRUZ"
 				, firstname: "Teresa Luisa MD"
 				, details: ""
-				, imageUrl: "assets/imgs/speakers/GLORIA.jpg"
+				, imageUrl: "assets/imgs/speakers/GLORIAx.jpg"
 				, docs: [
 					{
 							title:"Vertigo: Let’s Review"
@@ -570,7 +571,7 @@ export class SpeakersPage {
 					{
 							title:"AEP Testing with Patient Follow-up via Pathtrack Tracking Software"
 						, info: "Oct 24, 11:00-11:20 AM, Fiesta Pavilion"
-						// , link: "assets/pdfs/.pdf"
+						, link: "assets/pdfs/P6.2 HIGS.pdf"
 					},
 				]
 			},
@@ -845,7 +846,7 @@ export class SpeakersPage {
 				lastname: "METHEETRAIRUT"
 				, firstname: "Choakchai MD"
 				, details: "Senior Consultant & Head, Otolaryngology & Head and Neck Surgery, Sarkari Karmachari Hospital Life Member, Society of Otolaryngology & Head and Neck Surgeons of 	Bangladesh"
-				, imageUrl: ""
+				, imageUrl: "assets/imgs/speakers/METHEETRAIRUT.jpg"
 				, docs: [
 					{
 							title:"Panel Discusson - Thyroid Cancer"
@@ -884,7 +885,7 @@ export class SpeakersPage {
 				lastname: "NONATO"
 				, firstname: "Rodolfo MD"
 				, details: "Board of Director, Philippine Board of Otolaryngology-HNS Consultant, Dept. of ORL-HNS, Corazon Locsin Montelibano Memorial Regional Hospital "
-				, imageUrl: "assets/imgs/speakers/NONATO.png"
+				, imageUrl: "assets/imgs/speakers/NONATOx.png"
 				, docs: [
 					{
 							title:"Common ENT-HNS Outpatient Selected Conditions and Situations: How I Managed It "
@@ -1081,7 +1082,7 @@ export class SpeakersPage {
 				lastname: "SARTE"
 				, firstname: "Michael Alexius MD"
 				, details: "Chairman, Dept. of ORL-HNS, Rizal Medical Center Consultant, Director Sleep Lab., The Medical City "
-				, imageUrl: "assets/imgs/speakers/SARTE.jpg"
+				, imageUrl: "assets/imgs/speakers/SARTE.png"
 				, docs: [
 					{
 							title:"Office-based Surgery for the Nasal Cavity"
@@ -1396,7 +1397,7 @@ export class SpeakersPage {
 				lastname: "YEE"
 				, firstname: "Don Izzy MD"
 				, details: ""
-				, imageUrl: "assets/imgs/speakers/YEE.jpg"
+				, imageUrl: ""
 				, docs: [
 					{
 							title:"Clearvue CME: \"IV Nutrient Supplementation\" "
@@ -1424,8 +1425,39 @@ export class SpeakersPage {
 		searchInput;
 
 		speakerData = [];
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+  	public navCtrl: NavController
+  	, public navParams: NavParams
+  	, public storage: Storage
+  	) {
+  	this.speakers = this.speakers.sort((a, b)=>{
+			var nameA = a.lastname.toUpperCase(); // ignore upper and lowercase
+		  var nameB = b.lastname.toUpperCase(); // ignore upper and lowercase
+		  if (nameA < nameB) {
+		    return -1;
+		  }
+		  if (nameA > nameB) {
+		    return 1;
+		  }
+
+		  // names must be equal
+		  return 0;
+		});
+
   	this.speakerData = this.speakers;
+
+  	this.storage.get('favorites').then(favorites=>{
+  		if(!favorites) return;
+  		for(let speaker of this.speakers){
+		  		
+	  			let found = favorites.speakers.find(s=>{
+	  				return speaker.lastname+speaker.firstname == s.lastname+s.firstname
+	  			})
+
+	  			if(found)
+	  				speaker['isFavorite'] = true;
+			}
+  	})
   }
 
   ionViewDidLoad() {
@@ -1453,6 +1485,34 @@ export class SpeakersPage {
   onCancel(e){
   	this.searchInput = "";
   	this.speakerData = this.speakers;
+  }
+
+  addToFavorites(speakerInput){
+  	this.storage.get('favorites').then(favorites=>{
+  		if(!favorites){
+  			favorites = {
+  				events: [],
+  				speakers: []
+  			}
+  		}
+
+  		let duplicate = favorites.speakers.find(speaker=>{
+  			return speaker.lastname + speakerInput.firstname ==  speakerInput.lastname + speakerInput.firstname
+  		})
+  		
+  		if(duplicate){
+	  		favorites.speakers = favorites.speakers.filter(speaker=>{
+	  			return speaker.lastname + speakerInput.firstname !=  speakerInput.lastname + speakerInput.firstname
+	  		})
+	  		speakerInput.isFavorite = false;
+  		} 
+  		else{
+	  		favorites.speakers.push(speakerInput)
+	  		speakerInput.isFavorite = true;
+  		}
+  		console.log("addTO ", favorites)
+  		this.storage.set('favorites',favorites)
+  	})
   }
 
 }
