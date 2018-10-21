@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, LoadingController, ToastController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, LoadingController, ToastController, Platform } from 'ionic-angular';
 import { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
 import { AndroidPermissions } from '@ionic-native/android-permissions';
@@ -19,6 +19,7 @@ export class SpeakerInfoPage {
     , public loadingCtrl: LoadingController
     , private toastCtrl: ToastController
     , private androidPermissions: AndroidPermissions
+    , private platform: Platform
   ) {
   	this.speaker = this.navParams.get("speaker")
   }
@@ -90,10 +91,15 @@ export class SpeakerInfoPage {
 
       var fileName = doc.link.split("/")[2];
 
+      let destDir = "file:///storage/emulated/0/Download/"
+
+      if(this.platform.is('ios'))
+        destDir = this.file.cacheDirectory+"/Download/"
+      
       this.file.copyFile(
        this.file.applicationDirectory + 'www/assets/pdfs/', 
         fileName, 
-        "file:///storage/emulated/0/Download/", 
+        destDir, 
         fileName
       ).then((e)=>{
         let toast = this.toastCtrl.create({

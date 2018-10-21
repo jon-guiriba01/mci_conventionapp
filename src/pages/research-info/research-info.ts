@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, LoadingController, ToastController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, LoadingController, ToastController, Platform } from 'ionic-angular';
 import { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer';
 import { File } from '@ionic-native/file';
 import { AndroidPermissions } from '@ionic-native/android-permissions';
@@ -116,6 +116,7 @@ export class ResearchInfoPage {
     , private androidPermissions: AndroidPermissions
     , private transfer: FileTransfer
     , private file: File
+    , private platform: Platform
   	) {
 			this.title = this.contents[this.navParams.get("type")].title;
 			this.content = this.contents[this.navParams.get("type")].body;
@@ -159,7 +160,9 @@ export class ResearchInfoPage {
       if(fileName.indexOf("FP 12") != -1)
       	fileName = "FP 12 Clinical Outcomes Post CO2 Laser Posterior Cordotomy With Anterior Partial Arytenoidectomy in Bilateral Vocal Fold Immobility A Case Series Retrospective Review.pdf";
       if(fileName.indexOf("FP 22") != -1)
-      	fileName = "FP 22 Implication of Extracapsular Spread in the Staging of Patients with Head and Neck Squamous Cell Carcinoma.pdf";
+        fileName = "FP 22 Implication of Extracapsular Spread in the Staging of Patients with Head and Neck Squamous Cell Carcinoma.pdf";
+      if(fileName.indexOf("FP 20") != -1)
+      	fileName = "FP 20 Game of Groans.pdf";
       if(fileName.indexOf("FP 34") != -1)
       	fileName = "FP 34 Palliative Right lower lid blepharoplasty, right partial temporal bone resection, right neck dissection, right tympanoplasty, right pectoralis major flap reconstruction.pdf";
       if(fileName.indexOf("FP 38") != -1)
@@ -205,10 +208,16 @@ export class ResearchInfoPage {
 
       console.log("file", fileName)
 
+
+      let destDir = "file:///storage/emulated/0/Download/"
+
+      if(this.platform.is('ios'))
+        destDir = this.file.cacheDirectory+"/Download/"
+      
       this.file.copyFile(
        this.file.applicationDirectory + 'www/' + dir, 
         fileName, 
-        "file:///storage/emulated/0/Download/", 
+        destDir, 
         fileName
       ).then((e)=>{
         let toast = this.toastCtrl.create({

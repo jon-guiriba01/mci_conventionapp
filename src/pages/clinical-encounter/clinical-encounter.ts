@@ -421,17 +421,17 @@ export class ClinicalEncounterPage {
 					title: "Steroids 101"
 					, speakers: "Dr. Ruzanne M. Caro"
 					, room: "Sampaguita A"
-					,link: 
+					,link:
 			{
-				lastname: "KAY-IGNACIO"
-				, firstname: "Caroline Bernadette King MD"
-				, details: "Doctor of Medicine, Faculty of Medicine and Surgery, University of Santo Tomas, Espana, Manila Residency Training in Internal Medicine, University of Santo Tomas Hospital, Espana Manila Fellowshi"
-				, imageUrl: "assets/imgs/speakers/KAY-IGNACIO.jpg"
+				lastname: "CARO"
+				, firstname: "Ruzanne MD"
+				, details: "Associate Professor, UP-College of Medicine Active Consultant, Capitol Medical Center and UPCM-Philippine General	Hospital"
+				, imageUrl: "assets/imgs/speakers/CARO.jpg"
 				, docs: [
 					{
-							title:"Patient Preference Study for Allergic Rhinitis"
-						, info: "Oct. 24, 3:30 – 4:00 PM, Fiesta Pavilion"
-						// , link: "assets/pdfs/.pdf"
+							title:"Steroids 101 "
+						, info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita A"
+						, link: "assets/pdfs/CE 11.1 CARO.pdf"
 					},
 				]
 			}

@@ -1520,13 +1520,13 @@ export class DaySchedulePage {
 					, link:
 			{
 				lastname: "CHIONG"
-				, firstname: "Armando, Jr. MD"
-				, details: ""
-				, imageUrl: "assets/imgs/speakers/CHIONG.jpg"
+				, firstname: "Charlotte MD"
+				, details: "Dean, University of the Philippines-College of Medicine Director, Philippine National Ear Institute Director, Newborn Hearing Screening Reference Center"
+				, imageUrl: "assets/imgs/speakers/CHIONG2.jpg"
 				, docs: [
 					{
-							title:"Panel Discussion: Reconstructive Surgery"
-						, info: "Oct 23, 2:30 - 3:00PM, Fiesta Pavilion"
+							title:"Approach for Single-sided Deafness"
+						, info: "Oct. 24, 10:30 – 10:45 AM, Fiesta Pavilion"
 						// , link: "assets/pdfs/.pdf"
 					},
 				]
