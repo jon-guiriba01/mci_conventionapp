@@ -6264,9 +6264,12 @@ var SpeakerInfoPage = /** @class */ (function () {
             var fileTransfer = _this.transfer.create();
             var fileName = doc.link.split("/")[2];
             var destDir = "file:///storage/emulated/0/Download/";
-            if (_this.platform.is('ios'))
+            var srcDir = _this.file.applicationDirectory + 'www/assets/pdfs/';
+            if (_this.platform.is('ios')) {
                 destDir = _this.file.cacheDirectory + "/Download/";
-            _this.file.copyFile(_this.file.applicationDirectory + 'www/assets/pdfs/', fileName, destDir, fileName).then(function (e) {
+                srcDir = _this.file.applicationDirectory + '.../www/assets/pdfs/';
+            }
+            _this.file.copyFile(srcDir, fileName, destDir, fileName).then(function (e) {
                 var toast = _this.toastCtrl.create({
                     message: 'Downloaded to ' + e.fullPath,
                     duration: 3000,
@@ -6291,16 +6294,10 @@ var SpeakerInfoPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-speaker-info',template:/*ion-inline-start:"C:\wamp64\www\conventionapp\src\pages\speaker-info\speaker-info.html"*/'<ion-content class="speaker-info-content">\n	<div class="header">\n		<div class="speaker-name">\n			<p>Name:</p>\n			<h6>{{speaker.lastname}}, {{speaker.firstname}}</h6>\n		</div>\n		<img class="speaker-img" src="{{speaker.imageUrl}}" *ngIf="speaker.imageUrl != \'\'">\n		<div class="speaker-empty" *ngIf="speaker.imageUrl == \'\'"></div>\n	</div>\n	<div padding>\n		<div class="details">\n			{{speaker.details}}\n		</div>\n		<ion-list class="speaker-docs">\n			<ion-item *ngFor="let doc of speaker.docs" (click)="download(doc)">\n				<img src="assets/imgs/book.png" class="book-icon">\n				<div class="doc-info">\n					<h5>{{doc.title}}</h5>\n					<h5>{{doc.info}}</h5>\n				</div>\n				<h5 class="arrow">></h5>\n			</ion-item>\n		</ion-list>\n	</div>\n</ion-content>\n'/*ion-inline-end:"C:\wamp64\www\conventionapp\src\pages\speaker-info\speaker-info.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__ionic_native_file_transfer__["a" /* FileTransfer */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_file__["a" /* File */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_4__ionic_native_android_permissions__["a" /* AndroidPermissions */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_file_transfer__["a" /* FileTransfer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_file_transfer__["a" /* FileTransfer */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_file__["a" /* File */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_file__["a" /* File */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_android_permissions__["a" /* AndroidPermissions */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_android_permissions__["a" /* AndroidPermissions */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _h || Object])
     ], SpeakerInfoPage);
     return SpeakerInfoPage;
+    var _a, _b, _c, _d, _e, _f, _g, _h;
 }());
 
 //# sourceMappingURL=speaker-info.js.map

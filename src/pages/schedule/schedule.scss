@@ -1,21 +1,28 @@
 page-schedule {
+
 	.sched-content .scroll-content{
-    margin-bottom: 70px;
+    margin-bottom: 70px !important;
 	}
 	.sched-tab .tabbar{
-		height: 60px;
+		height: 60px !important;
 	}
 	ion-tabs.sched-tab{
-		margin-top: 0;
+		margin-top: 0 !important;
 	}
 
 	.sched-tab .tab-button[aria-selected=false]{
-			background: #fff;
+			background: #fff !important;
 	}
 	.sched-tab .tab-button[aria-selected=false]{
-		border-right: 1px solid #dedede;
+		border-right: 1px solid #dedede !important;
 	}
 	.sched-tab .tab-button[aria-selected=false] *{
-			color: #000;
+			color: #000 !important;
 	}
+
+	.tabs-ios .tabbar{
+		margin-top: 23px !important;
+	}
+
+	
 }

@@ -92,12 +92,15 @@ export class SpeakerInfoPage {
       var fileName = doc.link.split("/")[2];
 
       let destDir = "file:///storage/emulated/0/Download/"
-
-      if(this.platform.is('ios'))
+      let srcDir = this.file.applicationDirectory + 'www/assets/pdfs/'
+      
+      if(this.platform.is('ios')){
         destDir = this.file.cacheDirectory+"/Download/"
+        srcDir = this.file.applicationDirectory+ '.../www/assets/pdfs/'
+      }
       
       this.file.copyFile(
-       this.file.applicationDirectory + 'www/assets/pdfs/', 
+        srcDir, 
         fileName, 
         destDir, 
         fileName
