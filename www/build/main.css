@@ -25976,9 +25976,13 @@ page-event .list-option img, page-event .list-option h5, page-event .list-option
 }
 
 page-event .options-list {
-  max-width: 800px;
+  height: 86%;
   display: block;
   margin: auto;
+}
+
+page-event .item {
+  height: 15%;
 }
 
 page-event-info .scroll-content {

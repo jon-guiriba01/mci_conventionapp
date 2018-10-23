@@ -3514,23 +3514,18 @@ var ClinicalEncounterPage = /** @class */ (function () {
                 },
                 {
                     title: "Home-Based Vestibular Exercises",
-                    speakers: "Dr. Manuel E. Villegas Jr.",
+                    speakers: "Dr. Joel A. Romualdez.",
                     room: "Sampaguita A",
                     link: {
-                        lastname: "VILLEGAS",
-                        firstname: "Manuel Jr. MD",
-                        details: "Chief Medical Officer, Asian Hospital & Medical Cente Professor, ORL-HNS, Emilio Aguinaldo College of Medicin Consultant, Dept. of ORL-HNS, Manila Doctors Hospital and Ospital ng 	Muntinlupa",
-                        imageUrl: "assets/imgs/speakers/VILLEGAS.jpg",
+                        lastname: "ROMUALDEZ",
+                        firstname: "Joel MD",
+                        details: "Faculty in Otolaryngology, Faculty of Medicine & Surgery, University of 	Santo Tomas Executive Officer, St. Luke's Medical Center-QC Vice-Chair, Philippine Academy of Neurotology, Otology & Related 	Sciences (PANORS) ",
+                        imageUrl: "assets/imgs/speakers/ROMUALDEZ.jpg",
                         docs: [
                             {
-                                title: "Symptoms of Eustachian Tube Dysfunction",
-                                info: "Oct. 24, 8:00 – 9:00 AM, Sampaguita B"
-                                // , link: "assets/pdfs/.pdf"
-                            },
-                            {
-                                title: "Practice Pearls in Preventive ORL",
-                                info: "Oct. 24, 1:00 – 2:00 PM, Champagne Salon"
-                                // , link: "assets/pdfs/.pdf"
+                                title: "Home-Based Vestibular Exercises ",
+                                info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita A",
+                                link: "assets/pdfs/CE 6.2 ROMUALDEZ.pdf"
                             },
                         ]
                     }
@@ -3631,6 +3626,29 @@ var ClinicalEncounterPage = /** @class */ (function () {
                                 title: "Surgery of Inverting Papilloma ",
                                 info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C"
                                 // , link: "assets/pdfs/.pdf"
+                            },
+                        ]
+                    }
+                },
+                {
+                    title: "Endonasal Endoscopic Transphenoidal Pituitary Surgery",
+                    speakers: "Dr. Arsenio Claro A. Cabungcal",
+                    room: "Sampaguita C",
+                    link: {
+                        lastname: "CABUNGCAL",
+                        firstname: "Arsenio Claro MD",
+                        details: "Clinical Associate Professor, UP-PGH Board of Trustee, Philippine Society of Otolaryngology-HNS Attending ORL, Victor R. Potenciano Medical Center and National Kidney & Transplant Institute",
+                        imageUrl: "assets/imgs/speakers/CABUNGCAL.jpg",
+                        docs: [
+                            {
+                                title: "Endonasal Endoscopic Transphenoidal Pituitary Surgery ",
+                                info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C",
+                                link: "assets/pdfs/CE 8.3 CABUNGCAL.pdf"
+                            },
+                            {
+                                title: "Facial Nerve Identification & Dissection in Parotid Surgery: Let's Make it Easy ",
+                                info: "Oct. 24, 3:00 - 4:00 PM, Sampaguita C"
+                                // , link: "assets/pdfs/S2.2 ALFANTA.pdf"
                             },
                         ]
                     }
@@ -3808,26 +3826,44 @@ var ClinicalEncounterPage = /** @class */ (function () {
                 },
                 {
                     title: "Upper Airway Evaluation in OSA Surgery",
-                    speakers: "Dr. Cesar V. Villafuerte, Jr.",
+                    speakers: "Dr. Jimmy Chang",
                     room: "Sampaguita C",
                     link: {
-                        lastname: "VILLAFUERTE",
-                        firstname: "Cesar Jr. MD",
-                        details: "President, Philippine Board of Otolaryngology-HNS Associate Professor, Dept. of ORL-HNS, FEU-NRMF and UP-College of Medicine Section Head, Facial Plastic Surgery Section, The Medical City",
-                        imageUrl: "assets/imgs/speakers/VILLAFUERTE.jpg",
+                        lastname: "CHANG",
+                        firstname: "Jimmy MD",
+                        details: "Secretary, Philippine Society of Sleep Medicine Vice-President, Philippine Academy of Sleep Surgery (PASS) Head, Comprehensive Sleep Disorder Center, St. Luke's Medical Center, QC",
+                        imageUrl: "assets/imgs/speakers/CHANG.jpg",
                         docs: [
                             {
-                                title: "Septorhinoplasty for the Crooked Nose",
-                                info: "Oct. 24, 8:00 – 9:00 AM, Roma Salon",
-                                link: "assets/pdfs/CE 4.1 VILLAFUERTE.pdf"
+                                title: "Upper Airway Evaluation in OSA Surgery ",
+                                info: "Oct. 24, 1:00 – 2:00 PM, Sampaguita C",
+                                link: "assets/pdfs/CE 13.2 CHANG.pdf"
                             },
                         ]
                     }
                 },
                 {
                     title: "Intuitive Landmark Base Endoscopic Sinus Surgery",
-                    speakers: "Dr. Benjamin S.A. Campomanes Jr",
-                    room: "Roma Salon"
+                    speakers: "Dr. Peter Jarin",
+                    room: "Roma Salon",
+                    link: {
+                        lastname: "JARIN",
+                        firstname: "Peter MD",
+                        details: "Chair, Philippine Academy of Rhinology (PAR) Consultant, Dept. of ORL-HNS, The Medical City & Quirino Memorial 	Medical Center",
+                        imageUrl: "assets/imgs/speakers/JARIN.jpg",
+                        docs: [
+                            {
+                                title: "Image-guided Systems in Sinus and Skullbase Surgery",
+                                info: "Oct. 24, 2:30 – 2:45 PM, Fiesta Pavilion",
+                                link: "assets/pdfs/P8.3 JARIN.pdf"
+                            },
+                            {
+                                title: "Landmark Base Endoscopic Sinus Surgery",
+                                info: "Oct. 24, 1:00 – 2:00 PM, Roma Salon",
+                                link: "assets/pdfs/CE 14.1 JARIN.pdf"
+                            },
+                        ]
+                    }
                 },
                 {
                     title: "Quality Sleep CME ",
@@ -4040,19 +4076,24 @@ var ClinicalEncounterPage = /** @class */ (function () {
                     }
                 },
                 {
-                    title: "Upper Airway Evaluation in OSA Surgery ",
-                    speakers: "Dr. Cesar V. Villafuerte, Jr.",
+                    title: "Facial Nerve Identifiation & Dissection in Paratid Surgery Let's Make it Easy ",
+                    speakers: "Dr. Arsenio Claro A. Cabungcal",
                     room: "Sampaguita C",
                     link: {
-                        lastname: "VILLAFUERTE",
-                        firstname: "Cesar Jr. MD",
-                        details: "President, Philippine Board of Otolaryngology-HNS Associate Professor, Dept. of ORL-HNS, FEU-NRMF and UP-College of Medicine Section Head, Facial Plastic Surgery Section, The Medical City",
-                        imageUrl: "assets/imgs/speakers/VILLAFUERTE.jpg",
+                        lastname: "CABUNGCAL",
+                        firstname: "Arsenio Claro MD",
+                        details: "Clinical Associate Professor, UP-PGH Board of Trustee, Philippine Society of Otolaryngology-HNS Attending ORL, Victor R. Potenciano Medical Center and National Kidney & Transplant Institute",
+                        imageUrl: "assets/imgs/speakers/CABUNGCAL.jpg",
                         docs: [
                             {
-                                title: "Septorhinoplasty for the Crooked Nose",
-                                info: "Oct. 24, 8:00 – 9:00 AM, Roma Salon",
-                                link: "assets/pdfs/CE 4.1 VILLAFUERTE.pdf"
+                                title: "Endonasal Endoscopic Transphenoidal Pituitary Surgery ",
+                                info: "Oct. 24, 10:00 – 11:00 AM, Sampaguita C",
+                                link: "assets/pdfs/CE 8.3 CABUNGCAL.pdf"
+                            },
+                            {
+                                title: "Facial Nerve Identification & Dissection in Parotid Surgery: Let's Make it Easy ",
+                                info: "Oct. 24, 3:00 - 4:00 PM, Sampaguita C"
+                                // , link: "assets/pdfs/S2.2 ALFANTA.pdf"
                             },
                         ]
                     }
