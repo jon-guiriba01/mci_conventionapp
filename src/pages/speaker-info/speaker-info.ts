@@ -96,10 +96,10 @@ export class SpeakerInfoPage {
       
       if(this.platform.is('ios')){
         destDir = this.file.documentsDirectory+"Download/"
-        srcDir = this.file.applicationDirectory+ 'www/assets/pdfs/'
+        srcDir = this.file.dataDirectory+ 'www/assets/pdfs/'
       }
       
-        let isFile = this.file.checkFile(this.file.applicationDirectory+ 'www/assets/',  'pdfs')
+        let isFile = this.file.checkFile(this.file.applicationDirectory+ 'www/assets/',  'pdfs').t
         let isDir = this.file.checkDir(srcDir, fileName)
 
         let toast = this.toastCtrl.create({

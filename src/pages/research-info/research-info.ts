@@ -214,7 +214,7 @@ export class ResearchInfoPage {
       
       if(this.platform.is('ios')){
         destDir = this.file.documentsDirectory+"Download/"
-        srcDir = this.file.applicationDirectory + 'www/' + dir
+        srcDir = this.file.applicationStorageDirectory + 'www/' + dir
       }
 
       this.file.copyFile(
@@ -234,7 +234,7 @@ export class ResearchInfoPage {
       }).catch((e)=>{
         let toast = this.toastCtrl.create({
           message: 'Document not found',
-          duration: 3000,
+          duration: 1000,
           position: 'top'
         });
         toast.present();
