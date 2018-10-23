@@ -99,19 +99,24 @@ export class SpeakerInfoPage {
         srcDir = this.file.dataDirectory+ 'www/assets/pdfs/'
       }
       
-        let isFile = this.file.checkFile(this.file.applicationDirectory+ 'www/assets/',  'pdfs').t
-        let isDir = this.file.checkDir(srcDir, fileName)
-
-        let toast = this.toastCtrl.create({
+        let isFile = this.file.checkFile(this.file.applicationDirectory+ 'www/assets/',  'pdfs')
+        .then(e=>{
+          let isDir = this.file.checkDir(srcDir, fileName).then(c=>{
+               let toast = this.toastCtrl.create({
           message: 
             'DEBUG src:' + srcDir + 
             " dest:" + destDir + 
-            "isFile:"+ isFile +
-            "isDir:"+ isDir,
+            "isFile:"+ e +
+            "isDir:"+ c,
           duration: 5000,
           position: 'top'
         });
         toast.present();
+          })
+
+        })
+
+       
 
       this.file.copyFile(
         srcDir, 
