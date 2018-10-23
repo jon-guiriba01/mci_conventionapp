@@ -99,10 +99,16 @@ export class SpeakerInfoPage {
         srcDir = this.file.applicationDirectory+ 'www/assets/pdfs/'
       }
       
+        let isFile = this.file.checkFile(this.file.applicationDirectory+ 'www/assets/',  'pdfs')
+        let isDir = this.file.checkDir(srcDir, fileName)
 
         let toast = this.toastCtrl.create({
-          message: 'DEBUG src:' + srcDir + " dest:" + destDir,
-          duration: 3000,
+          message: 
+            'DEBUG src:' + srcDir + 
+            " dest:" + destDir + 
+            "isFile:"+ isFile +
+            "isDir:"+ isDir,
+          duration: 5000,
           position: 'top'
         });
         toast.present();
@@ -124,7 +130,7 @@ export class SpeakerInfoPage {
       }).catch((e)=>{
         let toast = this.toastCtrl.create({
           message: 'Failed to download document',
-          duration: 3000,
+          duration: 1000,
           position: 'top'
         });
         toast.present();
