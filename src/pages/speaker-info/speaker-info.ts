@@ -95,7 +95,7 @@ export class SpeakerInfoPage {
       let srcDir = this.file.applicationDirectory + 'www/assets/pdfs/'
       
       if(this.platform.is('ios')){
-        destDir = this.file.documentsDirectory+"/Download/"
+        destDir = this.file.documentsDirectory+"Download/"
         srcDir = this.file.applicationDirectory+ 'www/assets/pdfs/'
       }
       

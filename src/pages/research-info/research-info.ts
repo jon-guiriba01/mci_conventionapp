@@ -213,7 +213,7 @@ export class ResearchInfoPage {
       let srcDir = this.file.applicationDirectory + 'www/' + dir
       
       if(this.platform.is('ios')){
-        destDir = this.file.documentsDirectory+"/Download/"
+        destDir = this.file.documentsDirectory+"Download/"
         srcDir = this.file.applicationDirectory + 'www/' + dir
       }
 
