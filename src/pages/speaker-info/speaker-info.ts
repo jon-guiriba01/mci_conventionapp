@@ -95,10 +95,18 @@ export class SpeakerInfoPage {
       let srcDir = this.file.applicationDirectory + 'www/assets/pdfs/'
       
       if(this.platform.is('ios')){
-        destDir = this.file.cacheDirectory+"/Download/"
-        srcDir = this.file.applicationDirectory+ '.../www/assets/pdfs/'
+        destDir = this.file.documentsDirectory+"/Download/"
+        srcDir = this.file.applicationDirectory+ 'www/assets/pdfs/'
       }
       
+
+        let toast = this.toastCtrl.create({
+          message: 'DEBUG src:' + srcDir + " dest:" + destDir,
+          duration: 3000,
+          position: 'top'
+        });
+        toast.present();
+
       this.file.copyFile(
         srcDir, 
         fileName, 

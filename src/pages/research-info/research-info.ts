@@ -210,12 +210,15 @@ export class ResearchInfoPage {
 
 
       let destDir = "file:///storage/emulated/0/Download/"
-
-      if(this.platform.is('ios'))
-        destDir = this.file.cacheDirectory+"/Download/"
+      let srcDir = this.file.applicationDirectory + 'www/' + dir
       
+      if(this.platform.is('ios')){
+        destDir = this.file.documentsDirectory+"/Download/"
+        srcDir = this.file.applicationDirectory + 'www/' + dir
+      }
+
       this.file.copyFile(
-       this.file.applicationDirectory + 'www/' + dir, 
+        srcDir, 
         fileName, 
         destDir, 
         fileName
